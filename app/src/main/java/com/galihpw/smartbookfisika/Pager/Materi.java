@@ -73,14 +73,14 @@ public class Materi extends Fragment {
             }
         });*/
 
-       /* materiListrikStatis.setOnClickListener(new View.OnClickListener() {
+       materi1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //Intent intent = new Intent(getActivity(),SubMenuMateri.class);
                 //startActivity(intent);
-                //overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+                getActivity().overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
             }
-        });*/
+        });
 
         return v;
         //Returning the layout file after inflating

@@ -1,5 +1,6 @@
 package com.galihpw.smartbookfisika.Pager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -9,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import com.bumptech.glide.Glide;
+import com.galihpw.smartbookfisika.LatihanPGActivity;
 import com.galihpw.smartbookfisika.R;
 
 import butterknife.BindView;
@@ -49,14 +51,14 @@ public class Latihan extends Fragment {
         Glide.with(getActivity()).load(R.drawable.latihan_soal).into(imageLatihanPG);
         Glide.with(getActivity()).load(R.drawable.latihan_soal).into(imageLatihanFoto);
 
-        /*latihanSoal.setOnClickListener(new View.OnClickListener() {
+        latihanPG.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MenuActivity.this,LatihanPGActivity.class);
+                Intent intent = new Intent(getActivity(),LatihanPGActivity.class);
                 startActivity(intent);
-                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+                getActivity().overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
             }
-        });*/
+        });
 
        /* materiListrikStatis.setOnClickListener(new View.OnClickListener() {
             @Override
