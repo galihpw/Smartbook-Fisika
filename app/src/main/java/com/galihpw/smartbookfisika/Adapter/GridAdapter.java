@@ -43,7 +43,6 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
         nama.setName("Tentang Aplikasi");
         nama.setThumbnail(R.drawable.logomini);
         mItems.add(nama);
-
     }
 
     @Override
