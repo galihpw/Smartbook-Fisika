@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Smartbook Fisika</string>
+    <string name="smartbook_fisika">Smartbook Fisika</string>
+    <string name="sma">SMA</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="copyright_2017">Copyright 2017</string>
+</resources>
