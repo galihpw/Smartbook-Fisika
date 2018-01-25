@@ -17,13 +17,13 @@
         android:paddingTop="20dp">
 
         <RelativeLayout
-            android:id="@+id/kompetensiDasar"
+            android:id="@+id/materi1"
             android:layout_width="300dp"
             android:layout_height="130dp"
             android:layout_marginBottom="50dp">
 
             <ImageView
-                android:id="@+id/kompetensiDasarImage"
+                android:id="@+id/materi1Image"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop" />
@@ -36,7 +36,7 @@
                 android:layout_centerHorizontal="true"
                 android:background="@color/bgButton"
                 android:fontFamily="cursive"
-                android:text="Kompetensi Dasar"
+                android:text="Materi 1"
                 android:textAlignment="center"
                 android:textColor="@android:color/white"
                 android:textSize="24sp" />
@@ -44,13 +44,13 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/petaKonsep"
+            android:id="@+id/materi2"
             android:layout_width="300dp"
             android:layout_height="130dp"
             android:layout_marginBottom="50dp">
 
             <ImageView
-                android:id="@+id/petaKonsepImage"
+                android:id="@+id/materi2Image"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop" />
@@ -63,22 +63,21 @@
                 android:layout_centerHorizontal="true"
                 android:background="@color/bgButton"
                 android:fontFamily="cursive"
-                android:text="Peta Konsep"
+                android:text="Materi 2"
                 android:textAlignment="center"
                 android:textColor="@android:color/white"
                 android:textSize="24sp" />
 
         </RelativeLayout>
 
-
         <RelativeLayout
-            android:id="@+id/materiListrikStatis"
+            android:id="@+id/materi3"
             android:layout_width="300dp"
             android:layout_height="130dp"
             android:layout_marginBottom="50dp">
 
             <ImageView
-                android:id="@+id/materiListrikStatisImage"
+                android:id="@+id/materi3Image"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop" />
@@ -91,7 +90,7 @@
                 android:layout_centerHorizontal="true"
                 android:background="@color/bgButton"
                 android:fontFamily="cursive"
-                android:text="Materi Listrik Statis"
+                android:text="Materi 3"
                 android:textAlignment="center"
                 android:textColor="@android:color/white"
                 android:textSize="24sp" />
@@ -99,13 +98,13 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/latihanSoal"
+            android:id="@+id/materi4"
             android:layout_width="300dp"
             android:layout_height="130dp"
             android:layout_marginBottom="50dp">
 
             <ImageView
-                android:id="@+id/latihanSoalImage"
+                android:id="@+id/materi4Image"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop" />
@@ -118,37 +117,12 @@
                 android:layout_centerHorizontal="true"
                 android:background="@color/bgButton"
                 android:fontFamily="cursive"
-                android:text="Latihan Soal"
+                android:text="Materi 4"
                 android:textAlignment="center"
                 android:textColor="@android:color/white"
                 android:textSize="24sp" />
 
         </RelativeLayout>
 
-        <RelativeLayout
-            android:id="@+id/tentang"
-            android:layout_width="300dp"
-            android:layout_height="130dp">
-
-            <ImageView
-                android:id="@+id/tentangImage"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop" />
-
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:background="@color/bgButton"
-                android:fontFamily="cursive"
-                android:text="Tentang"
-                android:textAlignment="center"
-                android:textColor="@android:color/white"
-                android:textSize="24sp" />
-
-        </RelativeLayout>
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
