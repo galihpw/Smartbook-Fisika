@@ -137,8 +137,6 @@ public class Home extends Fragment implements View.OnClickListener {
                     else if(viewPager.getCurrentItem()==6){
                         viewPager.setCurrentItem(0);
                     }
-
-
                 }
             });
         }
