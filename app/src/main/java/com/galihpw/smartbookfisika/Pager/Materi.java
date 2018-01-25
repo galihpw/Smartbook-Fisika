@@ -68,12 +68,6 @@ public class Materi extends Fragment {
 
         ButterKnife.bind(getActivity());
 
-        Glide.with(this).load(R.drawable.latihan_soal).into(imageDasar);
-        Glide.with(this).load(R.drawable.latihan_soal).into(imageKonsep);
-        Glide.with(this).load(R.drawable.latihan_soal).into(imageMateri);
-        Glide.with(this).load(R.drawable.latihan_soal).into(imageSoal);
-        Glide.with(this).load(R.drawable.latihan_soal).into(imageTentang);
-
         /*latihanSoal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -83,14 +77,14 @@ public class Materi extends Fragment {
             }
         });*/
 
-        materiListrikStatis.setOnClickListener(new View.OnClickListener() {
+       /* materiListrikStatis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //Intent intent = new Intent(getActivity(),SubMenuMateri.class);
                 //startActivity(intent);
                 //overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
             }
-        });
+        });*/
 
         return v;
         //Returning the layout file after inflating
