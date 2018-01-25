@@ -33,6 +33,7 @@ public class Home extends Fragment implements View.OnClickListener {
     RecyclerView mRecyclerView;
     RecyclerView.LayoutManager mLayoutManager;
     RecyclerView.Adapter mAdapter;
+    Timer timer;
 
     @Override
     public void onResume(){
@@ -99,7 +100,7 @@ public class Home extends Fragment implements View.OnClickListener {
             }
         });
 
-        Timer timer = new Timer();
+        timer = new Timer();
         timer.scheduleAtFixedRate(new MyTimerTask(), 2000, 4000);
         return v;
     }
@@ -138,9 +139,18 @@ public class Home extends Fragment implements View.OnClickListener {
                     }
                     else if(viewPager.getCurrentItem()==6){
                         viewPager.setCurrentItem(0);
+                        timer.cancel();
                     }
                 }
             });
+        }
+    }
+    @Override
+    public void onStop() {
+        super.onStop();
+        if(timer != null){
+            timer.cancel();
+            //cancel timer task and assign null
         }
     }
 }
