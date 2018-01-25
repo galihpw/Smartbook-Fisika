@@ -120,9 +120,11 @@ public class Home extends Fragment implements View.OnClickListener {
 
                     if(viewPager.getCurrentItem() == 0){
                         viewPager.setCurrentItem(1);
-                    } else if(viewPager.getCurrentItem() == 1){
+                    }
+                    else if(viewPager.getCurrentItem() == 1){
                         viewPager.setCurrentItem(2);
-                    } else if(viewPager.getCurrentItem()==2){
+                    }
+                    else if(viewPager.getCurrentItem()==2){
                         viewPager.setCurrentItem(3);
                     }
                     else if(viewPager.getCurrentItem()==3){

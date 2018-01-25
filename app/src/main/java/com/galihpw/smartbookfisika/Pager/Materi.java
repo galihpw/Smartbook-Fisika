@@ -21,38 +21,29 @@ import butterknife.ButterKnife;
  */
 public class Materi extends Fragment {
 
-    @BindView(R.id.toolbar)
-    Toolbar toolbar;
+    @BindView(R.id.materi1Image)
+    ImageView imageMateri1;
 
-    @BindView(R.id.kompetensiDasarImage)
-    ImageView imageDasar;
+    @BindView(R.id.materi1)
+    RelativeLayout materi1;
 
-    @BindView(R.id.kompetensiDasar)
-    RelativeLayout kompetensiDasar;
+    @BindView(R.id.materi2Image)
+    ImageView imageMateri2;
 
-    @BindView(R.id.petaKonsepImage)
-    ImageView imageKonsep;
+    @BindView(R.id.materi2)
+    RelativeLayout materi2;
 
-    @BindView(R.id.petaKonsep)
-    RelativeLayout petaKonsep;
+    @BindView(R.id.materi3Image)
+    ImageView imageMateri3;
 
-    @BindView(R.id.materiListrikStatisImage)
-    ImageView imageMateri;
+    @BindView(R.id.materi3)
+    RelativeLayout materi3;
 
-    @BindView(R.id.materiListrikStatis)
-    RelativeLayout materiListrikStatis;
+    @BindView(R.id.materi4Image)
+    ImageView imageMateri4;
 
-    @BindView(R.id.latihanSoalImage)
-    ImageView imageSoal;
-
-    @BindView(R.id.latihanSoal)
-    RelativeLayout latihanSoal;
-
-    @BindView(R.id.tentangImage)
-    ImageView imageTentang;
-
-    @BindView(R.id.tentang)
-    RelativeLayout tentang;
+    @BindView(R.id.materi4)
+    RelativeLayout materi4;
 
     public View v;
 
@@ -66,7 +57,12 @@ public class Materi extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         v = inflater.inflate(R.layout.materi, container, false);
 
-        ButterKnife.bind(getActivity());
+        ButterKnife.bind(this, v);
+
+        Glide.with(getActivity()).load(R.drawable.latihan_soal).into(imageMateri1);
+        Glide.with(getActivity()).load(R.drawable.latihan_soal).into(imageMateri2);
+        Glide.with(getActivity()).load(R.drawable.latihan_soal).into(imageMateri3);
+        Glide.with(getActivity()).load(R.drawable.latihan_soal).into(imageMateri4);
 
         /*latihanSoal.setOnClickListener(new View.OnClickListener() {
             @Override
