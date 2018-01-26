@@ -55,13 +55,11 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -70,54 +68,18 @@
         app:layout_constraintTop_toBottomOf="@+id/frameLayout"
         app:layout_constraintVertical_bias="0.14999998">
 
-        <RadioGroup
-            android:id="@+id/rG"
+        <ImageView
+            android:id="@+id/imageView2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_launcher_background" />
 
-            <RadioButton
-                android:id="@+id/a"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:layout_weight="1"
-                android:buttonTint="@android:color/background_light"
-                android:fontFamily="casual"
-                android:text="a. ya"
-                android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
-                tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="209dp" />
-
-            <RadioButton
-                android:id="@+id/b"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:layout_weight="1"
-                android:buttonTint="@android:color/background_light"
-                android:fontFamily="casual"
-                android:text="b. bisa jadi"
-                android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
-                tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="260dp" />
-
-            <RadioButton
-                android:id="@+id/c"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:buttonTint="@android:color/background_light"
-                android:fontFamily="casual"
-                android:text="c. tidak"
-                android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
-                tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="309dp" />
-
-        </RadioGroup>
-
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Foto" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

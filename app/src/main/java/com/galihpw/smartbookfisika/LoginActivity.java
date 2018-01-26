@@ -13,6 +13,17 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.galihpw.smartbookfisika.Config.Config;
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -49,11 +60,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     private void login(){
 
-        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-        startActivity(intent);
-
         //Getting values from edit texts
-        /*nis = editTextNis.getText().toString().trim();
+        nis = editTextNis.getText().toString().trim();
         final String password = editTextPassword.getText().toString().trim();
 
         //Creating a string request
@@ -67,7 +75,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                             progressDialog.dismiss();
 
                             //Starting profile activity
-                            Intent intent = new Intent(LoginActivity.this, MenuActivity.class);
+                            Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                             startActivity(intent);
 
                             finish();
@@ -103,7 +111,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         //Adding the string request to the queue
         RequestQueue requestQueue = Volley.newRequestQueue(this);
-        requestQueue.add(stringRequest);*/
+        requestQueue.add(stringRequest);
     }
 
     @Override

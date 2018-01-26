@@ -85,7 +85,7 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
             System.out.println("onClick");
             TextView tv = (TextView) view.findViewById(R.id.status);
             String id = tv.getText().toString();
-            mItemClickListener.onItemClick(view, getAdapterPosition(), id); //OnItemClickListener mItemClickListener;
+            //mItemClickListener.onItemClick(view, getAdapterPosition(), id); //OnItemClickListener mItemClickListener;
         }
     }
     public interface OnItemClickListener {

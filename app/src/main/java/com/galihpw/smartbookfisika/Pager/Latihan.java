@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import com.bumptech.glide.Glide;
+import com.galihpw.smartbookfisika.LatihanFotoActivity;
 import com.galihpw.smartbookfisika.LatihanPGActivity;
 import com.galihpw.smartbookfisika.R;
 
@@ -60,14 +61,14 @@ public class Latihan extends Fragment {
             }
         });
 
-       /* materiListrikStatis.setOnClickListener(new View.OnClickListener() {
+        latihanFoto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Intent intent = new Intent(getActivity(),SubMenuMateri.class);
-                //startActivity(intent);
-                //overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+                Intent intent = new Intent(getActivity(), LatihanFotoActivity.class);
+                startActivity(intent);
+                getActivity().overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
             }
-        });*/
+        });
 
         return v;
         //Returning the layout file after inflating

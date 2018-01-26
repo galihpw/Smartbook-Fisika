@@ -1,4 +1,4 @@
-package com.galihpw.smartbookfisika.LatihanPG;
+package com.galihpw.smartbookfisika.LatihanFoto;
 
 import android.os.Bundle;
 import android.support.annotation.IdRes;
@@ -17,7 +17,7 @@ import com.galihpw.smartbookfisika.R;
  * Created by GalihPW on 24/04/2017.
  */
 
-public class TabSoal1 extends Fragment {
+public class FotoSoal1 extends Fragment {
 
     private RadioGroup rG;
     private RadioButton rB;
@@ -27,13 +27,13 @@ public class TabSoal1 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        final View rootView = inflater.inflate(R.layout.tab_soal1, container, false);
+        final View rootView = inflater.inflate(R.layout.foto_soal1, container, false);
 
         bSelesai = (Button) getActivity().findViewById(R.id.bSelesai);
 
-        rG = (RadioGroup) rootView.findViewById(R.id.rG);
+        //rG = (RadioGroup) rootView.findViewById(R.id.rG);
 
-        rG.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+        /*rG.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup radioGroup, @IdRes int i) {
                 //pilih radio button yang ada di radio button group
@@ -48,7 +48,7 @@ public class TabSoal1 extends Fragment {
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
                 }
             }
-        });
+        });*/
 
         return rootView;
     }
