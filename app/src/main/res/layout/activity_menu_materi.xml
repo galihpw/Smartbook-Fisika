@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.galihpw.smartbookfisika.MenuMateri">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp">
+
+            <RelativeLayout
+                android:id="@+id/materi1"
+                android:layout_width="300dp"
+                android:layout_height="130dp"
+                android:layout_marginBottom="50dp">
+
+                <ImageView
+                    android:id="@+id/materi1Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bgmateri1"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/materitext1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/bgButton"
+                    android:fontFamily="cursive"
+                    android:text="Muatan Listrik"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/materi2"
+                android:layout_width="300dp"
+                android:layout_height="130dp"
+                android:layout_marginBottom="50dp">
+
+                <ImageView
+                    android:id="@+id/materi2Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bgmateri2"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/materitext2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/bgButton"
+                    android:fontFamily="cursive"
+                    android:text="Hukum Coulomb"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/materi3"
+                android:layout_width="300dp"
+                android:layout_height="130dp"
+                android:layout_marginBottom="50dp">
+
+                <ImageView
+                    android:id="@+id/materi3Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bgmateri3"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/materitext3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/bgButton"
+                    android:fontFamily="cursive"
+                    android:text="Medan Listrik"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/materi4"
+                android:layout_width="300dp"
+                android:layout_height="130dp"
+                android:layout_marginBottom="50dp">
+
+                <ImageView
+                    android:id="@+id/materi4Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bgmateri4"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/materitext4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/bgButton"
+                    android:fontFamily="cursive"
+                    android:text="Potensial dan Energi Potensial Listrik"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/materi5"
+                android:layout_width="300dp"
+                android:layout_height="130dp"
+                android:layout_marginBottom="50dp">
+
+                <ImageView
+                    android:id="@+id/materi5Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bgmateri5"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/materitext5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/bgButton"
+                    android:fontFamily="cursive"
+                    android:text="Kapasitor"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>
