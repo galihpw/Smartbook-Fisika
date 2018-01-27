@@ -26,8 +26,8 @@ public class Pager extends FragmentStatePagerAdapter {
         //Returning the current tabs
         switch (position) {
             case 0:
-                Home home1 = new Home();
-                return home1;
+                //Home home1 = new Home();
+                //return home1;
             case 1:
                 Materi materi1 = new Materi();
                 return materi1;
