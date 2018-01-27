@@ -1,5 +1,6 @@
 package com.galihpw.smartbookfisika.Adapter;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,34 +18,38 @@ import java.util.List;
 
 public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
 
-    List<DaftarMenu> mItems;
-    OnItemClickListener mItemClickListener;
+    private List<DaftarMenu> mItems;
+    private Context context;
+    private ItemClickListener mClickListener;
+    private LayoutInflater mInflater;
 
 
-    public GridAdapter() {
+    public GridAdapter(Context context, List<DaftarMenu> mItems) {
         super();
-        mItems = new ArrayList<DaftarMenu>();
-        DaftarMenu nama = new DaftarMenu();
-        nama.setName("Dasar dan Indikator Pembelajaran");
-        nama.setThumbnail(R.drawable.logomini);
-        mItems.add(nama);
+        this.mInflater = LayoutInflater.from(context);
+        this.mItems=mItems;
 
-        nama = new DaftarMenu();
-        nama.setName("Materi Listrik Statis");
-        nama.setThumbnail(R.drawable.logomini);
-        mItems.add(nama);
 
-        nama = new DaftarMenu();
-        nama.setName("Latihan Soal");
-        nama.setThumbnail(R.drawable.logomini);
-        mItems.add(nama);
-
-        nama = new DaftarMenu();
-        nama.setName("Tentang Aplikasi");
-        nama.setThumbnail(R.drawable.logomini);
-        mItems.add(nama);
     }
+    public void setItemClickListener(ItemClickListener itemClickListener){
+        this.mClickListener = itemClickListener;
+    }
+    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+        public ImageView imgThumbnail;
+        public TextView tvspecies;
 
+        public ViewHolder(View itemView) {
+            super(itemView);
+            imgThumbnail = (ImageView)itemView.findViewById(R.id.img_thumbnail);
+            tvspecies = (TextView)itemView.findViewById(R.id.status);
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View view) {
+            if (mClickListener != null) mClickListener.onItemClick(view, getAdapterPosition());
+        }
+    }
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         View v = LayoutInflater.from(viewGroup.getContext())
@@ -62,37 +67,14 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.ViewHolder> {
 
     @Override
     public int getItemCount() {
-
         return mItems.size();
     }
-
-    public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-
-
-        public ImageView imgThumbnail;
-        public TextView tvspecies;
-
-        public ViewHolder(View itemView) {
-            super(itemView);
-            imgThumbnail = (ImageView)itemView.findViewById(R.id.img_thumbnail);
-            tvspecies = (TextView)itemView.findViewById(R.id.status);
-            itemView.setOnClickListener(this);
-
-        }
-
-        @Override
-        public void onClick(View view) {
-            System.out.println("onClick");
-            TextView tv = (TextView) view.findViewById(R.id.status);
-            String id = tv.getText().toString();
-            //mItemClickListener.onItemClick(view, getAdapterPosition(), id); //OnItemClickListener mItemClickListener;
-        }
-    }
-    public interface OnItemClickListener {
-        public void onItemClick(View view, int position, String id);
+    public DaftarMenu getItem(int id) {
+        return mItems.get(id);
     }
 
-    public void SetOnItemClickListener(final OnItemClickListener mItemClickListener) {
-        this.mItemClickListener = mItemClickListener;
+    // parent activity will implement this method to respond to click events
+    public interface ItemClickListener {
+        void onItemClick(View view, int position);
     }
 }

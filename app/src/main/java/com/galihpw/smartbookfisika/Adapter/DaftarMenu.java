@@ -19,5 +19,6 @@ public class DaftarMenu {
     public void setThumbnail(int thumbnail) {
         this.mThumbnail = thumbnail;
     }
+    
 }
 

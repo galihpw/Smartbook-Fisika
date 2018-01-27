@@ -17,27 +17,32 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".LoginActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".LatihanPGActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label=""/>
-
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LatihanFotoActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:label=""/>
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MenuMateri"
+            android:parentActivityName="com.galihpw.smartbookfisika.MainActivity" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.galihpw.smartbookfisika.MainActivity" />
+        </activity>
+        <activity android:name=".MateriListrik"></activity>
     </application>
 
 </manifest>

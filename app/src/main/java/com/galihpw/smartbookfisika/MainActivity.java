@@ -1,5 +1,6 @@
 package com.galihpw.smartbookfisika;
 
+import android.content.Intent;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -11,15 +12,19 @@ import android.support.design.widget.TabLayout;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
+import com.galihpw.smartbookfisika.Adapter.DaftarMenu;
 import com.galihpw.smartbookfisika.Adapter.GridAdapter;
 import com.galihpw.smartbookfisika.Adapter.ViewPagerAdapter;
 import com.galihpw.smartbookfisika.Pager.Pager;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity implements GridAdapter.ItemClickListener {
 
     ViewPager viewPager;
     LinearLayout sliderDotspanel;
@@ -29,21 +34,44 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private LinearLayout mLinearLayout;
     RecyclerView mRecyclerView;
     RecyclerView.LayoutManager mLayoutManager;
-    RecyclerView.Adapter mAdapter;
+    GridAdapter mAdapter;
     Timer timer;
+    List<DaftarMenu> mItems;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //inisiasi data
+        mItems = new ArrayList<DaftarMenu>();
+        DaftarMenu nama = new DaftarMenu();
+        nama.setName("Dasar dan Indikator Pembelajaran");
+        nama.setThumbnail(R.drawable.logomini);
+        mItems.add(nama);
 
+        nama = new DaftarMenu();
+        nama.setName("Materi Listrik Statis");
+        nama.setThumbnail(R.drawable.logomini);
+        mItems.add(nama);
+
+        nama = new DaftarMenu();
+        nama.setName("Latihan Soal");
+        nama.setThumbnail(R.drawable.logomini);
+        mItems.add(nama);
+
+        nama = new DaftarMenu();
+        nama.setName("Tentang Aplikasi");
+        nama.setThumbnail(R.drawable.logomini);
+        mItems.add(nama);
         viewPager = (ViewPager) findViewById(R.id.viewPager);
+
 
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         mRecyclerView.setHasFixedSize(true);
         mLayoutManager  = new GridLayoutManager(this,2);
         mRecyclerView.setLayoutManager(mLayoutManager);
-        mAdapter = new GridAdapter();
+        mAdapter = new GridAdapter(this,mItems);
+        mAdapter.setItemClickListener(this);
         mRecyclerView.setAdapter(mAdapter);
 
         sliderDotspanel = (LinearLayout) findViewById(R.id.SliderDots);
@@ -99,8 +127,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
-    public void onClick(View view) {
+    public void onItemClick(View view, int position) {
+        if(position==1){
+            Intent i = new Intent(MainActivity.this, MenuMateri.class);
+            startActivity(i);
+        }
+        else if(position==1){
 
+        }
+        Toast toast = Toast.makeText(this, "\"You clicked \" "+ mAdapter.getItem(position) + "Position"+ position ,Toast.LENGTH_LONG);
+        toast.show();
     }
 
     public class MyTimerTask extends TimerTask {
@@ -128,12 +164,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         viewPager.setCurrentItem(5);
                     }
                     else if(viewPager.getCurrentItem()==5){
-                        viewPager.setCurrentItem(6);
-                    }
-                    else if(viewPager.getCurrentItem()==6){
                         viewPager.setCurrentItem(0);
-                        timer.cancel();
                     }
+
                 }
             });
         }
