@@ -28,6 +28,7 @@ public class MateriListrik extends FragmentActivity {
      * The pager widget, which handles animation and allows swiping horizontally to access previous
      * and next wizard steps.
      */
+    ActionBar actionBar;
     /**
      * The pager adapter, which provides the pages to the view pager widget.
      */
@@ -39,7 +40,6 @@ public class MateriListrik extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_materi_listrik);
-
         // Instantiate a ViewPager and a PagerAdapter.
         mPager = (ViewPager) findViewById(R.id.pager);
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
