@@ -17,7 +17,6 @@ import android.widget.Toast;
 import com.galihpw.smartbookfisika.Adapter.DaftarMenu;
 import com.galihpw.smartbookfisika.Adapter.GridAdapter;
 import com.galihpw.smartbookfisika.Adapter.ViewPagerAdapter;
-import com.galihpw.smartbookfisika.Pager.Pager;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -45,7 +45,7 @@
                 android:value="com.galihpw.smartbookfisika.MainActivity" />
         </activity>
         <activity
-            android:name=".materilistrik.MateriListrik"
+            android:name=".MateriListrik.MateriListrik"
             android:theme="@style/AppTheme">
         </activity>
     </application>

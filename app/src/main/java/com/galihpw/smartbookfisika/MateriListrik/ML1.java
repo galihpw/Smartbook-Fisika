@@ -1,4 +1,4 @@
-package com.galihpw.smartbookfisika.materilistrik;
+package com.galihpw.smartbookfisika.MateriListrik;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
