@@ -10,7 +10,7 @@ import android.view.View;
  * Created by Sutrisna Aji on 28/01/2018.
  */
 
-public class VerticalViewPager extends ViewPager {
+public class VerticalViewPager extends ViewPager implements ViewPager.PageTransformer {
 
     public VerticalViewPager(Context context) {
         super(context);
@@ -23,31 +23,46 @@ public class VerticalViewPager extends ViewPager {
     }
 
     private void init() {
-
-        // use PageTransformer to implement vertical viewpager
-        setPageTransformer(true, new VerticalViewPager.PageTransformer());
-
-        // disable over scroll shadow
+        // The majority of the magic happens here
+        setPageTransformer(true, new VerticalPageTransformer());
+        // The easiest way to get rid of the overscroll drawing that happens on the left and right
         setOverScrollMode(OVER_SCROLL_NEVER);
     }
 
-
     @Override
-    public boolean onInterceptTouchEvent(MotionEvent ev) {
+    public void transformPage(View page, float position) {
 
-        boolean interceped = super.onInterceptTouchEvent(swapXY(ev));
-        swapXY(ev); // swap x,y back for other touch events.
-        return interceped;
     }
 
+    private class VerticalPageTransformer implements ViewPager.PageTransformer {
 
-    @Override
-    public boolean onTouchEvent(MotionEvent ev) {
-        return super.onTouchEvent(swapXY(ev));
+        @Override
+        public void transformPage(View view, float position) {
+
+            if (position < -1) { // [-Infinity,-1)
+                // This page is way off-screen to the left.
+                view.setAlpha(0);
+
+            } else if (position <= 1) { // [-1,1]
+                view.setAlpha(1);
+
+                // Counteract the default slide transition
+                view.setTranslationX(view.getWidth() * -position);
+
+                //set Y position to swipe in from top
+                float yPosition = position * view.getHeight();
+                view.setTranslationY(yPosition);
+
+            } else { // (1,+Infinity]
+                // This page is way off-screen to the right.
+                view.setAlpha(0);
+            }
+        }
     }
 
-
-    // swap x and y
+    /**
+     * Swaps the X and Y coordinates of your touch event.
+     */
     private MotionEvent swapXY(MotionEvent ev) {
         float width = getWidth();
         float height = getHeight();
@@ -60,38 +75,15 @@ public class VerticalViewPager extends ViewPager {
         return ev;
     }
 
+    @Override
+    public boolean onInterceptTouchEvent(MotionEvent ev){
+        boolean intercepted = super.onInterceptTouchEvent(swapXY(ev));
+        swapXY(ev); // return touch coordinates to original reference frame for any child views
+        return intercepted;
+    }
 
-    public class PageTransformer implements ViewPager.PageTransformer {
-
-        @Override
-        public void transformPage(View page, float position) {
-
-            if (position < -1) {
-                // [-infinity, -1], view page is off-screen to the left
-
-                // hide the page.
-                page.setVisibility(View.INVISIBLE);
-
-            } else if (position <= 1) {
-                // [-1, 1], page is on screen
-
-                // show the page
-                page.setVisibility(View.VISIBLE);
-
-                // get page back to the center of screen since it will get swipe horizontally by default.
-                page.setTranslationX(page.getWidth() * -position);
-
-                // set Y position to swipe in vertical direction.
-                float y = position * page.getHeight();
-                page.setTranslationY(y);
-
-            } else {
-                // [1, +infinity], page is off-screen to the right
-
-                // hide the page.
-                page.setVisibility(View.INVISIBLE);
-            }
-        }
-
+    @Override
+    public boolean onTouchEvent(MotionEvent ev) {
+        return super.onTouchEvent(swapXY(ev));
     }
 }

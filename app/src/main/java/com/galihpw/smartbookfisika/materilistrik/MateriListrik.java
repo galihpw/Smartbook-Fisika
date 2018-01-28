@@ -28,23 +28,23 @@ public class MateriListrik extends FragmentActivity {
      * The pager widget, which handles animation and allows swiping horizontally to access previous
      * and next wizard steps.
      */
-    private ViewPager mPager;
-    ActionBar actionBar;
     /**
      * The pager adapter, which provides the pages to the view pager widget.
      */
     private PagerAdapter mPagerAdapter;
+    ViewPager mPager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_materi_listrik);
+
         // Instantiate a ViewPager and a PagerAdapter.
         mPager = (ViewPager) findViewById(R.id.pager);
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
         mPager.setAdapter(mPagerAdapter);
-        mPager.addOnPageChangeListener((ViewPager.OnPageChangeListener) this);
-
+        mPager.setPageTransformer(true, new VerticalViewPager(getApplicationContext()));
     }
 
     @Override
@@ -70,7 +70,14 @@ public class MateriListrik extends FragmentActivity {
 
         @Override
         public Fragment getItem(int position) {
-            return new ML1();
+            switch (position) {
+                case 0:
+                    return new ML1();
+                case 1:
+                    return new ML1();
+                default:
+                    return new ML1();
+            }
         }
 
         @Override

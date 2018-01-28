@@ -44,7 +44,7 @@
         </activity>
         <activity android:name=".materilistrik.MateriListrik"
             android:label=""
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme">
         </activity>
     </application>
 
