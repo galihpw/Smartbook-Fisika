@@ -1,8 +1,8 @@
 package com.galihpw.smartbookfisika;
 
-import android.app.ActionBar;
 import android.content.Intent;
 import android.support.v4.app.NavUtils;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import com.bumptech.glide.Glide;
+import com.galihpw.smartbookfisika.materilistrik.MateriListrik;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -45,12 +46,17 @@ public class MenuMateri extends AppCompatActivity {
 
     @BindView(R.id.materi5)
     RelativeLayout materi5;
+    ActionBar actionBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_materi);
-        getActionBar().setDisplayHomeAsUpEnabled(true);
+        actionBar = getSupportActionBar();
+        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
+        // TODO: Remove the redundant calls to getSupportActionBar()
+        //       and use variable actionBar instead
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         ButterKnife.bind(this);
         Glide.with(this).load(R.drawable.bgmateri1).into(imageMateri1);
         Glide.with(this).load(R.drawable.bgmateri2).into(imageMateri2);

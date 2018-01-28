@@ -42,7 +42,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.galihpw.smartbookfisika.MainActivity" />
         </activity>
-        <activity android:name=".MateriListrik"></activity>
+        <activity android:name=".materilistrik.MateriListrik"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>
