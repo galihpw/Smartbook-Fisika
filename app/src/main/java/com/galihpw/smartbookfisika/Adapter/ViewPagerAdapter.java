@@ -13,11 +13,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.galihpw.smartbookfisika.R;
-
-/**
- * Created by Sanket on 27-Feb-17.
- */
 
 public class ViewPagerAdapter extends PagerAdapter {
 
@@ -45,7 +42,8 @@ public class ViewPagerAdapter extends PagerAdapter {
         layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view = layoutInflater.inflate(R.layout.custom_layout, null);
         ImageView imageView = (ImageView) view.findViewById(R.id.imageView);
-        imageView.setImageResource(images[position]);
+        //imageView.setImageResource(images[position]);
+        Glide.with(view).load(images[position]).into(imageView);
 
         view.setOnClickListener(new View.OnClickListener() {
             @Override
