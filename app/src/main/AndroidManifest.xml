@@ -35,15 +35,17 @@
             android:name=".LatihanFotoActivity"
             android:label=""
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MenuMateri"
+        <activity
+            android:name=".MenuMateri"
+            android:theme="@style/AppTheme"
             android:parentActivityName="com.galihpw.smartbookfisika.MainActivity" >
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.galihpw.smartbookfisika.MainActivity" />
         </activity>
-        <activity android:name=".materilistrik.MateriListrik"
-            android:label=""
+        <activity
+            android:name=".materilistrik.MateriListrik"
             android:theme="@style/AppTheme">
         </activity>
     </application>

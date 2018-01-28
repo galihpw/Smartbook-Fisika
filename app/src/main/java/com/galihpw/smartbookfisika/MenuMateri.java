@@ -46,6 +46,7 @@ public class MenuMateri extends AppCompatActivity {
 
     @BindView(R.id.materi5)
     RelativeLayout materi5;
+
     ActionBar actionBar;
 
     @Override
@@ -53,7 +54,6 @@ public class MenuMateri extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_materi);
         actionBar = getSupportActionBar();
-        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
         // TODO: Remove the redundant calls to getSupportActionBar()
         //       and use variable actionBar instead
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

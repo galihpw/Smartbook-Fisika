@@ -17,7 +17,7 @@ import com.galihpw.smartbookfisika.Adapter.VerticalViewPager;
 import com.galihpw.smartbookfisika.Adapter.ZoomOutPageTransformer;
 import com.galihpw.smartbookfisika.R;
 
-public class MateriListrik extends FragmentActivity {
+public class MateriListrik extends AppCompatActivity {
 
     /**
      * The number of pages (wizard steps) to show in this demo.
@@ -40,6 +40,8 @@ public class MateriListrik extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_materi_listrik);
+        actionBar = getSupportActionBar();
+
         // Instantiate a ViewPager and a PagerAdapter.
         mPager = (ViewPager) findViewById(R.id.pager);
         mPagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
