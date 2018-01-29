@@ -44,13 +44,12 @@
                     android:id="@+id/materitext1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:background="@color/bgButton"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
                     android:fontFamily="cursive"
                     android:text="Muatan Listrik"
                     android:textAlignment="center"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
             </RelativeLayout>
@@ -72,13 +71,12 @@
                     android:id="@+id/materitext2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:background="@color/bgButton"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
                     android:fontFamily="cursive"
                     android:text="Hukum Coulomb"
                     android:textAlignment="center"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
             </RelativeLayout>
@@ -100,13 +98,12 @@
                     android:id="@+id/materitext3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:background="@color/bgButton"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
                     android:fontFamily="cursive"
                     android:text="Medan Listrik"
                     android:textAlignment="center"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
             </RelativeLayout>
@@ -128,13 +125,12 @@
                     android:id="@+id/materitext4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:background="@color/bgButton"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
                     android:fontFamily="cursive"
                     android:text="Potensial dan Energi Potensial Listrik"
                     android:textAlignment="center"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
             </RelativeLayout>
@@ -155,13 +151,12 @@
                     android:id="@+id/materitext5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_centerHorizontal="true"
-                    android:background="@color/bgButton"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
                     android:fontFamily="cursive"
                     android:text="Kapasitor"
                     android:textAlignment="center"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
             </RelativeLayout>

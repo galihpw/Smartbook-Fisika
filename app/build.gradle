@@ -44,5 +44,7 @@ dependencies {
     compile 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:1.2.32@aar'
     compile 'com.mcxiaoke.volley:library-aar:1.0.0'
 
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.7'
+
     compile files('libs/YouTubeAndroidPlayerApi.jar')
 }

@@ -130,8 +130,7 @@ public class MainActivity extends AppCompatActivity implements GridAdapter.ItemC
         if(position==1){
             Intent i = new Intent(MainActivity.this, MenuMateri.class);
             startActivity(i);
-            finish();
-            overridePendingTransition(R.anim.fade_in_activity,R.anim.fade_out_activity);
+            overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
         }
         else if(position==1){
 

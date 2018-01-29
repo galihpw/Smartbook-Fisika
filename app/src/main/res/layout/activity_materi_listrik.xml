@@ -144,7 +144,7 @@ Yuk simak penjelasannya dalam bab ini!"
             <ImageView
                 android:id="@+id/imgML3"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 android:src="@mipmap/ic_launcher_foreground" />
 
             <TextView
@@ -218,7 +218,7 @@ Yuk simak penjelasannya dalam bab ini!"
             <ImageView
                 android:id="@+id/imgML5"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 android:src="@mipmap/ic_launcher_foreground" />
 
             <TextView
@@ -318,17 +318,14 @@ Yuk simak penjelasannya dalam bab ini!"
                 android:textAlignment="textStart"
                 android:textSize="18sp" />
 
-            <TextView
-                android:id="@+id/gif1"
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/mlgif1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="8dp"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
-                android:paddingTop="8dp"
-                android:text="Isi pake gambar gif"
-                android:textAlignment="textStart"
-                android:textSize="18sp" />
+                android:paddingTop="8dp" />
 
             <TextView
                 android:id="@+id/textView32"
@@ -355,17 +352,14 @@ Yuk simak penjelasannya dalam bab ini!"
                 android:textAlignment="textStart"
                 android:textSize="18sp" />
 
-            <TextView
-                android:id="@+id/gif2"
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/mlgif2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="8dp"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
-                android:paddingTop="8dp"
-                android:text="Isi pake gambar gif"
-                android:textAlignment="textStart"
-                android:textSize="18sp" />
+                android:paddingTop="8dp" />
 
             <TextView
                 android:id="@+id/textView34"
@@ -416,17 +410,14 @@ Yuk simak penjelasannya dalam bab ini!"
                 android:textAlignment="textStart"
                 android:textSize="18sp" />
 
-            <TextView
-                android:id="@+id/gif3"
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/mlgif3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="8dp"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
-                android:paddingTop="8dp"
-                android:text="Isi pake gambar gif"
-                android:textAlignment="textStart"
-                android:textSize="18sp" />
+                android:paddingTop="8dp" />
 
             <TextView
                 android:id="@+id/textView38"

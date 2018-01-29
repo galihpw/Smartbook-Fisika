@@ -25,6 +25,8 @@ import com.google.android.youtube.player.YouTubePlayerView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import pl.droidsonroids.gif.GifDrawable;
+import pl.droidsonroids.gif.GifImageView;
 
 public class MateriListrik extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
 
@@ -65,6 +67,15 @@ public class MateriListrik extends YouTubeBaseActivity implements YouTubePlayer.
     @BindView(R.id.imgML7)
     ImageView imgML7;
 
+    @BindView(R.id.mlgif1)
+    GifImageView gif1;
+
+    @BindView(R.id.mlgif2)
+    GifImageView gif2;
+
+    @BindView(R.id.mlgif3)
+    GifImageView gif3;
+
     private static final int RECOVERY_REQUEST = 1;
     private YouTubePlayerView youTubeView;
 
@@ -81,10 +92,28 @@ public class MateriListrik extends YouTubeBaseActivity implements YouTubePlayer.
         Glide.with(this).load(R.drawable.operasi_endoskopi).into(imgML4);
         Glide.with(this).load(R.drawable.jaritangan).into(imgML5);
         Glide.with(this).load(R.drawable.electroscope5).into(imgML6);
-        Glide.with(this).load(R.drawable.electroscope5).into(imgML7);
-
+        Glide.with(this).load(R.drawable.pengecatan_elektrostatik).into(imgML7);
+        // TODO: Masukin video yang lainnya, id videonya ini
+        // vid1: VZJblLwL1SI (udah bisa)
+        // vid2: ey88EdZo9hU
+        // vid3: ViZNgU-Yt-Y
+        // vid4: Qov5sMTshZs
+        // vid5: B3s23PBAUO8
+        // vid6: ELuYLs0BgJ8
         youTubeView = (YouTubePlayerView) findViewById(R.id.youtube_view1);
         youTubeView.initialize(Config.YOUTUBE_API_KEY, this);
+
+        gif1.setImageResource(R.drawable.img1);
+        final GifDrawable gifDrawable1 = (GifDrawable) gif1.getDrawable();
+        gifDrawable1.start();
+
+        gif2.setImageResource(R.drawable.img2);
+        final GifDrawable gifDrawable2 = (GifDrawable) gif2.getDrawable();
+        gifDrawable2.start();
+
+        gif3.setImageResource(R.drawable.img3);
+        final GifDrawable gifDrawable3 = (GifDrawable) gif3.getDrawable();
+        gifDrawable3.start();
 
         // Instantiate a ViewPager and a PagerAdapter.
         /*mPager = (ViewPager) findViewById(R.id.pager);
@@ -93,7 +122,7 @@ public class MateriListrik extends YouTubeBaseActivity implements YouTubePlayer.
         mPager.setPageTransformer(true, new VerticalViewPager(getApplicationContext()));*/
     }
 
-    @Override
+    /*@Override
     public void onBackPressed() {
         if (mPager.getCurrentItem() == 0) {
             // If the user is currently looking at the first step, allow the system to handle the
@@ -103,7 +132,7 @@ public class MateriListrik extends YouTubeBaseActivity implements YouTubePlayer.
             // Otherwise, select the previous step.
             mPager.setCurrentItem(mPager.getCurrentItem() - 1);
         }
-    }
+    }*/
 
     @Override
     public void onInitializationSuccess(Provider provider, YouTubePlayer player, boolean wasRestored) {
