@@ -19,4 +19,6 @@ public class Config {
     //If server response is equal to this that means login is successful
     public static final String LOGIN_SUCCESS = "success";
 
+    //Youtube
+    public static final String YOUTUBE_API_KEY = "AIzaSyD2qZl_f6yTtUS7EBHkXvHudR7230GOTAY";
 }
