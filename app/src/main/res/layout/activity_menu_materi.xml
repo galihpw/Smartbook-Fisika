@@ -31,7 +31,8 @@
                 android:id="@+id/materi1"
                 android:layout_width="300dp"
                 android:layout_height="130dp"
-                android:layout_marginBottom="50dp">
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/myborder">
 
                 <ImageView
                     android:id="@+id/materi1Image"
