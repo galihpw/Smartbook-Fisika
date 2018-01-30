@@ -11,4 +11,7 @@
     <string name="player_error">Error initializing YouTube player: %s</string>
     <string name="seek_to">Jump To</string>
     <string name="seek_to_hint">Seconds</string>
+    <string name="teks2ml3"><![CDATA[
+Sedangkan fenomena listrik dimana material mengalami muatan listrik setelah terjadi kontak atau pergesekan dengan material yang berbeda dinamakan <b>Triboelectric effect</b> atau <b>Efek tribolistrik </b>. Penjelasan mengenai efek tribolistrik dapat kamu simak pada video berikut ini!
+    ]]></string>
 </resources>
