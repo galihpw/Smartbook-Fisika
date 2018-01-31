@@ -21,4 +21,7 @@ public class Config {
 
     //Youtube
     public static final String YOUTUBE_API_KEY = "AIzaSyD2qZl_f6yTtUS7EBHkXvHudR7230GOTAY";
+
+    //Video ID
+    public static String VIDEO_ID = "";
 }

@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import com.bumptech.glide.Glide;
+import com.galihpw.smartbookfisika.MateriListrik.Materi1;
 import com.galihpw.smartbookfisika.MateriListrik.MateriListrik;
 
 import butterknife.BindView;
@@ -65,7 +66,7 @@ public class MenuMateri extends AppCompatActivity {
         materi1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MenuMateri.this,MateriListrik.class);
+                Intent intent = new Intent(MenuMateri.this,Materi1.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
             }
