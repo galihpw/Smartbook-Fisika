@@ -9,6 +9,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.galihpw.smartbookfisika.R;
 import com.google.android.youtube.player.YouTubeInitializationResult;
@@ -25,6 +26,7 @@ public class ML4 extends Fragment {
     YouTubePlayerFragment myYouTubePlayerFragment;
     FragmentActivity mContext;
     private YouTubePlayer YPlayer;
+    private static final int RECOVERY_DIALOG_REQUEST = 1;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -39,12 +41,9 @@ public class ML4 extends Fragment {
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
                 if (!b) {
                     YPlayer = youTubePlayer;
-                    YPlayer.setFullscreen(false);
-
-/*
-                    YPlayer.loadVideo("2zNSgSzhBfM");
-*/                  Bundle bundle=getActivity().getIntent().getExtras();
-                    YPlayer.cueVideo(VIDEO_ID);
+                    YPlayer.loadVideo("ViZNgU-Yt-Y");
+                    Bundle bundle=getActivity().getIntent().getExtras();
+                    YPlayer.cueVideo("ViZNgU-Yt-Y");
                     /*YPlayer.play();*/
                 }
             }
@@ -55,12 +54,10 @@ public class ML4 extends Fragment {
             }
         });
         return rootView;
-
     }
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         mContext = getActivity();
     }
-
 }

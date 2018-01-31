@@ -24,7 +24,6 @@ import com.google.android.youtube.player.YouTubePlayerView;
 public class ML3 extends Fragment{
 
     public static final String DEVELOPER_KEY = "AIzaSyA03c1Ld22nq6gAuVAVmmzUayckGrptKvU";
-    private static final String VIDEO_ID = "ey88EdZo9hU";
     YouTubePlayerFragment myYouTubePlayerFragment;
     FragmentActivity mContext;
     private YouTubePlayer YPlayer;
@@ -43,12 +42,9 @@ public class ML3 extends Fragment{
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
                 if (!b) {
                     YPlayer = youTubePlayer;
-                    YPlayer.setFullscreen(false);
-
-/*
-                    YPlayer.loadVideo("2zNSgSzhBfM");
-*/                  Bundle bundle=getActivity().getIntent().getExtras();
-                    YPlayer.cueVideo(VIDEO_ID);
+                    YPlayer.loadVideo("ey88EdZo9hU");
+                    Bundle bundle=getActivity().getIntent().getExtras();
+                    YPlayer.cueVideo("ey88EdZo9hU");
                     /*YPlayer.play();*/
                 }
             }

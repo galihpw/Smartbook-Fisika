@@ -24,8 +24,7 @@ import com.google.android.youtube.player.YouTubePlayerView;
 
 public class ML2 extends Fragment {
     public static final String DEVELOPER_KEY = "AIzaSyA03c1Ld22nq6gAuVAVmmzUayckGrptKvU";
-    private static final String VIDEO_ID = "VZJblLwL1SI ";
-    YouTubePlayerFragment myYouTubePlayerFragment;
+    YouTubePlayerSupportFragment myYouTubePlayerFragment;
     FragmentActivity mContext;
     private YouTubePlayer YPlayer;
 
@@ -34,20 +33,20 @@ public class ML2 extends Fragment {
                              Bundle savedInstanceState) {
         ViewGroup rootView = (ViewGroup) inflater.inflate(
                 R.layout.ml2, container, false);
-        YouTubePlayerSupportFragment youTubePlayerFragment = YouTubePlayerSupportFragment.newInstance();
+        myYouTubePlayerFragment = YouTubePlayerSupportFragment.newInstance();
         FragmentTransaction transaction =getChildFragmentManager().beginTransaction();
-        transaction.add(R.id.youtube_fragment1, youTubePlayerFragment).commit();
-        youTubePlayerFragment.initialize(DEVELOPER_KEY, new YouTubePlayer.OnInitializedListener() {
+        transaction.add(R.id.youtube_fragment1, myYouTubePlayerFragment).commit();
+        myYouTubePlayerFragment.initialize(DEVELOPER_KEY, new YouTubePlayer.OnInitializedListener() {
             @Override
             public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
                 if (!b) {
                     YPlayer = youTubePlayer;
                     YPlayer.setFullscreen(false);
 
-/*
-                    YPlayer.loadVideo("2zNSgSzhBfM");
-*/                  Bundle bundle=getActivity().getIntent().getExtras();
-                    YPlayer.cueVideo(VIDEO_ID);
+
+                    YPlayer.loadVideo("VZJblLwL1SI");
+                    Bundle bundle=getActivity().getIntent().getExtras();
+                    YPlayer.cueVideo("VZJblLwL1SI");
                     /*YPlayer.play();*/
                 }
             }
@@ -62,6 +61,6 @@ public class ML2 extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        mContext = getActivity();
+
     }
 }

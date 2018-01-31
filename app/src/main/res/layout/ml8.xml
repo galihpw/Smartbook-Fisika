@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/teks1ml8"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:lineSpacingExtra="4sp"
+        android:text="Layar bermuatan juga menarik partikel-partikel yang beterbangan di udara ruang operasi, seperti seat, kapas debu, dan sel-sel kulit. Jika partikel-partikel yang melayang-layang diudara diberi muatan negatif, mereka akan tertarik ke bagian luar layar monitor tersebut. "
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teks2ml8"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:lineSpacingExtra="4sp"
+        android:text="Kalaupun partikel-partikel itu netral, sebagian elektron konduksinya bisa saja ditarik ke sisi partikel yang berada paling dekat dengan layar, sehingga partikel memiliki muatan induksi (gambar 1.3). Partikel semacam itu kemudian ditarik menuju permukaan luar layar sama seperti bagaimana batang tembaga tertarik ke batang plastik bermuatan (gambar 1.3). "
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teks1ml8" />
+
+    <TextView
+        android:id="@+id/teks3ml8"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:lineSpacingExtra="4sp"
+        android:text="Berhubung banyak partikel yang terkumpul di luar layar monitor itu membawa bakteri, layar itu pun terkontaminasi. Jika tangan pembedah yang bersarung tangan berada dekat dengan layar itu dalam jarak sekian sentimeter saja, misalnya ketika ia menunjuk sebuah bagian dari citra di layar monitor untuk dibahas dengan rekan pembedah lainnya, layar bermuatan positif itu akan menarik elektron dari sisi dalam jari ke ujung-ujungnya (gambar 1.3). "
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teks2ml8" />
+
+</android.support.constraint.ConstraintLayout>

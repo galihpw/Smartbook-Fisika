@@ -33,6 +33,26 @@ public class PageAdapterML extends FragmentPagerAdapter {
                 return new ML4();
             case 4:
                 return new ML5();
+            case 5:
+                return new ML6();
+            case 6:
+                return new ML7();
+            case 7:
+                return new ML8();
+            case 8:
+                return new ML9();
+            case 9:
+                return new ML10();
+            case 10:
+                return new ML11();
+            case 11:
+                return new ML12();
+            case 12:
+                return new ML13();
+            case 13:
+                return new ML14();
+            case 14:
+                return new ML15();
             default:
                 return new ML1();
         }
