@@ -14,19 +14,18 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".SplashScreen"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LoginActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".LatihanPGActivity"
@@ -38,8 +37,9 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MenuMateri"
-            android:theme="@style/AppTheme"
-            android:parentActivityName="com.galihpw.smartbookfisika.MainActivity" >
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -47,13 +47,19 @@
         </activity>
         <activity
             android:name=".MateriListrik.MateriListrik"
-            android:theme="@style/AppTheme"
-            android:parentActivityName="com.galihpw.smartbookfisika.MenuMateri" >
+            android:parentActivityName=".MenuMateri"
+            android:theme="@style/AppTheme">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.galihpw.smartbookfisika.MenuMateri" />
         </activity>
+        <activity android:name=".MateriListrik.Materi1" />
+        <activity
+            android:name=".MateriListrik.YoutubeActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
