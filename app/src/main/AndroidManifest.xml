@@ -45,16 +45,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.galihpw.smartbookfisika.MainActivity" />
         </activity>
-        <activity
-            android:name=".MateriListrik.MateriListrik"
-            android:parentActivityName=".MenuMateri"
-            android:theme="@style/AppTheme">
-
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.galihpw.smartbookfisika.MenuMateri" />
-        </activity>
         <activity android:name=".MateriListrik.Materi1" />
         <activity
             android:name=".MateriListrik.YoutubeActivity"

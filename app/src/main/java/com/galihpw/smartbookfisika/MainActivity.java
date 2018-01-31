@@ -3,6 +3,7 @@ package com.galihpw.smartbookfisika;
 import android.content.Intent;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
+import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
@@ -36,12 +37,14 @@ public class MainActivity extends AppCompatActivity implements GridAdapter.ItemC
     GridAdapter mAdapter;
     Timer timer;
     List<DaftarMenu> mItems;
+    NestedScrollView nestedScrollView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //inisiasi data
+
         mItems = new ArrayList<DaftarMenu>();
         DaftarMenu nama = new DaftarMenu();
         nama.setName("Dasar dan Indikator Pembelajaran");
@@ -124,7 +127,14 @@ public class MainActivity extends AppCompatActivity implements GridAdapter.ItemC
         timer.scheduleAtFixedRate(new MyTimerTask(), 2000, 4000);
 
     }
-
+    private final void focusOnView(){
+        nestedScrollView.post(new Runnable() {
+            @Override
+            public void run() {
+                nestedScrollView.scrollTo(0, nestedScrollView.getBottom());
+            }
+        });
+    }
     @Override
     public void onItemClick(View view, int position) {
         if(position==1){

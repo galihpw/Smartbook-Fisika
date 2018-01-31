@@ -12,7 +12,6 @@ import android.widget.RelativeLayout;
 
 import com.bumptech.glide.Glide;
 import com.galihpw.smartbookfisika.MateriListrik.Materi1;
-import com.galihpw.smartbookfisika.MateriListrik.MateriListrik;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -77,6 +76,7 @@ public class MenuMateri extends AppCompatActivity {
         switch (item.getItemId()) {
             case android.R.id.home:
                 NavUtils.navigateUpFromSameTask(this);
+                overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_righ);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
