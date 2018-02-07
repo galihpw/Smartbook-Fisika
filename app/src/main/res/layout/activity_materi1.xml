@@ -28,6 +28,7 @@
                 android:id="@+id/textView1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="Mobil sudah menjadi bagian dari hidup kita. Banyak sekali jenis dan warna body mobil yang pernah kita lihat. Tapi pernahkah kamu terpikirkan bagaimana cat mobil bisa sangat rapih."
                 android:textAlignment="center"
@@ -59,6 +60,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="Bagaimana sih cara pengecatan mobil-mobil baru yang ada di pabrik mobil?
 Apakah di cat secara manual ataukah otomatis?
@@ -71,8 +73,9 @@ Yuk simak penjelasannya dalam bab ini!"
                 android:id="@+id/pembatas1"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:src="@drawable/pembatas"
-                android:padding="8dp"/>
+                android:padding="8dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/pembatas" />
 
             <ImageView
                 android:id="@+id/img2"
@@ -85,6 +88,7 @@ Yuk simak penjelasannya dalam bab ini!"
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="Sebenarnya apa itu muatan listrik? Dan apakah muatan listrik itu hanya ada 1 jenis? Atau bahkan lebih dari 1 jenis? Untuk lebih jelasnya mari kita simak video di bawah ini!"
                 android:textAlignment="center"
@@ -115,18 +119,20 @@ Yuk simak penjelasannya dalam bab ini!"
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="Dari video tersebut kita sudah mengetahui bahwa jenis muatan listrik tidak hanya satu jenis, melainkan ada dua jenis. Selain itu benda yang mulanya tidak bermuatan, ternyata dapat dimuati dengan cara digosokkan dengan material tertentu."
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="Sedangkan fenomena listrik dimana material mengalami muatan listrik setelah terjadi kontak atau pergesekan dengan material yang berbeda dinamakan Triboelectric effect atau Efek tribolistrik. Penjelasan mengenai efek tribolistrik dapat kamu simak pada video berikut ini!"
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 android:textSize="18sp" />
 
             <RelativeLayout
@@ -154,6 +160,7 @@ Yuk simak penjelasannya dalam bab ini!"
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="Selain itu ada beberapa “sulap” yang sebenarnya merupakan trik yang menggunakan prinsip listrik statis. Mari simak video berikut ini!"
                 android:textAlignment="center"
@@ -184,6 +191,7 @@ Yuk simak penjelasannya dalam bab ini!"
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="Tokoh terkenal yang berkecimpung dalam muatan listrik adalah Benjamin Franklin (1706-1900)."
                 android:textAlignment="center"
@@ -215,46 +223,51 @@ Yuk simak penjelasannya dalam bab ini!"
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="Beliau merupakan seorang saintis yang sekaligus filsuf berkewarganegaraan Amerika Serikat, memilih (berdasarkan kesepakatan) muatan pada batang kaca yang digosok oleh kain sutera  adalah muatan positif, sedangkan muatan pada penggaris plastik yang digosok oleh bulu adalah muatan negatif."
-                android:textAlignment="center"
+                android:textAlignment="textStart"
                 android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/pembatas2"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:src="@drawable/pembatas"
-                android:padding="8dp"/>
+                android:padding="8dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/pembatas" />
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="TAHUKAH KAMU!!!"
                 android:textAlignment="center"
                 android:textSize="24sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="APAKAH MUNGKIN PERANGKAT ELEKTRONIKA MODERN YANG DIGUNAKAN DALAM PEMBEDAHAN ENDOSKOPI BISA MENJADI SUMBER KONTAMINASI BAKTERI?"
                 android:textAlignment="center"
                 android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="Selama operasi berlangsung, tim medis akan berusaha semaksimal mungkin mencegah terjadinya infeksi bakteri terhadap pasien yang mereka bedah. Dalam pembedahan endoskopi, seorang pembedah melihat bagian dalam tubuh pasien melalui layar monitor video."
-                android:textAlignment="center"
-                android:textSize="18sp"/>
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -282,10 +295,11 @@ Yuk simak penjelasannya dalam bab ini!"
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="Citra di layar dihasilkan oleh elektron-elektron yang diarahkan menuju layar dari belakang bagian monitor. Untuk menarik elektron-elektron ini, layar diberi muatan positif. Inilah sumber permasalahannya!"
-                android:textAlignment="center"
-                android:textSize="18sp"/>
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -313,53 +327,79 @@ Yuk simak penjelasannya dalam bab ini!"
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="Layar bermuatan juga menarik partikel-partikel yang beterbangan di udara ruang operasi, seperti seat, kapas debu, dan sel-sel kulit. Jika partikel-partikel yang melayang-layang diudara diberi muatan negatif, mereka akan tertarik ke bagian luar layar monitor tersebut."
-                android:textAlignment="center"
-                android:textSize="18sp"/>
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="Kalaupun partikel-partikel itu netral, sebagian elektron konduksinya bisa saja ditarik ke sisi partikel yang berada paling dekat dengan layar, sehingga partikel memiliki muatan induksi (gambar 1.4). Partikel semacam itu kemudian ditarik menuju permukaan luar layar sama seperti bagaimana batang tembaga tertarik ke batang plastik bermuatan (gambar 1.4)."
-                android:textAlignment="center"
-                android:textSize="18sp"/>
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="Berhubung banyak partikel yang terkumpul di luar layar monitor itu membawa bakteri, layar itu pun terkontaminasi. Jika tangan pembedah yang bersarung tangan berada dekat dengan layar itu dalam jarak sekian sentimeter saja, misalnya ketika ia menunjuk sebuah bagian dari citra di layar monitor untuk dibahas dengan rekan pembedah lainnya, layar bermuatan positif itu akan menarik elektron dari sisi dalam jari ke ujung-ujungnya (gambar 1.4)."
-                android:textAlignment="center"
-                android:textSize="18sp"/>
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="Ujung jari yang bermuatan negatif kemudian menyebabkan partikel (baik yang berterbangan di udara maupun yang menempel di layar) untuk mengumpul pada ujung sarung tangan pembedah. Maka, ketika akhirnya pembedah menyentuh pasien dengan sarung tangan yang terkontaminasi itu, bakteri akan berpindah ke tubuh (atau lebih parah lagi ke bagian dalam) tubuh pasien. Untuk mencegah terjadinya hal ini, belakangan para pembedah diwanti-wanti untuk tidak meletakkan jarinya dekat dengan monitor video."
-                android:textAlignment="center"
-                android:textSize="18sp"/>
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/pembatas3"
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:src="@drawable/pembatas"
-                android:padding="8dp"/>
+                android:padding="8dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/pembatas" />
 
             <TextView
                 android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:text="Lalu, bagaimanakah cara memberikan muatan kepada benda ?"
                 android:textAlignment="textStart"
-                android:textSize="18sp"/>
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="1.	KONDUKSI / CARA KONTAK"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Simak simulasi dibawah ini!"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
 
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

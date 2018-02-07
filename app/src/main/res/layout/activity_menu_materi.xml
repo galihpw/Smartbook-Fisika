@@ -31,7 +31,7 @@
                 android:id="@+id/materi1"
                 android:layout_width="300dp"
                 android:layout_height="130dp"
-                android:layout_marginBottom="50dp"
+                android:layout_marginBottom="30dp"
                 android:background="@drawable/myborder">
 
                 <ImageView
@@ -47,7 +47,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:fontFamily="cursive"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="Muatan Listrik"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
@@ -59,7 +59,7 @@
                 android:id="@+id/materi2"
                 android:layout_width="300dp"
                 android:layout_height="130dp"
-                android:layout_marginBottom="50dp">
+                android:layout_marginBottom="30dp">
 
                 <ImageView
                     android:id="@+id/materi2Image"
@@ -74,7 +74,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:fontFamily="cursive"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="Hukum Coulomb"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
@@ -86,7 +86,7 @@
                 android:id="@+id/materi3"
                 android:layout_width="300dp"
                 android:layout_height="130dp"
-                android:layout_marginBottom="50dp">
+                android:layout_marginBottom="30dp">
 
                 <ImageView
                     android:id="@+id/materi3Image"
@@ -101,7 +101,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:fontFamily="cursive"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="Medan Listrik"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
@@ -113,7 +113,7 @@
                 android:id="@+id/materi4"
                 android:layout_width="300dp"
                 android:layout_height="130dp"
-                android:layout_marginBottom="50dp">
+                android:layout_marginBottom="30dp">
 
                 <ImageView
                     android:id="@+id/materi4Image"
@@ -128,18 +128,19 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:fontFamily="cursive"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="Potensial dan Energi Potensial Listrik"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
             </RelativeLayout>
+
             <RelativeLayout
                 android:id="@+id/materi5"
                 android:layout_width="300dp"
                 android:layout_height="130dp"
-                android:layout_marginBottom="50dp">
+                android:layout_marginBottom="30dp">
 
                 <ImageView
                     android:id="@+id/materi5Image"
@@ -154,7 +155,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
-                    android:fontFamily="cursive"
+                    android:fontFamily="sans-serif-condensed"
                     android:text="Kapasitor"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
