@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.galihpw.smartbookfisika.MedanListrik.MedanListrik">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/clmd1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_orange_light"
+                tools:layout_editor_absoluteX="95dp"
+                tools:layout_editor_absoluteY="105dp">
+
+                <TextView
+                    android:id="@+id/teksmd1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Fisika Disekitar Kita"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imagemd1"
+                    android:layout_width="350dp"
+                    android:layout_height="210dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/image1md"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/teksmd1" />
+
+                <TextView
+                    android:id="@+id/teksmd2"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Sumber gambar: https://learn.sparkfun.com/tutorials/how-to-use-an-oscilloscope"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imagemd1" />
+
+                <TextView
+                    android:id="@+id/teksmd3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="16dp"
+                    android:lineSpacingExtra="6sp"
+                    android:text="Terdapat gambar gelombang pada layar alat tersebut. Sebenarnya bagaimana gelombang tersebut terbentuk? Dan bagaimanakah cara kerja alat tersebut sehingga dapat menghasilkan gelombang tersebut?
+Lantas apa hubungannya dengan materi yang kita bahas ini?
+Mari kita temukan jawabannya pada bab ini!
+"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/teksmd2"
+                    app:layout_constraintBottom_toBottomOf="@id/clmd1"/>
+            </android.support.constraint.ConstraintLayout>
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/clmd2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+                <ImageView
+                    android:id="@+id/image2md"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/clmd2"
+                    app:srcCompat="@drawable/image2md" />
+                <TextView
+                    android:id="@+id/teksmd4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MEDAN LISTRIK"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@id/image2md"
+                    app:layout_constraintEnd_toEndOf="@id/image2md"
+                    app:layout_constraintStart_toStartOf="@id/image2md"
+                    app:layout_constraintTop_toTopOf="@id/image2md" />
+                <TextView
+                    android:id="@+id/teksmd5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="8sp"
+                    android:text="Sebelumnya kita sudah mengetahui adanya interaksi antara dua benda bermuatan. Bila benda bermuatan sejenis didekatkan maka akan saling tolak-menolak sedangkan bila benda bermuatan tak sejenis didekatkan maka akan saling-tarik menarik. Apa yang menyebabkan hal tersebut? Bagaimanakah penjelasannya?"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image2md" />
+
+                <TextView
+                    android:id="@+id/teksmd6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:lineSpacingExtra="4sp"
+                    android:text="Menjawab pertanyaan sebelumnya, penyebab muatan positif dan negatif dapat berinteraksi satu sama lain adalah disebabkan adanya medan listrik. Medan listrik merupakan sesuatu yang ditimbulkan oleh muatan listrik dan mempengaruhi ruang di sekitar muatan listrik tersebut, dimana pengaruh medan listrik hanya dirasakan oleh muatan listrik lainnya. Ketika muatan listrik berada dalam medan listrik yang ditimbulkan oleh suatu muatan listrik maka muatan listrik akan merasakan pengaruh berupa gaya listrik. "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd5" />
+            </android.support.constraint.ConstraintLayout>
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/clmd3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#B0FFFF">
+
+                <TextView
+                    android:id="@+id/teksmd7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:textAlignment="center"
+                    android:text="@string/teks7md"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/clmd3"
+                    />
+
+                <ImageView
+                    android:id="@+id/image3md"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd7"
+                    app:srcCompat="@drawable/image3md" />
+
+            </android.support.constraint.ConstraintLayout>
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/clmd4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp">
+
+                <ImageView
+                    android:id="@+id/image4md"
+                    android:layout_width="340dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/img4md"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/clmd4"
+                    />
+
+                <TextView
+                    android:id="@+id/teksmd8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Gambar 3.1. Muatan uji positif q0 yang kecil ditempatkan di dekat benda bermutan Q yang membawa muatan positif lebih besar, terpengaruh medan listrik E seperti gambar diatas. (Sumber gambar: Serway, 2004)"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image4md" />
+                <TextView
+                    android:id="@+id/teksmd9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:textSize="14sp"
+                    android:text="haha"
+                    app:layout_constraintEnd_toEndOf="@id/clmd4"
+                    app:layout_constraintStart_toStartOf="@id/clmd4"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd8"/>
+                <TextView
+                    android:id="@+id/teksmd10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:textSize="14sp"
+                    android:text="Persamaan 3.1 dapat disusun ulang menjadi:"
+                    app:layout_constraintStart_toStartOf="@id/clmd4"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd9"/>
+
+                <ImageView
+                    android:id="@+id/image5md"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd10"
+                    app:srcCompat="@drawable/img5md" />
+
+                <TextView
+                    android:id="@+id/teksmd11"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Vektor E mempunyai satuan SI newton per coulomb (N/C). Arah dari E yang ditunjukkan pada gambar 3.1, adalah arah gaya yang dialami muatan positif ketika ditempatkan dalam suatu medan."
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@id/clmd4"
+                    app:layout_constraintTop_toBottomOf="@id/image5md" />
+
+                <TextView
+                    android:id="@+id/teksmd12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="16dp"
+                    android:background="#B0FFFF"
+                    android:textAlignment="center"
+                    android:text="Medan listrik pada sebuah titik ada jika muatan uji pada titik tersebut mengalami gaya listrik. "
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd11" />
+
+                <TextView
+                    android:id="@+id/teksmd13"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Sesuai dengan hukum Coulomb, gaya yang diberikan oleh q pada muatan uji adalah:"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd12" />
+
+                <ImageView
+                    android:id="@+id/image6md"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/img6md"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd13"/>
+
+                <TextView
+                    android:id="@+id/teksmd14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Karena medan listrik pada titik P, posisi muatan uji didefinisikan oleh  E=F/q0. Maka, medan listrik di suatu titik sejauh r yang dihasilkan oleh muatan q adalah :"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image6md" />
+
+                <ImageView
+                    android:id="@+id/image7md"
+                    android:layout_width="340dp"
+                    android:layout_height="200dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd14"
+                    android:background="@drawable/image7md" />
+
+                <TextView
+                    android:id="@+id/teksmd15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Tampak bahwa besarnya medan listrik berbanding terbalik dengan kuadrat jarak dari muatan. Jika dibuatkan kurva, maka tampak seperti pada gambar dibawah ini"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image7md" />
+                <ImageView
+                    android:id="@+id/image8md"
+                    android:layout_width="360dp"
+                    android:layout_height="250dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd15"
+                    android:background="@drawable/image8md" />
+                <TextView
+                    android:id="@+id/teksmd16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:textSize="12sp"
+                    android:text="Gambar 3.2. Kuat medan listrik yang dihasilkan muatan titik sebagai fungsi jarak. (Sumber gambar: Abdullah, 2006)"
+                    android:textColor="@android:color/black"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image8md" />
+                <TextView
+                    android:id="@+id/teksmd17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Sementara itu untuk menggambarkan arah gaya listrik dan medan listrik yang dialami oleh muatan uji q0 akibat adanya muatan listrik q pada jarak r, digambarkan seperti gambar-gambar dibawah ini."
+                    android:textColor="@android:color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd16" />
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/mdgif1"
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:scaleType="fitXY"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd17"/>
+
+            </android.support.constraint.ConstraintLayout>
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/clmd5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="#B0FFFF">
+
+                <TextView
+                    android:id="@+id/teksmd18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/black"
+                    android:text="Di setiap titik P, jumlah medan listrik yang diakibatkan oleh sekelompok muatan sumber sama dengan jumlah vektor medan listrik pada semua muatan"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/clmd5"
+                    />
+
+                <ImageView
+                    android:id="@+id/image9md"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd18"
+                    app:srcCompat="@drawable/image9md" />
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/clmd6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFB0"
+                android:layout_marginTop="40dp">
+
+                <TextView
+                    android:id="@+id/teksmd19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:text="CONTOH SOAL 3.1 (Medan Listrik yang Diakibatkan oleh Dua Muatan)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/clmd6" />
+                <TextView
+                    android:id="@+id/teksmd20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Sebuah muatan q1=7 μC bertempat di koordinat (0,0) m, muatan kedua q2=-5 μC bertempat di sumbu x, 0,3 m dari q1 (Seperti gambar 3.4). Carilah besar dan arah medan listrik di titik P, yang bertempat pada koordinat (0, 0,4) m!"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd19" />
+                <TextView
+                    android:id="@+id/teksmd21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:text="JAWAB!"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd20" />
+                <TextView
+                    android:id="@+id/teksmd22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Berikut ini sketsa dari soal diatas"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd21" />
+                <ImageView
+                    android:id="@+id/image10md"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd22"
+                    app:srcCompat="@drawable/image10md" />
+                <TextView
+                    android:id="@+id/teksmd23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gambar 3.4. Total medan listrik E pada titik P sama dengan jumlah vektor E1 +E2, dimana E1 adalah medan yang diakibatkan muatan positif q1 dan E2 adalah medan yang diakibatkan muatan negatif q2. (Sumber gambar: Serway, 2004)"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image10md"
+                    />
+
+                <TextView
+                    android:id="@+id/teksmd24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="•	Pertama-tama kita mencari E1 dan E2"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd23" />
+                <ImageView
+                    android:id="@+id/image11md"
+                    android:layout_width="350dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd24"
+                    android:background="@drawable/image11md" />
+
+                <TextView
+                    android:id="@+id/teksmd25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="•	Kemudian kita tentukan arah vektor E1 dan E2"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image11md" />
+                <ImageView
+                    android:id="@+id/image12md"
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd25"
+                    android:background="@drawable/image12md" />
+                <ImageView
+                    android:id="@+id/image13md"
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image12md"
+                    android:background="@drawable/image13md" />
+
+            </android.support.constraint.ConstraintLayout>
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/clmd7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFB0"
+                android:layout_marginTop="40dp">
+
+                <TextView
+                    android:id="@+id/teksmd26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:text="CONTOH SOAL 3.2 (Medan Listrik pada Dipol)"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/clmd7" />
+                <TextView
+                    android:id="@+id/teksmd27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="8dp"
+                    android:text="Sebuah dipol listrik didefinisikan sebagai muatan positif q dan muatan negatif –q yang terpisahkan jarak 2a. Seperti pada gambar 3.5, carilah medan listrik E pada titik P yang diakibatkan oleh dipol, dimana P jaraknya y>>a dari titik (0,0)!"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd26" />
+                <TextView
+                    android:id="@+id/teksmd28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:text="JAWAB!"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd27" />
+                <TextView
+                    android:id="@+id/teksmd29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="16dp"
+                    android:text="Di titik P, medan E1 dan E2 yang diakibatkan oleh dua muatan sama besar karena P sama jauhnya dari kedua muatan. Total medan listrik adalah E = E1 + E2, dimana"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd28" />
+                <ImageView
+                    android:id="@+id/image14md"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd29"
+                    app:srcCompat="@drawable/image14md" />
+                <ImageView
+                    android:id="@+id/image15md"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image14md"
+                    app:srcCompat="@drawable/image15md" />
+                <TextView
+                    android:id="@+id/teksmd30"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text="Gambar 3.5. Total medan listrik E pada titik P yang diakibatkan oleh dua muatan yang besarnya sama namun berbeda tanda (sebuah dipol listrik) adalah jumlah vektor E1 + E2. Medan listrik E1 diakibatkan muatan listrik positif q sedangkan E2 adalah medan listrik yang disebabkan muatan listrik negatif –q. (Sumber gambar: Serway, 2004)"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="8dp"
+                    android:textAlignment="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image15md"
+                    />
+                <ImageView
+                    android:id="@+id/image16md"
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd30"
+                    android:background="@drawable/image16md" />
+                <ImageView
+                    android:id="@+id/image17md"
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image16md"
+                    android:background="@drawable/image17md" />
+
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -14,4 +14,14 @@
     <string name="teks2ml3"><![CDATA[
 Sedangkan fenomena listrik dimana material mengalami muatan listrik setelah terjadi kontak atau pergesekan dengan material yang berbeda dinamakan <b>Triboelectric effect</b> atau <b>Efek tribolistrik </b>. Penjelasan mengenai efek tribolistrik dapat kamu simak pada video berikut ini!
     ]]></string>
+    <string name="teks7md">
+        <![CDATA[
+            <b>Vektor medan listrik E</b> pada setiap titik di suatu ruang didefinisikan sebagai gaya listrik <b>F</b> yang bekerja pada muatan uji q0 yang ditempatkan pada suatu titik kemudian dibagi dengan muatan uji:
+        ]]>
+    </string>
+    <string name="teks9md">
+        <![CDATA[
+            <b>E</b> merupakan medan yang dihasilkan oleh beberapa muatan atau distribusi muatan yang terpisah dari muatan uji. Muatan uji berfungsi sebagai detektor adanya medan listrik."
+        ]]>
+    </string>
 </resources>

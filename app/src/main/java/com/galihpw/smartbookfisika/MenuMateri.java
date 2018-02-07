@@ -12,6 +12,7 @@ import android.widget.RelativeLayout;
 
 import com.bumptech.glide.Glide;
 import com.galihpw.smartbookfisika.MateriListrik.Materi1;
+import com.galihpw.smartbookfisika.MedanListrik.MedanListrik;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -66,6 +67,14 @@ public class MenuMateri extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MenuMateri.this,Materi1.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+            }
+        });
+        materi3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MenuMateri.this,MedanListrik.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
             }
