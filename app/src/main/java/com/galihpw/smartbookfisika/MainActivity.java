@@ -10,6 +10,8 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.support.design.widget.TabLayout;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -47,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements GridAdapter.ItemC
 
         mItems = new ArrayList<DaftarMenu>();
         DaftarMenu nama = new DaftarMenu();
-        nama.setName("Dasar dan Indikator Pembelajaran");
+        nama.setName("Kompetensi Dasar dan Indikator Pembelajaran");
         nama.setThumbnail(R.drawable.logomini);
         mItems.add(nama);
 
@@ -158,21 +160,27 @@ public class MainActivity extends AppCompatActivity implements GridAdapter.ItemC
 
                     if(viewPager.getCurrentItem() == 0){
                         viewPager.setCurrentItem(1);
+                        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                     }
                     else if(viewPager.getCurrentItem() == 1){
                         viewPager.setCurrentItem(2);
+                        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                     }
                     else if(viewPager.getCurrentItem()==2){
                         viewPager.setCurrentItem(3);
+                        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                     }
                     else if(viewPager.getCurrentItem()==3){
                         viewPager.setCurrentItem(4);
+                        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                     }
                     else if(viewPager.getCurrentItem()==4){
                         viewPager.setCurrentItem(5);
+                        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                     }
                     else if(viewPager.getCurrentItem()==5){
                         viewPager.setCurrentItem(0);
+                        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                     }
 
                 }
@@ -185,6 +193,25 @@ public class MainActivity extends AppCompatActivity implements GridAdapter.ItemC
         if(timer != null){
             timer.cancel();
             //cancel timer task and assign null
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu, menu);//Menu Resource, Menu
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.logout:
+                Intent i = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(i);
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
     }
 }
