@@ -11,17 +11,25 @@
     <string name="player_error">Error initializing YouTube player: %s</string>
     <string name="seek_to">Jump To</string>
     <string name="seek_to_hint">Seconds</string>
-    <string name="teks2ml3"><![CDATA[
-Sedangkan fenomena listrik dimana material mengalami muatan listrik setelah terjadi kontak atau pergesekan dengan material yang berbeda dinamakan <b>Triboelectric effect</b> atau <b>Efek tribolistrik </b>. Penjelasan mengenai efek tribolistrik dapat kamu simak pada video berikut ini!
-    ]]></string>
+    <string name="teks2ml3"><![CDATA[Sedangkan fenomena listrik dimana material mengalami muatan listrik setelah terjadi kontak atau pergesekan dengan material yang berbeda dinamakan <b>Triboelectric effect</b> atau <b>Efek tribolistrik </b>. Penjelasan mengenai efek tribolistrik dapat kamu simak pada video berikut ini!]]></string>
     <string name="teks7md">
-        <![CDATA[
-            <b>Vektor medan listrik E</b> pada setiap titik di suatu ruang didefinisikan sebagai gaya listrik <b>F</b> yang bekerja pada muatan uji q0 yang ditempatkan pada suatu titik kemudian dibagi dengan muatan uji:
-        ]]>
+        <![CDATA[<b>Vektor medan listrik E</b> pada setiap titik di suatu ruang didefinisikan sebagai gaya listrik <b>F</b> yang bekerja pada muatan uji q0 yang ditempatkan pada suatu titik kemudian dibagi dengan muatan uji:]]>
     </string>
     <string name="teks9md">
         <![CDATA[
             <b>E</b> merupakan medan yang dihasilkan oleh beberapa muatan atau distribusi muatan yang terpisah dari muatan uji. Muatan uji berfungsi sebagai detektor adanya medan listrik."
         ]]>
     </string>
+    <string name="teks36md"><![CDATA[dimana ρ mempunyai satuan Coulomb per meter kubik (C/m<sup>3</sup>).]]></string>
+    <string name="teks38md"><![CDATA[dimana σ mempunyai satuan Coulomb per meter persegi (C/m<sup>2</sup>).]]></string>
+    <string name="teks45md"><![CDATA[Gambar 3.7. Medan listrik di titik P yang diakibatkan sebuah batang bermuatan yang terbaring di sepanjang sumbu x. Besar dari melan listrik pada titik P yang diakibatkan muatan elementer dq adalah <b>k<sub>e</sub> dq/x<sup>2</sup></b>. Medan listrik total di titik P adalah jumlah vektor pada semua segmen dalam batang. (Sumber gambar: Serway, 2004)
+    ]]></string>
+    <string name="teks50md"><![CDATA[
+            Karena r=(x<sup>2</sup>+a<sup>2</sup> )<sup>1/2</sup> dan <i>cos θ=x/r</i>, maka kita dapat menemukan
+    ]]></string>
+    <string name="teks56md"><![CDATA[
+            Untuk mendapatkan medan total di titik P, kita dapat mengitegrasikan nilai d<b>E</b><sub>x</sub>, dengan batas bawah r = 0 dan batas atas r = R, sehingga
+    ]]></string>
+    <string name="teks58md"><![CDATA[
+            Untuk memvisualisasikan medan listrik sehingga kita dapat memiliki gambaran tentang besar maupun arahnya, maka didefinisikan <b>garis medan listrik.</b>]]></string>
 </resources>
