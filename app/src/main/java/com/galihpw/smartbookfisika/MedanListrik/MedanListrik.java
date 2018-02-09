@@ -1,19 +1,31 @@
 package com.galihpw.smartbookfisika.MedanListrik;
 
+import android.content.Intent;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.galihpw.smartbookfisika.Config.Config;
+import com.galihpw.smartbookfisika.MateriListrik.Materi1;
+import com.galihpw.smartbookfisika.MateriListrik.YoutubeActivity;
 import com.galihpw.smartbookfisika.R;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import pl.droidsonroids.gif.GifDrawable;
 import pl.droidsonroids.gif.GifImageView;
 
 public class MedanListrik extends AppCompatActivity {
+    @BindView(R.id.video1)
+    ImageView videomd;
 
+    @BindView(R.id.play_video1)
+    ImageView play_videomd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,7 +41,8 @@ public class MedanListrik extends AppCompatActivity {
         TextView teksmd79 = (TextView)findViewById(R.id.teksmd79);
         TextView teksmd84 = (TextView)findViewById(R.id.teksmd84);
         TextView teksmd86 = (TextView)findViewById(R.id.teksmd86);
-
+        TextView teksmd93 = (TextView)findViewById(R.id.teksmd93);
+        TextView teksmd100 = (TextView)findViewById(R.id.teksmd100);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             teksmd7.setText(Html.fromHtml(getString(R.string.teks7md), Html.FROM_HTML_MODE_COMPACT));
             teksmd9.setText(Html.fromHtml(getString(R.string.teks9md), Html.FROM_HTML_MODE_COMPACT));
@@ -42,6 +55,8 @@ public class MedanListrik extends AppCompatActivity {
             teksmd79.setText(Html.fromHtml(getString(R.string.teks79md), Html.FROM_HTML_MODE_COMPACT));
             teksmd84.setText(Html.fromHtml(getString(R.string.teks84md), Html.FROM_HTML_MODE_COMPACT));
             teksmd86.setText(Html.fromHtml(getString(R.string.teks86md), Html.FROM_HTML_MODE_COMPACT));
+            teksmd93.setText(Html.fromHtml(getString(R.string.teks92md), Html.FROM_HTML_MODE_COMPACT));
+            teksmd100.setText(Html.fromHtml(getString(R.string.teks100md), Html.FROM_HTML_MODE_COMPACT));
         }else{
             teksmd7.setText(Html.fromHtml(getString(R.string.teks7md)));
             teksmd9.setText(Html.fromHtml(getString(R.string.teks9md)));
@@ -54,11 +69,23 @@ public class MedanListrik extends AppCompatActivity {
             teksmd79.setText(Html.fromHtml(getString(R.string.teks79md)));
             teksmd84.setText(Html.fromHtml(getString(R.string.teks84md)));
             teksmd86.setText(Html.fromHtml(getString(R.string.teks86md)));
+            teksmd93.setText(Html.fromHtml(getString(R.string.teks92md)));
+            teksmd100.setText(Html.fromHtml(getString(R.string.teks100md)));
         }
         final GifImageView gif = (GifImageView)findViewById(R.id.mdgif1);
         gif.setImageResource(R.drawable.img1);
         final GifDrawable gifDrawable = (GifDrawable) gif.getDrawable();
         gifDrawable.start();
+        /*ButterKnife.bind(this);
+        Glide.with(this).load("http://img.youtube.com/vi/6BgcrRjqnKE/0.jpg").into(videomd);
+        play_videomd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MedanListrik.this, YoutubeActivity.class);
+                Config.VIDEO_ID = "6BgcrRjqnKE";
+                startActivity(intent);
+            }
+        });*/
 
     }
 }

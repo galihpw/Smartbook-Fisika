@@ -1502,7 +1502,6 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/teksmd74"/>
-
                 <TextView
                     android:id="@+id/teksmd76"
                     android:layout_width="wrap_content"
@@ -1706,7 +1705,6 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintTop_toBottomOf="@id/image45md"
                     android:text="Gambar 3.15. Muatan titik positif q dalam medan listrik seragam E mengalami percepatan konstan searah dengan medan listrik. (Sumber gambar: Serway, 2004)"/>
             </android.support.constraint.ConstraintLayout>
-
             <android.support.constraint.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -1775,6 +1773,233 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/teksmd88"
                     android:background="@drawable/image48md"/>
+            </android.support.constraint.ConstraintLayout>
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:id="@+id/clmd18"
+                android:background="#FFFFB0">
+
+                <TextView
+                    android:id="@+id/teksmd89"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="CONTOH SOAL 3.4 (Elektron yang Dipercepat)"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/clmd18"/>
+                <ImageView
+                    android:id="@+id/image50md"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd89"
+                    android:background="@drawable/image50md"/>
+                <TextView
+                    android:id="@+id/teksmd90"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="JAWAB"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image50md"/>
+                <ImageView
+                    android:id="@+id/image51md"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd90"
+                    android:background="@drawable/image51md"/>
+                <ImageView
+                    android:id="@+id/image52md"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image51md"
+                    android:background="@drawable/image52md"/>
+            </android.support.constraint.ConstraintLayout>
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/clmd19"
+                android:background="#FFE8D4"
+                android:layout_marginTop="50dp">
+                <TextView
+                    android:id="@+id/teksmd91"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:text="FISIKA DI SEKITAR KITA"
+                    android:layout_margin="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/clmd19"/>
+                <TextView
+                    android:id="@+id/teksmd92"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:text="TABUNG SINAR KATODA"
+                    android:layout_margin="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd91"/>
+                <TextView
+                    android:id="@+id/teksmd93"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="TABUNG SINAR KATODA"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd92"/>
+                <ImageView
+                    android:id="@+id/image53md"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd93"
+                    android:background="@drawable/image53md"/>
+                <TextView
+                    android:id="@+id/teksmd94"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:text="Gambar 3.17. Diagram skema dari tabung sinar katoda. Elektron meninggalkan katoda C dipercepat menuju anoda A. Untuk mempercepat elektron, pistol elektron juga digunakan untuk memfocuskan berkas elektron dan pelat membelokkan berkas tersebut. (Sumber gambar: Serway, 2004, gambar dimodifikasi)"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image53md"/>
+                <TextView
+                    android:id="@+id/teksmd95"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Cathode Ray Oscilloscope (CRO) atau sering disebut dengan Osiloskop Sinar Katoda adalah alat yang palin gumum digunakan dalam pengukuran-pengukuran besaran elektronis, seperti alat pengukur multi meter yang digunakan untuk mengukur tegangan AC, DC, arus AC, arus D, dan tahanan suatu rangkaian, maka osiloskop mempunyai kemampuan yang sama dan bahkan melebihi kemampuan multimeter. "
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd94"/>
+                <TextView
+                    android:id="@+id/teksmd96"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Simak dan klik video berikut mengenai animasi dari prinsip kerja CRO!"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd95"/>
+                <RelativeLayout
+                    android:id="@+id/LAYOUTBUATVIDEO"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd96"
+                    android:padding="8dp"
+                    android:background="@android:color/white">
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/teksmd97"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Hal terpenting dari CRO adalah Tabung Sinar Katoda (Cathode Ray Tube- CRT). Pada CRT ini terdapat sumber yang memancarkan/menembakkan elektron (Electron Gun) ke suatu tabir yang berpendar (Layar Flourescent) bila dikenai elektron berkecepatan tinggi. Seperti kita ketahui bahwa elektron dapat dipengaruhi oleh medan listrik dan medan magnet. Namun untuk kasus CRO, alat ini menerapkan medan listrik untuk mengatur arah gerak elektron, medan listrik tersebut diadakan oleh dua lempengan (Deflection Plates), vertikal, dan horizontal. Dengan memasang tegangan yang hendak diselidiki pada lempang vertikal (andaikan pada lempeng horizontal tidak ada tegangan) maka pada layar akan tampil garis vertikal yang memberikan informasi tentang amplitudo tegangan tersebut."
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/LAYOUTBUATVIDEO"/>
+                <TextView
+                    android:id="@+id/teksmd98"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Tetapi bila lempeng horizontal di pasang pada suatu tegangan periodik yang berbanding lurus dengan waktu dan frekuensinya di buat sama dengan frekuensi tegangan yang diselidiki maka gambar yang hanya memberi kesan tegak, akan bergerak juga kekanan dengan kecepatan tetap hingga kita melihat suatu gambar gejala periodik pada layar, seakan kita membuat suatu grafik dengan tegangan terhadap waktu."
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd97"/>
+            </android.support.constraint.ConstraintLayout>
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:id="@+id/clmd20">
+                <TextView
+                    android:id="@+id/teksmd99"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="FLUKS LISTRIK"
+                    android:layout_margin="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/clmd20"/>
+                <TextView
+                    android:id="@+id/teksmd100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="FLUKS LISTRIK"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd99"/>
+
+
             </android.support.constraint.ConstraintLayout>
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

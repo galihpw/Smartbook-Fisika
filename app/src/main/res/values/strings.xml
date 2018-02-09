@@ -47,4 +47,14 @@ Posisi awal muatan adalah x<sub>i</sub>=0 dan v<sub>i</sub>=0 karena partikel be
 Karena percepatannya konstan, kita dapat menerapkan persamaan kinematika dalam 2 dimensi dengan v<sub>xi</sub>=v<sub>i</sub> dan v<sub>yi</sub>=0
         ]]>
     </string>
+    <string name="teks92md">
+        <![CDATA[
+            Di awal bab kita telah disuguhkan gambar sebuah alat. Alat tersebut biasa dikenal dengan nama <b>Osiloskop</b>. Kali ini akan kita bahas prinsip kerja dari Osiloskop. Osiloskop menggunakan prinsip kerja dari tabung sinar katoda. Berikut ini adalah skema dari tabung sinar katoda.
+        ]]>
+    </string>
+    <string name="teks100md">
+        <![CDATA[
+            Jumlah garis medan yang menembus sebuah permukaan sebanding dengan perkalian <i>E</i> dengan <i>A</i>. Perkalian skalar antara medan listrik <i>E</i> dan area permukaan <i>A</i> yang tegak lurus medannya dinamakan fluks listrik Φ<sub>E</sub>.
+        ]]>
+    </string>
 </resources>
