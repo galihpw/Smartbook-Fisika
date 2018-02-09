@@ -26,6 +26,9 @@ public class MedanListrik extends AppCompatActivity {
         TextView teksmd50 = (TextView)findViewById(R.id.teksmd50);
         TextView teksmd56 = (TextView)findViewById(R.id.teksmd56);
         TextView teksmd58 = (TextView)findViewById(R.id.teksmd58);
+        TextView teksmd79 = (TextView)findViewById(R.id.teksmd79);
+        TextView teksmd84 = (TextView)findViewById(R.id.teksmd84);
+        TextView teksmd86 = (TextView)findViewById(R.id.teksmd86);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             teksmd7.setText(Html.fromHtml(getString(R.string.teks7md), Html.FROM_HTML_MODE_COMPACT));
@@ -36,6 +39,9 @@ public class MedanListrik extends AppCompatActivity {
             teksmd50.setText(Html.fromHtml(getString(R.string.teks50md), Html.FROM_HTML_MODE_COMPACT));
             teksmd56.setText(Html.fromHtml(getString(R.string.teks56md), Html.FROM_HTML_MODE_COMPACT));
             teksmd58.setText(Html.fromHtml(getString(R.string.teks58md), Html.FROM_HTML_MODE_COMPACT));
+            teksmd79.setText(Html.fromHtml(getString(R.string.teks79md), Html.FROM_HTML_MODE_COMPACT));
+            teksmd84.setText(Html.fromHtml(getString(R.string.teks84md), Html.FROM_HTML_MODE_COMPACT));
+            teksmd86.setText(Html.fromHtml(getString(R.string.teks86md), Html.FROM_HTML_MODE_COMPACT));
         }else{
             teksmd7.setText(Html.fromHtml(getString(R.string.teks7md)));
             teksmd9.setText(Html.fromHtml(getString(R.string.teks9md)));
@@ -45,6 +51,9 @@ public class MedanListrik extends AppCompatActivity {
             teksmd50.setText(Html.fromHtml(getString(R.string.teks50md)));
             teksmd56.setText(Html.fromHtml(getString(R.string.teks56md)));
             teksmd58.setText(Html.fromHtml(getString(R.string.teks58md)));
+            teksmd79.setText(Html.fromHtml(getString(R.string.teks79md)));
+            teksmd84.setText(Html.fromHtml(getString(R.string.teks84md)));
+            teksmd86.setText(Html.fromHtml(getString(R.string.teks86md)));
         }
         final GifImageView gif = (GifImageView)findViewById(R.id.mdgif1);
         gif.setImageResource(R.drawable.img1);

@@ -32,4 +32,19 @@
     ]]></string>
     <string name="teks58md"><![CDATA[
             Untuk memvisualisasikan medan listrik sehingga kita dapat memiliki gambaran tentang besar maupun arahnya, maka didefinisikan <b>garis medan listrik.</b>]]></string>
+    <string name="teks79md">
+        <![CDATA[
+Jika <b>E</b> seragam (besar dan arahnya konstan), maka percepatan partikel juga konstan. <b>Jika partikel bermuatan positif, maka percepatan partikel searah dengan medan listriknya. Namun, jika partikel bemuatan negatif, maka percepatan partikel berlawanan arah dengan medan listriknya.</b>
+        ]]>
+    </string>
+    <string name="teks84md">
+        <![CDATA[
+Posisi awal muatan adalah x<sub>i</sub>=0 dan v<sub>i</sub>=0 karena partikel bergerak dari keadaan diam, posisi partikel sebagai fungsi waktu adalah
+        ]]>
+    </string>
+    <string name="teks86md">
+        <![CDATA[
+Karena percepatannya konstan, kita dapat menerapkan persamaan kinematika dalam 2 dimensi dengan v<sub>xi</sub>=v<sub>i</sub> dan v<sub>yi</sub>=0
+        ]]>
+    </string>
 </resources>

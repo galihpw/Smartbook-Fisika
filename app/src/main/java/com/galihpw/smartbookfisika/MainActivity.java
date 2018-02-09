@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity implements GridAdapter.ItemC
         });
 
         timer = new Timer();
-        timer.scheduleAtFixedRate(new MyTimerTask(), 2000, 4000);
+        timer.scheduleAtFixedRate(new MyTimerTask(), 4000, 4000);
 
     }
     private final void focusOnView(){
