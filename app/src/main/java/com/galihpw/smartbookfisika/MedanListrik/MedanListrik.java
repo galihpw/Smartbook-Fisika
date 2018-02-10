@@ -52,6 +52,7 @@ public class MedanListrik extends AppCompatActivity {
         TextView teksmd120 = (TextView)findViewById(R.id.teksmd120);
         TextView teksmd131 = (TextView)findViewById(R.id.teksmd131);
         TextView teksmd140 = (TextView)findViewById(R.id.teksmd140);
+        TextView teksmd142 = (TextView)findViewById(R.id.teksmd142);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             teksmd7.setText(Html.fromHtml(getString(R.string.teks7md), Html.FROM_HTML_MODE_COMPACT));
@@ -77,6 +78,7 @@ public class MedanListrik extends AppCompatActivity {
             teksmd120.setText(Html.fromHtml(getString(R.string.teks120md), Html.FROM_HTML_MODE_COMPACT));
             teksmd131.setText(Html.fromHtml(getString(R.string.teks131md), Html.FROM_HTML_MODE_COMPACT));
             teksmd140.setText(Html.fromHtml(getString(R.string.teks140md), Html.FROM_HTML_MODE_COMPACT));
+            teksmd142.setText(Html.fromHtml(getString(R.string.teks142md), Html.FROM_HTML_MODE_COMPACT));
         }else{
             teksmd7.setText(Html.fromHtml(getString(R.string.teks7md)));
             teksmd9.setText(Html.fromHtml(getString(R.string.teks9md)));
@@ -100,6 +102,7 @@ public class MedanListrik extends AppCompatActivity {
             teksmd120.setText(Html.fromHtml(getString(R.string.teks120md)));
             teksmd131.setText(Html.fromHtml(getString(R.string.teks131md)));
             teksmd140.setText(Html.fromHtml(getString(R.string.teks140md)));
+            teksmd142.setText(Html.fromHtml(getString(R.string.teks142md)));
         }
         final GifImageView gif = (GifImageView)findViewById(R.id.mdgif1);
         gif.setImageResource(R.drawable.img1);

@@ -102,4 +102,9 @@ Gambar 3.25. Jumlah fluks listrik yang melewati permukaan tertutup bergantung pa
 Untuk menerapkan Hukum Gauss dalam situasi ini, penting untuk mengenali bahwa muatan q<sub>in</sub> dalam permukaan gaussian dengan volume <i>V’</i> lebih kecil dari <i>Q</i>. Untuk menghitung q<i>in</i>, kita menggunakan fakta bahwa <i>q<sub>in</sub>=ρV'<i>;
         ]]>
     </string>
+    <string name="teks142md">
+        <![CDATA[
+ Gambar 3.28. Plot grafik E terhadap r untuk bola pejal bermuatan seragam yang terisolasi. Medan listrik di dalam bola (r < a) berbanding lurus dengan r. Medan diluar bola (r > a) sama dengan muatan titik Q yang bertempat di r = 0. (Sumber gambar: Serway, 2004)
+        ]]>
+    </string>
 </resources>

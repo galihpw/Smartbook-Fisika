@@ -2551,8 +2551,8 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintTop_toBottomOf="@id/teksmd126"/>
                 <ImageView
                     android:id="@+id/image80md"
-                    android:layout_width="200dp"
-                    android:layout_height="100dp"
+                    android:layout_width="300dp"
+                    android:layout_height="200dp"
                     android:background="@drawable/image79md"
                     android:layout_margin="4dp"
                     app:layout_constraintStart_toStartOf="parent"
@@ -2810,22 +2810,375 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/image82md"/>
-            </android.support.constraint.ConstraintLayout>
-            <android.support.constraint.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/clmd26">
                 <ImageView
                     android:id="@+id/image83md"
                     android:layout_width="350dp"
-                    android:layout_height="200dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/image83md"
+                    android:layout_margin="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd141"/>
+                <ImageView
+                    android:id="@+id/image84md"
+                    android:layout_width="350dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/image84md"
+                    android:layout_margin="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image83md"/>
+                <ImageView
+                    android:id="@+id/image85md"
+                    android:layout_width="350dp"
+                    android:layout_height="150dp"
                     android:background="@drawable/image85md"
                     android:layout_margin="4dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="@id/clmd26"/>
+                    app:layout_constraintTop_toBottomOf="@id/image84md"/>
+                <TextView
+                    android:id="@+id/teksmd142"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text=""
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image85md"/>
+                <TextView
+                    android:id="@+id/teksmd143"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="\u2022 Medan Listrik Pada Bola Konduktor Berongga"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd142"/>
+                <TextView
+                    android:id="@+id/teksmd144"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Muatan listrik pada bola konduktor berongga akan tersebar merata pada permukaan bola (Lihat gambar 3.20). Kuat medan listrik dapat diperolh dari persamaan Gauss di tempat-tempat tertentu yang akan memenuhi persamaan"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd143"/>
+                <ImageView
+                    android:id="@+id/image86md"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/image86md"
+                    android:layout_margin="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd144"/>
+                <TextView
+                    android:id="@+id/teksmd147"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Gambar 3.29. Muatan pada bola konduktor berongga tersebar merata di permukaan bola. (Sumber gambar: http://www.asikphysics.net/modul/index.php?id=23)"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image86md"/>
+                <ImageView
+                    android:id="@+id/image87md"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/image87md"
+                    android:layout_margin="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd147"/>
+                <ImageView
+                    android:id="@+id/image88md"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/image88md"
+                    android:layout_margin="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image87md"/>
+                <ImageView
+                    android:id="@+id/image89md"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/image89md"
+                    android:layout_margin="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image88md"/>
+                <TextView
+                    android:id="@+id/teksmd148"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Grafik hubungan medan listrik (E) dan jarak titik ke pusat bola (r) pada bola kondukor berongga adalah sebagai berikut"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image89md"/>
+                <ImageView
+                    android:id="@+id/image90md"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/image90md"
+                    android:layout_margin="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd148"/>
+                <TextView
+                    android:id="@+id/teksmd149"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Gambar 3.30. Grafik medan istrik terhadap jarak suatu titik uji pada bola konduktor berongga. (Sumber gambar: http://www.asikphysics.net/modul/index.php?id=23)"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image90md"/>
+                <TextView
+                    android:id="@+id/teksmd150"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="\u2022 Distribusi Muatan Pada Silinder Simetris"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd149"/>
+                <TextView
+                    android:id="@+id/teksmd151"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Medan listrik sejauh jarak r dari garis bermuatan positif dengan jarak tak hingga dan muatan konstan persatuan panjang λ adalah sebagai berikut ini"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd150"/>
+                <ImageView
+                    android:id="@+id/image91md"
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:background="@drawable/image91md"
+                    android:layout_margin="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd151"/>
+                <TextView
+                    android:id="@+id/teksmd152"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Gambar 3.31. (a) Garis terbatas bermuatan dilingkupi oleh permukaan Gauss kosentris dengan garis. (b) Tampilan medan dan listrik pada permukaan silinder yang besarnya konstan dan tegak lurus dengan permukaan. (Sumber gambar: Serway, 2004)"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image91md"/>
+                <ImageView
+                    android:id="@+id/image92md"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/image92md"
+                    android:layout_margin="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd152"/>
+                <ImageView
+                    android:id="@+id/image93md"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/image93md"
+                    android:layout_margin="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image92md"/>
+                <TextView
+                    android:id="@+id/teksmd153"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="\u2022 Distribusi Muatan pada Pelat Tak Hingga"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image93md"/>
+                <TextView
+                    android:id="@+id/teksmd154"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Medan listrik oleh pelat bermuatan positif tak hingga dengan kerapatan muatan permukaan σ, sebagai berikut"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd153"/>
+                <ImageView
+                    android:id="@+id/image94md"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/image94md"
+                    android:layout_margin="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd154"/>
+                <ImageView
+                    android:id="@+id/image95md"
+                    android:layout_width="300dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/image95md"
+                    android:layout_margin="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image94md"/>
+                <TextView
+                    android:id="@+id/teksmd155"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Gambar 3.32. Permukaan silinder gaussian menembus pelat tak hingga bermuatan. Fluks nya sebesar EA menembus setiap ujung dari permukaan Gaussian dan nol pada bagian kurva permukaan. (Sumber gambar: Serway, 2004)"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image95md"/>
+                <TextView
+                    android:id="@+id/teksmd156"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="\u2022 Bola di dalam Kulit Bola Sferis"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd155"/>
+                <TextView
+                    android:id="@+id/teksmd157"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Sebuah bola pejal dengan jari-jari a membawa muatan positif sebesar 2Q. Sebuah kulit bola dengan jari-jari dalam b sedangkan jari-jari luar c kosentris dengan bola pejal dan membawa muatan –Q (lihat gambar 3.33).  Medan listrik dari sistem ini dapat diperoleh dengan menerapkan Hukum Gauss sebagai berikut ini"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd156"/>
+                <ImageView
+                    android:id="@+id/image96md"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/image96md"
+                    android:layout_margin="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd157"/>
+                <TextView
+                    android:id="@+id/teksmd158"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Gambar 3.33. Bola pejal konduktor dengan radius a dan membawa muatan sebesar 2Q yang dilingkupi oleh kulit bola sferis yang membawa muatan sebesar –Q. (Sumber gambar: Serway, 2004)"
+                    android:textSize="12sp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image96md"/>
+                <ImageView
+                    android:id="@+id/image97md"
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/image97md"
+                    android:layout_margin="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd158"/>
+                <TextView
+                    android:id="@+id/teksmd159"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:text="Sedangkan untuk plot grafik E terhadap r dari sistem pada gambar 3.33, dapat dilihat pada gambar 3.34 dibawah ini."
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image97md"/>
+                <ImageView
+                    android:id="@+id/image98md"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/image96md"
+                    android:layout_margin="4dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd159"/>
+                <TextView
+                    android:id="@+id/teksmd160"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    android:text="Gambar 3.34. Grafik E terhadap r untuk sistem dua konduktor seperti yang ditunjukkan gambar 3.33. (Sumber gambar: Serway, 2004)"
+                    android:textAlignment="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/image98md"/>
             </android.support.constraint.ConstraintLayout>
-
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </android.support.constraint.ConstraintLayout>
