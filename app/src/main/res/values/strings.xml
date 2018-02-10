@@ -54,7 +54,52 @@ Karena percepatannya konstan, kita dapat menerapkan persamaan kinematika dalam 2
     </string>
     <string name="teks100md">
         <![CDATA[
-            Jumlah garis medan yang menembus sebuah permukaan sebanding dengan perkalian <i>E</i> dengan <i>A</i>. Perkalian skalar antara medan listrik <i>E</i> dan area permukaan <i>A</i> yang tegak lurus medannya dinamakan fluks listrik Φ<sub>E</sub>.
+Gambar 3.18. Garis medan merepresentasikan medan listrik yang menembus bidang area <i>A</i> yang tegak lurus terhadap medan <b>E</b>. Fluks listrik Φ<sub>E</sub> yang melewati area ini sama dengan <i>E</i> dikali A. (Sumber gambar: Serway, 2004)
+        ]]>
+    </string>
+    <string name="teks106md">
+        <![CDATA[
+Gambar 3.19. Garis medan mewakili medan listrik seragam yang menembus sebuah area <i>A</i> pada sudut <b>θ</b> terhadap medan. Karena jumlah garis yang menembus area <i>A’</i> sama jumlahnya dengan yang menembus <i>A</i>, fluks yang melewati <i>A’</i> sama dengan fluks yang melewati A dan persamaannya adalah <b>Φ<sub>E</sub>= <i>EA cos θ</i></b>.  (Sumber gambar: Serway, 2004)
+        ]]>
+    </string>
+    <string name="teks108md">
+        <![CDATA[
+        Gambar 3.20. Elemen kecil dari permukaan <i><b>∆A<sub>i</sub></b></i>. Medan listrik membuat sudut <i><b>θ<sub>i</sub></b></i> dengan vektor <i><b>∆A<sub>i</sub></b></i>, normal terhadap elemen permukaan, dan fluks yang melewati elemen sebanding dengan <i><b>E<sub>i</sub> ∆A<sub>i</sub>cos θ<sub>i</sub></b></i>. (Sumber gambar: Serway, 2004)
+        ]]>
+    </string>
+    <string name="teks109md">
+        <![CDATA[
+Definisi fluks pada persamaan 3.20 mempunyai arti untuk elemen area kecil. Elemen medan listrik E<sub>i</sub> membuat sudut sebesar θ<sub>i</sub> dengan vektor ∆A<sub>i</sub> (gambar 3.20). Fluks listrik ∆Φ<sub>E</sub> melalui elemen ini adalah
+        ]]>
+    </string>
+    <string name="teks111md">
+        <![CDATA[
+Gambar 3.21. Permukaan tertutup dalam medan listrik. Vektor permukaan <b>∆A<sub>i</sub></b> normal terhadap permukaan dan mengarah keluar. Fluks yang melewati elemen area bisa menjadi positif (elemen ①), nol (elemen ②), atau negatif (elemen ③). (Sumber gambar: Serway, 2004)
+        ]]>
+    </string>
+    <string name="teks112md">
+        <![CDATA[
+Jumlah fluks yang menembus permukaan sebanding dengan jumlah garis yang meninggalkan permukaan. Jika lebih banyak garis yang meninggalkan permukaan dibandingkan dengan yang menembus permukaan, maka total fluks adalah positif. Sebaliknya, jika lebih banyak garis yang menembus dibanding yang meninggalkan permukaan, maka fluks total adalah negatif. Menggunakan simbol ∮untuk merepresentasikan integral pada permukaan tertutup, kita dapat menuliskan fluks total Φ<sub>E</sub> yang melewati permukaan tertutup sebagai berikut
+        ]]>
+    </string>
+    <string name="teks114md">
+        <![CDATA[
+        Seperti sebelumnya yang telah dibahas, di setiap titik pada permukaan, <b>E</b> paralel terhadap vektor <b>∆A<sub>i</sub></b> dan mewakili elemen permukaan <b>∆A<sub>i</sub></b> yang dikelilingi titik permukaan. Maka dari itu,
+        ]]>
+    </string>
+    <string name="teks140md">
+        <![CDATA[
+Gambar 3.25. Jumlah fluks listrik yang melewati permukaan tertutup bergantung pada muatan didalam permukaan. Jumlah fluks yang melewati permukaan <i>S</i> adalah <b><i>q<sub>1</sub>/ϵ<sub>0</sub></i></b>, jumlah fluks yang melewati permukaan <i>S'</i> adalah <b>(q<sub>2</sub>+q<sub>3</sub>)/ϵ<sub>0</sub></b>, dan jumlah fluks yang melewati <i>S"</i> adalah nol. Muatan q<sub>4</sub> tidak berkontribusi terhadap fluks melalui permuaan mapun karena dia berada diluar semua permukaan. (Sumber gambar: Serway, 2004)
+        ]]>
+    </string>
+    <string name="teks120md">
+        <![CDATA[
+<b>jumlah fluks yang menembus segala permukaan tertutup yang dilingkupi oleh muatan titik <i>q</i>, yaitu <i>q/ε<sub>0</sub></i>, tidak bergantung pada bentuk permukaan tersebut.</b>
+        ]]>
+    </string>
+    <string name="teks131md">
+        <![CDATA[
+Untuk menerapkan Hukum Gauss dalam situasi ini, penting untuk mengenali bahwa muatan q<sub>in</sub> dalam permukaan gaussian dengan volume <i>V’</i> lebih kecil dari <i>Q</i>. Untuk menghitung q<i>in</i>, kita menggunakan fakta bahwa <i>q<sub>in</sub>=ρV'<i>;
         ]]>
     </string>
 </resources>

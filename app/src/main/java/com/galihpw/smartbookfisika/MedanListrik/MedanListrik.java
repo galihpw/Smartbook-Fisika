@@ -43,6 +43,16 @@ public class MedanListrik extends AppCompatActivity {
         TextView teksmd86 = (TextView)findViewById(R.id.teksmd86);
         TextView teksmd93 = (TextView)findViewById(R.id.teksmd93);
         TextView teksmd100 = (TextView)findViewById(R.id.teksmd100);
+        TextView teksmd106 = (TextView)findViewById(R.id.teksmd106);
+        TextView teksmd108 = (TextView)findViewById(R.id.teksmd108);
+        TextView teksmd109 = (TextView)findViewById(R.id.teksmd109);
+        TextView teksmd111 = (TextView)findViewById(R.id.teksmd111);
+        TextView teksmd112 = (TextView)findViewById(R.id.teksmd112);
+        TextView teksmd114 = (TextView)findViewById(R.id.teksmd114);
+        TextView teksmd120 = (TextView)findViewById(R.id.teksmd120);
+        TextView teksmd131 = (TextView)findViewById(R.id.teksmd131);
+        TextView teksmd140 = (TextView)findViewById(R.id.teksmd140);
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             teksmd7.setText(Html.fromHtml(getString(R.string.teks7md), Html.FROM_HTML_MODE_COMPACT));
             teksmd9.setText(Html.fromHtml(getString(R.string.teks9md), Html.FROM_HTML_MODE_COMPACT));
@@ -57,6 +67,16 @@ public class MedanListrik extends AppCompatActivity {
             teksmd86.setText(Html.fromHtml(getString(R.string.teks86md), Html.FROM_HTML_MODE_COMPACT));
             teksmd93.setText(Html.fromHtml(getString(R.string.teks92md), Html.FROM_HTML_MODE_COMPACT));
             teksmd100.setText(Html.fromHtml(getString(R.string.teks100md), Html.FROM_HTML_MODE_COMPACT));
+            teksmd100.setText(Html.fromHtml(getString(R.string.teks100md), Html.FROM_HTML_MODE_COMPACT));
+            teksmd106.setText(Html.fromHtml(getString(R.string.teks106md), Html.FROM_HTML_MODE_COMPACT));
+            teksmd108.setText(Html.fromHtml(getString(R.string.teks108md), Html.FROM_HTML_MODE_COMPACT));
+            teksmd109.setText(Html.fromHtml(getString(R.string.teks109md), Html.FROM_HTML_MODE_COMPACT));
+            teksmd111.setText(Html.fromHtml(getString(R.string.teks111md), Html.FROM_HTML_MODE_COMPACT));
+            teksmd112.setText(Html.fromHtml(getString(R.string.teks112md), Html.FROM_HTML_MODE_COMPACT));
+            teksmd114.setText(Html.fromHtml(getString(R.string.teks114md), Html.FROM_HTML_MODE_COMPACT));
+            teksmd120.setText(Html.fromHtml(getString(R.string.teks120md), Html.FROM_HTML_MODE_COMPACT));
+            teksmd131.setText(Html.fromHtml(getString(R.string.teks131md), Html.FROM_HTML_MODE_COMPACT));
+            teksmd140.setText(Html.fromHtml(getString(R.string.teks140md), Html.FROM_HTML_MODE_COMPACT));
         }else{
             teksmd7.setText(Html.fromHtml(getString(R.string.teks7md)));
             teksmd9.setText(Html.fromHtml(getString(R.string.teks9md)));
@@ -71,6 +91,15 @@ public class MedanListrik extends AppCompatActivity {
             teksmd86.setText(Html.fromHtml(getString(R.string.teks86md)));
             teksmd93.setText(Html.fromHtml(getString(R.string.teks92md)));
             teksmd100.setText(Html.fromHtml(getString(R.string.teks100md)));
+            teksmd106.setText(Html.fromHtml(getString(R.string.teks106md)));
+            teksmd108.setText(Html.fromHtml(getString(R.string.teks108md)));
+            teksmd109.setText(Html.fromHtml(getString(R.string.teks109md)));
+            teksmd111.setText(Html.fromHtml(getString(R.string.teks111md)));
+            teksmd112.setText(Html.fromHtml(getString(R.string.teks112md)));
+            teksmd114.setText(Html.fromHtml(getString(R.string.teks114md)));
+            teksmd120.setText(Html.fromHtml(getString(R.string.teks120md)));
+            teksmd131.setText(Html.fromHtml(getString(R.string.teks131md)));
+            teksmd140.setText(Html.fromHtml(getString(R.string.teks140md)));
         }
         final GifImageView gif = (GifImageView)findViewById(R.id.mdgif1);
         gif.setImageResource(R.drawable.img1);
