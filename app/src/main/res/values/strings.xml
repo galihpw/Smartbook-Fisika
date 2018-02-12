@@ -103,8 +103,17 @@ Untuk menerapkan Hukum Gauss dalam situasi ini, penting untuk mengenali bahwa mu
         ]]>
     </string>
     <string name="teks142md">
+        <![CDATA[Gambar 3.28. Plot grafik E terhadap r untuk bola pejal bermuatan seragam yang terisolasi. Medan listrik di dalam bola (r < a) berbanding lurus dengan r. Medan diluar bola (r > a) sama dengan muatan titik Q yang bertempat di r = 0. (Sumber gambar: Serway, 2004)
+        ]]>
+    </string>
+    <string name="teksep6">
         <![CDATA[
- Gambar 3.28. Plot grafik E terhadap r untuk bola pejal bermuatan seragam yang terisolasi. Medan listrik di dalam bola (r < a) berbanding lurus dengan r. Medan diluar bola (r > a) sama dengan muatan titik Q yang bertempat di r = 0. (Sumber gambar: Serway, 2004)
+            Ketika muatan uji q<sub>0</sub> ditempatkan pada medan listrik yang dihasilkan oleh distribusi muatan sumber, gaya listrik yang bekerja pada muatan uji tersebut adalah q<sub>0</sub> <b>E</b>. Gaya q<sub>0</sub> <b>E</b> adalah konservatif karena gaya interaksi antar muatan yang dijelaskan oleh Hukum Coulomb adalah konservatif. Ketika muatan uji dipindahkan dalam medan listrik oleh faktor eksternal, usaha yang dikerjakan oleh medan pada muatan sebanding dengan usaha negatif yang dikerjakan oleh faktor eksternal yang menyebabkan perpindahan. Situasi ini dapat dianalogikan dengan mengangkat sejumlah beban dengan massa <i>m</i> dalam pengaruh medan gravitasi.
+        ]]>
+    </string>
+    <string name="teksep9">
+        <![CDATA[
+Sebuah balon berisi helium yang bermuatan sebesar <i>q</i>= -5,5x10<sup>-8</sup> C, naik vertikal ke atas dari posisi awal <i>i</i> ke posisi akhir <i>f</i> sejauh 520 m. Medan listrik di atmosfer dekat permukaan bumi arahnya ke bawah dan besarnya seragam sebesar 150 N/C. Hitung perbedaan energi potensial listrik dari balon tersebut diantara kedua posisi <i>i</i> dan <i>f</i>.
         ]]>
     </string>
 </resources>

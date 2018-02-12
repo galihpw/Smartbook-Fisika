@@ -30,6 +30,12 @@ public class MenuLatihan extends AppCompatActivity {
     @BindView(R.id.latihanFoto)
     RelativeLayout latihanFoto;
 
+    @BindView(R.id.latihanFotoImage2)
+    ImageView imageLatihanFoto2;
+
+    @BindView(R.id.latihanFoto2)
+    RelativeLayout latihanFoto2;
+
     ActionBar actionBar;
 
     @Override
@@ -40,8 +46,9 @@ public class MenuLatihan extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         ButterKnife.bind(this);
 
-        Glide.with(this).load(R.drawable.latihan_soal).into(imageLatihanPG);
-        Glide.with(this).load(R.drawable.latihan_soal).into(imageLatihanFoto);
+        Glide.with(this).load(R.drawable.bgmateri1).into(imageLatihanPG);
+        Glide.with(this).load(R.drawable.bgmateri2).into(imageLatihanFoto);
+        Glide.with(this).load(R.drawable.bgmateri3).into(imageLatihanFoto2);
 
         latihanPG.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,6 +63,14 @@ public class MenuLatihan extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MenuLatihan.this, LatihanFotoActivity.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+            }
+        });
+        latihanFoto2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MenuLatihan.this, LatihanFotoActivity2.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
             }

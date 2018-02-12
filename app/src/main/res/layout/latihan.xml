@@ -63,7 +63,33 @@
                 android:layout_centerHorizontal="true"
                 android:background="@color/bgButton"
                 android:fontFamily="cursive"
-                android:text="Latihan Foto"
+                android:text="Latihan Essay 1"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/latihanFoto2"
+            android:layout_width="300dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="50dp">
+
+            <ImageView
+                android:id="@+id/latihanFotoImage2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/teksesaay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/bgButton"
+                android:fontFamily="cursive"
+                android:text="Latihan Essay 2"
                 android:textAlignment="center"
                 android:textColor="@android:color/white"
                 android:textSize="24sp" />

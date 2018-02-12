@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import com.bumptech.glide.Glide;
+import com.galihpw.smartbookfisika.EnergiPotensial.EnergiPotensial;
 import com.galihpw.smartbookfisika.MateriListrik.Materi1;
 import com.galihpw.smartbookfisika.MedanListrik.MedanListrik;
 
@@ -75,6 +76,14 @@ public class MenuMateri extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MenuMateri.this,MedanListrik.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+            }
+        });
+        materi4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MenuMateri.this,EnergiPotensial.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
             }

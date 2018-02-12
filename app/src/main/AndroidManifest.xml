@@ -5,17 +5,14 @@
     <!-- Internet Permission -->
     <uses-permission android:name="android.permission.INTERNET" />
 
-
     <application
         android:allowBackup="true"
-        android:hardwareAccelerated="false"
-        android:largeHeap="true"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:largeHeap="true"
-        android:hardwareAccelerated="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".SplashScreen"
@@ -28,6 +25,7 @@
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -59,7 +57,10 @@
             android:name=".MedanListrik.Ymedanlistrik"
             android:label=""
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MateriHukumColoumb.MateriHukumColoumb"></activity>
+        <activity android:name=".MateriHukumColoumb.MateriHukumColoumb" />
+        <activity android:name=".Kapasitor.Kapasitor" />
+        <activity android:name=".EnergiPotensial.EnergiPotensial"></activity>
+        <activity android:name=".LatihanFotoActivity2"></activity>
     </application>
 
 </manifest>
