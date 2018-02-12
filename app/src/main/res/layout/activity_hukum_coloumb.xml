@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.galihpw.smartbookfisika.Kapasitor.Kapasitor">
+    tools:context="com.galihpw.smartbookfisika.HukumColoumb.HukumColoumb">
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -46,7 +46,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="6sp"
-                    android:text="Kegiatan mengetik dengan PC komputer atau laptop merupakan kegitan yang kerap kali kita lakukan."
+                    android:text="Apakah kalian percaya atau tidak, wanita yang berada pada gambar di bawah ini sedang memegang benda bertegangan sangat tinggi? "
                     android:textAlignment="center"
                     android:textStyle="italic"
                     android:textSize="16sp"
@@ -57,14 +57,14 @@
                 <ImageView
                     android:id="@+id/imgka1"
                     android:layout_width="wrap_content"
-                    android:layout_height="150dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
                     android:src="@drawable/bgmateri1"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska2" />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska2"/>
 
                 <TextView
                     android:id="@+id/tekska3"
@@ -73,8 +73,7 @@
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
-                    android:text="Gambar 5.1. Keyboard laptop.
-Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapasitor-dan-keyboard.html"
+                    android:text="Sumber gambar:  Hewitt, 2006"
                     android:textAlignment="center"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -89,7 +88,8 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="6sp"
-                    android:text="Tapi tahukah kamu mengapa ketika kita mengetikkan huruf pada keyboard maka langsung muncul huruf yang kita mau? "
+                    android:text="Tapi mengapa wanita ini tidak “tersetrum”?
+Lalu, mengapa ketika wanita tersebut menyentuhkan tangannya pada benda tersebut, rambut wanita itu menjadi berdiri?"
                     android:textAlignment="center"
                     android:textStyle="italic"
                     android:textSize="16sp"
@@ -106,15 +106,33 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginTop="8dp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
+                    android:lineSpacingExtra="6sp"
+                    android:text="Sebenarnya apakah benda tersebut dan bagaimanakah cara kerja benda tersebut, sehingga rambut wanita itu menjadi berdiri? Lantas apakah hubungan fenomena tersebut dengan materi yang akan kita bahas?"
+                    android:textAlignment="center"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska4" />
+
+                <TextView
+                    android:id="@+id/tekshc6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
                     android:paddingBottom="16dp"
                     android:lineSpacingExtra="6sp"
-                    android:text="Temukan jawabannya di bab ini ya!"
+                    android:text="Temukan jawabannya pada bab ini!"
                     android:textAlignment="center"
                     android:textStyle="bold"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska4" />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska5" />
 
             </android.support.constraint.ConstraintLayout>
         </LinearLayout>

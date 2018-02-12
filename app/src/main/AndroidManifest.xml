@@ -41,6 +41,7 @@
             android:name=".MenuMateri"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -50,6 +51,7 @@
             android:name=".MenuLatihan"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme">
+
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -65,10 +67,10 @@
             android:name=".MedanListrik.Ymedanlistrik"
             android:label=""
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".MateriHukumColoumb.MateriHukumColoumb" />
         <activity android:name=".Kapasitor.Kapasitor" />
-        <activity android:name=".EnergiPotensial.EnergiPotensial"></activity>
-        <activity android:name=".LatihanFotoActivity2"></activity>
+        <activity android:name=".EnergiPotensial.EnergiPotensial" />
+        <activity android:name=".LatihanFotoActivity2" />
+        <activity android:name=".HukumColoumb.HukumColoumb"></activity>
     </application>
 
 </manifest>

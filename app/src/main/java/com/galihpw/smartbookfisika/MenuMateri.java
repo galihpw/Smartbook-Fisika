@@ -12,6 +12,8 @@ import android.widget.RelativeLayout;
 
 import com.bumptech.glide.Glide;
 import com.galihpw.smartbookfisika.EnergiPotensial.EnergiPotensial;
+import com.galihpw.smartbookfisika.HukumColoumb.HukumColoumb;
+import com.galihpw.smartbookfisika.Kapasitor.Kapasitor;
 import com.galihpw.smartbookfisika.MateriListrik.Materi1;
 import com.galihpw.smartbookfisika.MedanListrik.MedanListrik;
 
@@ -72,6 +74,14 @@ public class MenuMateri extends AppCompatActivity {
                 overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
             }
         });
+        materi2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MenuMateri.this,HukumColoumb.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+            }
+        });
         materi3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -84,6 +94,14 @@ public class MenuMateri extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MenuMateri.this,EnergiPotensial.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+            }
+        });
+        materi5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MenuMateri.this,Kapasitor.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
             }
