@@ -70,7 +70,7 @@ public class MenuLatihan extends AppCompatActivity {
         latihanFoto2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MenuLatihan.this, LatihanFotoActivity2.class);
+                Intent intent = new Intent(MenuLatihan.this, LatihanFotoActivity.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
             }

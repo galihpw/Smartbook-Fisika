@@ -41,7 +41,15 @@
             android:name=".MenuMateri"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme">
-
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.galihpw.smartbookfisika.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MenuLatihan"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

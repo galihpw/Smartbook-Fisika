@@ -118,7 +118,6 @@ public class MainActivity extends AppCompatActivity implements GridAdapter.ItemC
                 dots[position].setImageDrawable(ContextCompat.getDrawable(getApplicationContext(), R.drawable.active_dot));
 
             }
-
             @Override
             public void onPageScrollStateChanged(int state) {
 
@@ -144,8 +143,10 @@ public class MainActivity extends AppCompatActivity implements GridAdapter.ItemC
             startActivity(i);
             overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
         }
-        else if(position==1){
-
+        else if(position==2){
+            Intent i = new Intent(MainActivity.this, MenuLatihan.class);
+            startActivity(i);
+            overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
         }
     }
 
