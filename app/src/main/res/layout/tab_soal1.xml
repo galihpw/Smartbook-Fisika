@@ -6,118 +6,151 @@
     android:layout_height="match_parent"
     android:background="@color/backroundSoal">
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="cursive"
-        android:text="Soal 1"
-        android:textColor="@android:color/background_dark"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <FrameLayout
-        android:id="@+id/frameLayout"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.149">
-
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="match_parent"
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/hintButton"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="casual"
-            android:text="Apakan ini pertanyaan?"
-            android:textAlignment="center"
-            android:textColor="@android:color/background_dark"
-            android:textSize="20sp"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="99dp" />
-    </FrameLayout>
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:visibility="invisible"
+            app:fabSize="normal"
+            app:srcCompat="@mipmap/ic_launcher" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout"
-        app:layout_constraintVertical_bias="0.14999998">
-
-        <RadioGroup
-            android:id="@+id/rG"
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nestedScrollView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:fillViewport="true">
 
-            <RadioButton
-                android:id="@+id/a"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:layout_weight="1"
-                android:buttonTint="@android:color/background_light"
-                android:fontFamily="casual"
-                android:text="a. ya"
-                android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
-                tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="209dp" />
+                android:orientation="vertical">
 
-            <RadioButton
-                android:id="@+id/b"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:layout_weight="1"
-                android:buttonTint="@android:color/background_light"
-                android:fontFamily="casual"
-                android:text="b. bisa jadi"
-                android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
-                tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="260dp" />
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="cursive"
+                    android:text="Soal 1"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="24sp" />
 
-            <RadioButton
-                android:id="@+id/c"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:buttonTint="@android:color/background_light"
-                android:fontFamily="casual"
-                android:text="c. tidak"
-                android:textColor="@android:color/background_dark"
-                android:textSize="16sp"
-                tools:layout_editor_absoluteX="8dp"
-                tools:layout_editor_absoluteY="309dp" />
+                <FrameLayout
+                    android:id="@+id/frameLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="8dp">
 
-        </RadioGroup>
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Batang kaca menjadi bermuatan listrik positif ketika digosokkan dengan bulu. Apa yang terjadi pada batang kaca tersebut?"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="20sp"
+                        tools:layout_editor_absoluteX="1dp"
+                        tools:layout_editor_absoluteY="99dp" />
+                </FrameLayout>
 
-    </LinearLayout>
+                <RadioGroup
+                    android:id="@+id/rG"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp">
+
+                    <RadioButton
+                        android:id="@+id/a"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:buttonTint="@android:color/black"
+                        android:fontFamily="casual"
+                        android:text="Batang kaca bertambah elektronnya, karena mendapat tambahan elektron dari bulu pada saat penggosokan."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="16sp"
+                        tools:layout_editor_absoluteX="8dp"
+                        tools:layout_editor_absoluteY="209dp" />
+
+                    <RadioButton
+                        android:id="@+id/b"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:buttonTint="@android:color/black"
+                        android:fontFamily="casual"
+                        android:text="Bulu mendapat tambahan elektron saat digosokkan dengan batang kaca."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="16sp"
+                        tools:layout_editor_absoluteX="8dp"
+                        tools:layout_editor_absoluteY="260dp" />
+
+                    <RadioButton
+                        android:id="@+id/c"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:buttonTint="@android:color/black"
+                        android:fontFamily="casual"
+                        android:text="Batang kaca berkurang elektronnya, karena pada saat penggosokan dengan bulu, elektron dari batang kaca berpindah ke bulu."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="16sp"
+                        tools:layout_editor_absoluteX="8dp"
+                        tools:layout_editor_absoluteY="309dp" />
+
+                    <RadioButton
+                        android:id="@+id/d"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:buttonTint="@android:color/black"
+                        android:fontFamily="casual"
+                        android:text="Bulu melepaskan muatan protonnya saat digosokkan dengan batang kaca, proton dari batang kaca berpindah ke bulu."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="16sp"
+                        tools:layout_editor_absoluteX="8dp"
+                        tools:layout_editor_absoluteY="360dp" />
+
+                    <RadioButton
+                        android:id="@+id/e"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:layout_weight="1"
+                        android:buttonTint="@android:color/black"
+                        android:fontFamily="casual"
+                        android:text="Bulu melepaskan muatan protonnya saat digosokkan dengan batang kaca, proton dari batang kaca berpindah ke bulu."
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="16sp"
+                        tools:layout_editor_absoluteX="8dp"
+                        tools:layout_editor_absoluteY="409dp" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
