@@ -116,4 +116,65 @@ Untuk menerapkan Hukum Gauss dalam situasi ini, penting untuk mengenali bahwa mu
 Sebuah balon berisi helium yang bermuatan sebesar <i>q</i>= -5,5x10<sup>-8</sup> C, naik vertikal ke atas dari posisi awal <i>i</i> ke posisi akhir <i>f</i> sejauh 520 m. Medan listrik di atmosfer dekat permukaan bumi arahnya ke bawah dan besarnya seragam sebesar 150 N/C. Hitung perbedaan energi potensial listrik dari balon tersebut diantara kedua posisi <i>i</i> dan <i>f</i>.
         ]]>
     </string>
-</resources>
+    <string name="teksep16">
+        <![CDATA[
+        Tempat kedudukan titik-titik yang memiliki potensial listrik yang sama akan membentuk permukaan ekuipotensial, yang dapat berupa permukaan imajiner. Tidak ada usaha netto <i>W</i> yang dilakukan pada sebuah partikel bermuatan oleh medan listrik ketika partikel tersebut bergerak antara titik <i>i</i> dan titik <i>f</i> pada permukaan ekuipotensial yang sama. Hal ini didapatkan dari persamaan 4.5, bahwa <i>W</i> harus nol jika <i>V<sub>f</sub> = V<sub>i</sub></i>. Dikarenakan lintasan tidak bergantung pada usaha (sehingga tidak bergantung pula pada energi potensial dan potensial), <i>W=0</i> untuk setiap lintasan yang menghubungkan titik <i>i</i> dan titik <i>f</i> pada permukaan ekuipotensial yang diberikan.  Permukaan ekuipotensial tegak lurus pada medan listrik. Perhatikan gambar dibawah ini!
+        ]]>
+    </string>
+    <string name="teksep17">
+        <![CDATA[
+        Gambar 4.2. Porsi dari 4 permukaan ekuipotensial pada potensial listrik V<sub>1</sub>=100 V, V<sub>2</sub>= 80 V, V<sub>3</sub>= 60 V, dan V<sub>4</sub>= 40 V.
+        ]]>
+    </string>
+    <string name="teksep21">
+        <![CDATA[
+            Tentukan perbedaan potensial antara titik <i>i</i> dan <i>f</i> bila muatan <i>q<sub>0</sub></i> bergerak melalui <br>  a)	lintasan <i>if</i> , dan <br>b)	 lintasan <i>icf</i>
+        ]]>
+    </string>
+    <string name="teksep24">
+        <![CDATA[
+Gambar 4.5. (a) Muatan uji <i>q<sub>0</sub></i> berpindah dalam garis lurus dari titik <i>i</i> menuju ke titik <i>f</i>, sepanjang arah medan listrik eksternal seragam. (b) Muatan <i>q<sub>0</sub></i> berpindah sepanjang jalur <i>icf</i> dalam medan listrik yang sama.
+        ]]>
+    </string>
+    <string name="teksep28">
+        <![CDATA[
+Gambar 4.6. Beda potensial antara titik <i>A</i> dan <i>B</i> karena muatan titik <i>q</i> hanya bergantung pada koordinat awal dan akhir jari-jari <i>r<sub>A</sub></i> dan <i>r<sub>B</sub></i>. Dua buah lingkaran garis putus-putus merepresentasikan permukaan ekuipotensial.
+        ]]>
+    </string>
+    <string name="teksep39">
+        <![CDATA[
+Muatan Q<sub>1</sub> berada di titik A (0,5) sedangkan muatan Q<sub>2</sub> di titik B (12,0), kedua muatan tersebut besarnya masing-masing adalah Q1 = 30 dan Q2 = -10. Hitung potensial listrik di titik C (2,-2)!
+        ]]>
+    </string>
+    <string name="teksep44">
+        <![CDATA[
+Untuk mencari energi potensial listrik pada sistem dua muatan tersebut, sebelumnya kita harus membangun sistem, dimulai dari kedua muatan diletakkan berjauhan pada jarak tak hingga dalam keadaan diam. Ketika kita membawa <i>q<sub>1</sub></i> dari takhingga dan diletakkan di tempatnya, kita tidak melakukan usaha karena tidak ada gaya elektrostatik yang bekerja pada <i>q<sub>1</sub></i>. Namun, ketika kita membawa muatan <i>q<sub>2</sub></i> dari takhingga dan meletakkannya di tempatnya, kita pasti melakukan usaha karena <i>q<sub>1</sub></i> memberikan gaya listrik pada <i>q<sub>2</sub></i> selama pergerakan. </br>
+Usaha yang dilakukan adalah sebesar <i>q<sub>2</sub>V</i>, dimana <i>V</i> adalah potensial yang telah dihasilkan oleh <i>q<sub>1</sub></i> ketika kita meletakkan <i>q<sub>2</sub></i> ditempatnya, yaitu sebesar
+]]>
+    </string>
+    <string name="teksep53">
+        <![CDATA[
+        Gambar 4.12. Keping bermuatan seragam yang tegak lurus terhadap sumbu <i>x</i>. Perhitungan potensial listrik di setiap titik <i>P</i> pada sumbu <i>x</i> disederhanakan dengan membagi kepingan menjadii banyak cincin dengan radius r dan lebar dr, dengan luas <i><b>2πr dr</b></i>. Sumber gambar:: Serway,2004.
+        ]]>
+    </string>
+    <string name="teksep54">
+        <![CDATA[
+Area permukaan cincin adalah <i>dA=2πr dr</i>. Dari defininisi massa jenis muatan permukaan (lihat sub bab medan listrik pada distribusi muatan kontinu), kita tahu bahwa muatan pada cincin adalah <i>dq=σ dA=σ2πr dr</i>. Sehingga potensial di titik <i>P</i> yang diakibatkan oleh cincin tersebut adalah
+        ]]>
+    </string>
+    <string name="teksep55">
+        <![CDATA[
+Dimana <i>x</i> adalah konstanta dan <i>r</i> adalah variabel. Untuk mencari potensial listrik total di <i>P</i>, kita menjumlahkan semua cincin sehingga membentuk kepingan. Sehingga, kita integrasikan <i>dV</i> dari <i>r</i> = 0 sampai <i>r</i> = <i>a</i>:
+        ]]>
+    </string>
+    <string name="teksep57">
+        <![CDATA[
+            Sebuah batang dengan panjang <i>l</i> bertempat di sepanjang sumbu <i>x</i> yang memiliki muatan total sebesar <i>Q</i> dan kerapatan muatan linear seragam <i>λ=Q/l</i>. Potensial listrik di titik P yang bertempat di sumbu y adalah
+        ]]>
+    </string>
+    <string name="teksep58">
+        <![CDATA[
+Gambar 4.13. Muatan garis seragam dengan panjang <i><b>l</b></i> berada di sepanjang sumbu x. Untuk menghitung potensial listrik pada P , muatan pada garis dibagi menjadi beberapa segmen dengan panjang masing-masing dx dan membawa muatan sebesar <i><b>dq= λ dx dx</b></i>.
+        ]]>
+    </string>
+   </resources>
