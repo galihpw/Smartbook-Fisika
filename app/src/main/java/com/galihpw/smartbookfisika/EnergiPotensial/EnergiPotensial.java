@@ -42,6 +42,10 @@ public class EnergiPotensial extends AppCompatActivity {
     ImageView image38ep;
     @BindView(R.id.image40ep)
     ImageView image40ep;
+    @BindView(R.id.image44ep)
+    ImageView image44ep;
+    @BindView(R.id.image47ep)
+    ImageView image47ep;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,7 +59,11 @@ public class EnergiPotensial extends AppCompatActivity {
         TextView teksep28 = (TextView)findViewById(R.id.teksep28);
         TextView teksep39 = (TextView)findViewById(R.id.teksep39);
         TextView teksep44 = (TextView)findViewById(R.id.teksep44);
-
+        TextView teksep53 = (TextView)findViewById(R.id.teksep53);
+        TextView teksep54 = (TextView)findViewById(R.id.teksep54);
+        TextView teksep55 = (TextView)findViewById(R.id.teksep55);
+        TextView teksep57 = (TextView)findViewById(R.id.teksep57);
+        TextView teksep58 = (TextView)findViewById(R.id.teksep58);
 
         ButterKnife.bind(this);
         Glide.with(this).load(R.drawable.image1ep).into(image1ep);
@@ -72,6 +80,8 @@ public class EnergiPotensial extends AppCompatActivity {
         Glide.with(this).load(R.drawable.imageep35).into(image35ep);
         Glide.with(this).load(R.drawable.imageep38).into(image38ep);
         Glide.with(this).load(R.drawable.imageep40).into(image40ep);
+        Glide.with(this).load(R.drawable.imageep44).into(image44ep);
+        Glide.with(this).load(R.drawable.imageep47).into(image47ep);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             teksep6.setText(Html.fromHtml(getString(R.string.teksep6), Html.FROM_HTML_MODE_COMPACT));
@@ -83,6 +93,11 @@ public class EnergiPotensial extends AppCompatActivity {
             teksep28.setText(Html.fromHtml(getString(R.string.teksep28), Html.FROM_HTML_MODE_COMPACT));
             teksep39.setText(Html.fromHtml(getString(R.string.teksep39), Html.FROM_HTML_MODE_COMPACT));
             teksep44.setText(Html.fromHtml(getString(R.string.teksep44), Html.FROM_HTML_MODE_COMPACT));
+            teksep53.setText(Html.fromHtml(getString(R.string.teksep53), Html.FROM_HTML_MODE_COMPACT));
+            teksep54.setText(Html.fromHtml(getString(R.string.teksep54), Html.FROM_HTML_MODE_COMPACT));
+            teksep55.setText(Html.fromHtml(getString(R.string.teksep55), Html.FROM_HTML_MODE_COMPACT));
+            teksep57.setText(Html.fromHtml(getString(R.string.teksep57), Html.FROM_HTML_MODE_COMPACT));
+            teksep58.setText(Html.fromHtml(getString(R.string.teksep58), Html.FROM_HTML_MODE_COMPACT));
         }else {
             teksep6.setText(Html.fromHtml(getString(R.string.teksep6)));
             teksep9.setText(Html.fromHtml(getString(R.string.teksep9)));
@@ -93,6 +108,11 @@ public class EnergiPotensial extends AppCompatActivity {
             teksep28.setText(Html.fromHtml(getString(R.string.teksep28)));
             teksep39.setText(Html.fromHtml(getString(R.string.teksep39)));
             teksep44.setText(Html.fromHtml(getString(R.string.teksep44)));
+            teksep53.setText(Html.fromHtml(getString(R.string.teksep53)));
+            teksep54.setText(Html.fromHtml(getString(R.string.teksep54)));
+            teksep55.setText(Html.fromHtml(getString(R.string.teksep55)));
+            teksep57.setText(Html.fromHtml(getString(R.string.teksep57)));
+            teksep58.setText(Html.fromHtml(getString(R.string.teksep58)));
         }
     }
 }

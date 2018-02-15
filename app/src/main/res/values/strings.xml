@@ -152,4 +152,29 @@ Untuk mencari energi potensial listrik pada sistem dua muatan tersebut, sebelumn
 Usaha yang dilakukan adalah sebesar <i>q<sub>2</sub>V</i>, dimana <i>V</i> adalah potensial yang telah dihasilkan oleh <i>q<sub>1</sub></i> ketika kita meletakkan <i>q<sub>2</sub></i> ditempatnya, yaitu sebesar
 ]]>
     </string>
+    <string name="teksep53">
+        <![CDATA[
+        Gambar 4.12. Keping bermuatan seragam yang tegak lurus terhadap sumbu <i>x</i>. Perhitungan potensial listrik di setiap titik <i>P</i> pada sumbu <i>x</i> disederhanakan dengan membagi kepingan menjadii banyak cincin dengan radius r dan lebar dr, dengan luas <i><b>2πr dr</b></i>. Sumber gambar:: Serway,2004.
+        ]]>
+    </string>
+    <string name="teksep54">
+        <![CDATA[
+Area permukaan cincin adalah <i>dA=2πr dr</i>. Dari defininisi massa jenis muatan permukaan (lihat sub bab medan listrik pada distribusi muatan kontinu), kita tahu bahwa muatan pada cincin adalah <i>dq=σ dA=σ2πr dr</i>. Sehingga potensial di titik <i>P</i> yang diakibatkan oleh cincin tersebut adalah
+        ]]>
+    </string>
+    <string name="teksep55">
+        <![CDATA[
+Dimana <i>x</i> adalah konstanta dan <i>r</i> adalah variabel. Untuk mencari potensial listrik total di <i>P</i>, kita menjumlahkan semua cincin sehingga membentuk kepingan. Sehingga, kita integrasikan <i>dV</i> dari <i>r</i> = 0 sampai <i>r</i> = <i>a</i>:
+        ]]>
+    </string>
+    <string name="teksep57">
+        <![CDATA[
+            Sebuah batang dengan panjang <i>l</i> bertempat di sepanjang sumbu <i>x</i> yang memiliki muatan total sebesar <i>Q</i> dan kerapatan muatan linear seragam <i>λ=Q/l</i>. Potensial listrik di titik P yang bertempat di sumbu y adalah
+        ]]>
+    </string>
+    <string name="teksep58">
+        <![CDATA[
+Gambar 4.13. Muatan garis seragam dengan panjang <i><b>l</b></i> berada di sepanjang sumbu x. Untuk menghitung potensial listrik pada P , muatan pada garis dibagi menjadi beberapa segmen dengan panjang masing-masing dx dan membawa muatan sebesar <i><b>dq= λ dx dx</b></i>.
+        ]]>
+    </string>
    </resources>
