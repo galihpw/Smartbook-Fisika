@@ -1,5 +1,7 @@
 package com.galihpw.smartbookfisika.LatihanPG;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.design.widget.FloatingActionButton;
@@ -30,7 +32,7 @@ public class TabSoal1 extends Fragment {
     private RadioGroup rG;
     private RadioButton rB;
     private Button bSelesai;
-    int status = 0;
+    int countHint = 0;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -55,8 +57,11 @@ public class TabSoal1 extends Fragment {
                 if(rB.getText().equals("Batang kaca berkurang elektronnya, karena pada saat penggosokan dengan bulu, elektron dari batang kaca berpindah ke bulu.")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
                 }else{
+                    countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
-                    hintButton.setVisibility(View.VISIBLE);
+                    if(countHint <= 3) {
+                        hintButton.setVisibility(View.VISIBLE);
+                    }
                 }
             }
         });
@@ -64,7 +69,25 @@ public class TabSoal1 extends Fragment {
         hintButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                hintButton.setVisibility(View.INVISIBLE);
+                AlertDialog alertDialog = new AlertDialog.Builder(getActivity()).create();
+                alertDialog.setTitle("Hint");
+
+                if(countHint == 1) {
+                    alertDialog.setMessage("Lihat kembali video tribo electric effect pada bab 1, mengenai sifat kaca ketika digosokkan dengan bulu/sutera");
+                }else if(countHint == 2){
+                    alertDialog.setMessage("Elemen dalam atom benda yang mudah berpindah adalah elektron");
+                }else{
+                    alertDialog.setMessage("Kaca ketika digososokkan dengan bulu, akan bermuatan positif. Sedangkan bulu akan bermuatan negatif");
+                }
+
+                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                hintButton.setVisibility(View.INVISIBLE);
+                                dialog.dismiss();
+                            }
+                        });
+                alertDialog.show();
             }
         });
 

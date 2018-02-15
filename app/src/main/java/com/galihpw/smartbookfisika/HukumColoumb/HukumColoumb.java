@@ -14,11 +14,20 @@ import butterknife.ButterKnife;
 
 public class HukumColoumb extends AppCompatActivity {
 
-    @BindView(R.id.tekska1)
+    @BindView(R.id.tekshc1)
     TextView tekshc1;
 
-    @BindView(R.id.imgka1)
+    @BindView(R.id.imghc1)
     ImageView imghc1;
+
+    @BindView(R.id.imghc10)
+    ImageView imghc10;
+
+    @BindView(R.id.imghc11)
+    ImageView imghc11;
+
+    @BindView(R.id.imghc12)
+    ImageView imghc12;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +37,9 @@ public class HukumColoumb extends AppCompatActivity {
 
         ButterKnife.bind(this);
         Glide.with(this).load(R.drawable.imghc1).into(imghc1);
+        Glide.with(this).load(R.drawable.imghc10).into(imghc10);
+        Glide.with(this).load(R.drawable.imghc11).into(imghc11);
+        Glide.with(this).load(R.drawable.imghc12).into(imghc12);
 
         Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/Neat_Chalk.ttf");
         tekshc1.setTypeface(custom_font);

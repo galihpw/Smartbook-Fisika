@@ -20,7 +20,7 @@
                 android:id="@+id/clhc1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/bghc1"
+                android:background="@color/bgFDK"
                 tools:layout_editor_absoluteX="95dp"
                 tools:layout_editor_absoluteY="105dp">
 

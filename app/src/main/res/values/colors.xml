@@ -8,5 +8,6 @@
     <color name="colorTextDefault">#000000</color>
     <color name="backroundSoal">#fdf86f</color>
     <color name="transparent">#00FFFFFF</color>
-    <color name="bghc1">#ffcccd</color>
+    <color name="bgFDK">#ffcccd</color>
+    <color name="bgTK">#a2f7e9</color>
 </resources>
