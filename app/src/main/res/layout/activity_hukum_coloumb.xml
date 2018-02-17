@@ -430,6 +430,130 @@ Berikut ini adalah data eksperimen Coulomb yang dapat dilihat pada Tabel 1"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/tekshc17" />
 
+                <ImageView
+                    android:id="@+id/imgrmhc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/bgmateri1"
+                    app:layout_constraintEnd_toStartOf="@+id/tekshc19"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekshc18" />
+
+                <TextView
+                    android:id="@+id/tekshc19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="80dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="(2.1)"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc18" />
+
+                <TextView
+                    android:id="@+id/tekshc20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:lineSpacingExtra="6sp"
+                    android:text="Sedangkan, untuk menyelidiki bagaimana gaya bergantung pada besar muatannya, Coulomb menambahkan muatan kepada bola lain yang tidak bermuatan dengan ukuran yang sama dengan bola B. Ketika bola tersebut disentuhkan ke bola B, kedua bola membagi muatan yang telah ada dengan bola B. Sekarang bola B hanya memiliki separuh muatan semula. Maka, Coulomb menyimpulkan bahwa gaya antara A dan B menjadi separuh dari gaya antara A dan B semula dan besar gaya F_x berbanding langsung dengan muatan-muatannya."
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgrmhc1" />
+
+                <ImageView
+                    android:id="@+id/imgrmhc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/bgmateri1"
+                    app:layout_constraintEnd_toStartOf="@+id/tekshc21"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekshc20" />
+
+                <TextView
+                    android:id="@+id/tekshc21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="80dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="(2.2)"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc20" />
+
+                <TextView
+                    android:id="@+id/tekshc22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:lineSpacingExtra="6sp"
+                    android:text="Keterangan:
+F_x = gaya interaksi 2 benda bermuatan
+d = jarak antara 2 benda bermuatan
+q = simbol untuk benda bermuatan"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgrmhc2" />
+
+                <TextView
+                    android:id="@+id/tekshc23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:lineSpacingExtra="6sp"
+                    android:text="Setelah melakukan pengukuran yang sama, Coulomb menyimpulkan hasil eksperimennya dalam suatu hukum yang disebut Hukum Coulomb yaitu"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc22" />
+
+                <TextView
+                    android:id="@+id/tekshc24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:lineSpacingExtra="6sp"
+                    android:background="@color/colorAccent"
+                    android:text="“besarnya gaya antara muatan q_A dan q_B yang dipisahkan oleh jarak d, berbanding lurus dengan besarnya kedua muatan dan berbanding terbalik dengan kuadrat jarak yang memisahkan kedua muatan tersebut”, dapat ditulis sebagai berikut:"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc23" />
+
             </android.support.constraint.ConstraintLayout>
 
         </LinearLayout>
