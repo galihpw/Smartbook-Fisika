@@ -108,12 +108,28 @@ Untuk menerapkan Hukum Gauss dalam situasi ini, penting untuk mengenali bahwa mu
     </string>
     <string name="teksep6">
         <![CDATA[
-            Ketika muatan uji q<sub>0</sub> ditempatkan pada medan listrik yang dihasilkan oleh distribusi muatan sumber, gaya listrik yang bekerja pada muatan uji tersebut adalah q<sub>0</sub> <b>E</b>. Gaya q<sub>0</sub> <b>E</b> adalah konservatif karena gaya interaksi antar muatan yang dijelaskan oleh Hukum Coulomb adalah konservatif. Ketika muatan uji dipindahkan dalam medan listrik oleh faktor eksternal, usaha yang dikerjakan oleh medan pada muatan sebanding dengan usaha negatif yang dikerjakan oleh faktor eksternal yang menyebabkan perpindahan. Situasi ini dapat dianalogikan dengan mengangkat sejumlah beban dengan massa <i>m</i> dalam pengaruh medan gravitasi.
+        Energi potensial listrik didefinisikan sebagai berikut, jika muatan listrik <i>q</i> berada dalam ruang yang mengandung medan listrik E, maka energi potensial yang dimiliki muatan tersebut adalah
+        ]]>
+    </string>
+    <string name="teksep7">
+        <![CDATA[
+Kita akan menghitung energi potensial sebuah partikel yang bermuatan q yang berada pada jarak <i>r</i> dari muatan lain sebesar <i>Q</i>. Kedua muatan sama-sama berupa titik.
+<br><br>Kuat medan listrik di sekitar <i>Q</i> dapat dihitung dengan mudah dengan menggunakan hukum Coulomb. Kita dapatkan
+        ]]>
+    </string>
+    <string name="teksep100">
+        <![CDATA[
+Seringkali titik acuan diambil pada jarak tak berhingga, <i>r<sub>0</sub>=∞ </i><br>, dan potensial di titik ini diambil sama dengan nol, <i>U(∞)</i> =0. Jika kita lakukan hal tersebut maka diperoleh
         ]]>
     </string>
     <string name="teksep9">
         <![CDATA[
 Sebuah balon berisi helium yang bermuatan sebesar <i>q</i>= -5,5x10<sup>-8</sup> C, naik vertikal ke atas dari posisi awal <i>i</i> ke posisi akhir <i>f</i> sejauh 520 m. Medan listrik di atmosfer dekat permukaan bumi arahnya ke bawah dan besarnya seragam sebesar 150 N/C. Hitung perbedaan energi potensial listrik dari balon tersebut diantara kedua posisi <i>i</i> dan <i>f</i>.
+        ]]>
+    </string>
+    <string name="teksep12">
+        <![CDATA[
+<b>Potensial listrik didefinisikan sebagai energi potensial per satuan muatan listrik</b>. Dengan menggunakan, definisi energi potensial sebelumnya, maka definisi potensial listrik menjadi
         ]]>
     </string>
     <string name="teksep16">
@@ -177,4 +193,55 @@ Dimana <i>x</i> adalah konstanta dan <i>r</i> adalah variabel. Untuk mencari pot
 Gambar 4.13. Muatan garis seragam dengan panjang <i><b>l</b></i> berada di sepanjang sumbu x. Untuk menghitung potensial listrik pada P , muatan pada garis dibagi menjadi beberapa segmen dengan panjang masing-masing dx dan membawa muatan sebesar <i><b>dq= λ dx dx</b></i>.
         ]]>
     </string>
+    <string name="teksep59">
+        <![CDATA[
+            Untuk mendapatkan nilai potensial total di titik <i>P</i>, kita integralkan persamaan ini dari <i>x = 0</i> sampai  <i>x = l</i>. <i>k</i> dan <i>λ</i> adalah konstanta, sehingga kita mendapatkan
+        ]]>
+    </string>
+    <string name="teksep61">
+        <![CDATA[
+Sebuah bola sferis isolator pejal dengan radius <i>R</i> memiliki kerapatan muatan positif yang seragam dengan muatan total <i>Q</i>. Nilai potensial listrik pada titik diluar untuk <i>r > R</i> dan didalam bola yaitu <i>r < R</i> adalah sebagai berikut
+<br>*Ambillah potensial nol pada <i>r = ∞</i>
+<br><b>Potensial listik di luar bola <i>(r > R)</i> dan di permukaan bola <i>(r = R)</i>
+        ]]>
+    </string>
+    <string name="teksep62">
+        <![CDATA[
+      Gambar 4.14. Bola isolator bermuatan seragam dengan radius <i>R</i> dan total muatan <i>Q</i>. Potensial listrik yang dihasilkan oleh muatan <i>Q</i> pada titik <i>B</i> dan <i>C</i> adalah ekuivalen, namun tidak untuk titik <i>D</i>.
+        ]]>
+    </string>
+    <string name="teksep65">
+        <![CDATA[
+Karena potensial harus kontinu pada <i>r = R</i>, kita dapat menggunakan persamaan ini untuk mendapatkan potensial di permukaan bola sferis. Maka dari itu, potensial di titik C seperti pada gambar 4.14 adalah
+        ]]>
+    </string>
+    <string name="teksep66">
+        <![CDATA[
+Sedangkan <b>potensial listik di dalam bola (r < R) adalah</b><br>
+Kita menemukan bahwa besar medan listrik di dalam bola sferis bermuatan seragam adalah
+
+        ]]>
+    </string>
+    <string name="teksep72">
+        <![CDATA[
+Seperti pada gambar 4.18 , sepanjang permukaan benda konduktor yang berada alam satu jalur, <i><b>E</b></i> selalu tegak lurus pada perpindahan d<b>s</b>, karena itu <i><b>E</b>∙ds</i>=0
+        ]]>
+    </string>
+    <string name="teksep76">
+        <![CDATA[
+Gambar 4.19. (a) Kelebihan muatan pada sferis konduktor beradius <i>R</i> secara seragam terdistribusi di permukaannya. (b) Potensial listrik terhadap jarak <i>r</i> dari pusat sferis konduktor bermuatan. (c) Magnitudo medan listrik terhadap jarak <i>r</i> dari pusat sferis konduktor bermuatan.
+Sumber gambar: Serway, 2004.
+        ]]>
+    </string>
+    <string name="teksep81">
+    <![CDATA[
+Sebuah sambaran petir rata-rata memiliki Arus sebesar <b>20.000 ampere</b>. Selain itu, sambaran petir memiliki energi yang mampu menyalakan sebuah bola lampu 100 watt selama lebih dari 3 bulan. Dengan energi yang sangat besar ini, petir dapat menghancurkan benda-benda yang disambarnya dan bahkan dapat mengakibatkan kematian bagi makhluk hidup yang disambarnya .
+    ]]>
+    </string>
+    <string name="teksep90">
+        <![CDATA[
+<b>Saat lautan tersambar petir, listrik atau muatannya hanya berada pada permukaan lautan saja karena medan listrik di dalam lautan yang berupa konduktor adalah nol.</b> Muatan listrik/petir akan bergerak karena adanya medan listrik atau perbedaan potensial listrik. Jika medan listrik di dalam lautan adalah nol maka muatan listrik tidak akan sampai kedalam. Muatan listrik ini akan menyebar di permukaan lautan saja. Sehingga ikan-ikan yang berenang di dalam lautan malah aman.
+        ]]>
+    </string>
+
    </resources>
