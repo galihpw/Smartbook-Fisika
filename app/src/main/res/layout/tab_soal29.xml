@@ -43,15 +43,15 @@
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
                     android:fontFamily="cursive"
-                    android:text="Soal 6"
+                    android:text="Soal 29"
                     android:textAlignment="center"
                     android:textColor="@android:color/background_dark"
                     android:textSize="24sp" />
 
-                <FrameLayout
+                <android.support.constraint.ConstraintLayout
                     android:id="@+id/frameLayout"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
@@ -62,18 +62,39 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="casual"
-                        android:text="Kuat medan listrik di suatu titik P yang ditimbulkan oleh sebuah muatan q di titik asal O bila...
-\n(1) Arahnya menjauhi q ketika q positif dan menuju q ketika q negatif.
-\n(2) Berbanding lurus dengan q.
-\n(3) Berbanding terbalik dengan kuadrat jarak OP.
-\n(4) Arahnya sama dengan gaya Coulomb pada muatan q’ di P bila q positif, dan berlawanan dengan gaya Coulomb bila q negatif.
-\nPernyataan yang benar adalah…
-"                       android:textAlignment="center"
+                        android:text="Diberikan data sebagai berikut"
+                        android:textAlignment="center"
                         android:textColor="@android:color/background_dark"
                         android:textSize="20sp"
-                        tools:layout_editor_absoluteX="1dp"
-                        tools:layout_editor_absoluteY="99dp" />
-                </FrameLayout>
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@id/frameLayout" />
+
+                    <ImageView
+                        android:id="@+id/imagesoal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/soal29"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/textView14" />
+
+                    <TextView
+                        android:id="@+id/tekssoal11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="dimana,\n
+C = Kapasitas kapasitor (F)\n
+A = luas keping (m^2\n)
+d = jarak antara keping (m)\nMaka, pernyataan dibawah ini yang benar mengenai kapasitas kapasitor keping sejajar adalah… "
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="20sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/imagesoal" />
+                </android.support.constraint.ConstraintLayout>
 
                 <RadioGroup
                     android:id="@+id/rG"
@@ -90,7 +111,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="(1), (2), dan (3)"
+                        android:text="berbanding lurus dengan jarak antar keping sejajar dan luas kedua keping."
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
@@ -104,7 +125,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="(1) dan (3)"
+                        android:text="berbanding terbalik dengan beda potensial antara kedua kepingnya."
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
@@ -118,7 +139,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="(2) dan (4)"
+                        android:text="berbanding lurus dengan besar muatannya dan jarak antar kedua keping."
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
@@ -132,7 +153,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="(4) saja"
+                        android:text="makin besar apabila luas kedua keping diperbesar dan diperkecil jarak antar  kedua keping."
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
@@ -146,14 +167,13 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="Semua benar"
+                        android:text="tidak bergantung pada jenis medium antara kedua keping."
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
                         tools:layout_editor_absoluteY="409dp" />
 
                 </RadioGroup>
-
             </LinearLayout>
         </android.support.v4.widget.NestedScrollView>
     </RelativeLayout>

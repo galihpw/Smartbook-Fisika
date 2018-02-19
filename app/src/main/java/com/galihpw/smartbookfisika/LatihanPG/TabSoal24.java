@@ -1,9 +1,5 @@
 package com.galihpw.smartbookfisika.LatihanPG;
 
-/**
- * Created by Sutrisna Aji on 19/02/2018.
- */
-
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -14,8 +10,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.galihpw.smartbookfisika.R;
@@ -23,8 +21,11 @@ import com.galihpw.smartbookfisika.R;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * Created by GalihPW on 24/04/2017.
+ */
 
-public class TabSoal10 extends Fragment {
+public class TabSoal24 extends Fragment {
 
     @BindView(R.id.hintButton)
     FloatingActionButton hintButton;
@@ -37,7 +38,7 @@ public class TabSoal10 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        final View rootView = inflater.inflate(R.layout.tab_soal10, container, false);
+        final View rootView = inflater.inflate(R.layout.tab_soal24, container, false);
 
         ButterKnife.bind(this,rootView);
 
@@ -54,18 +55,17 @@ public class TabSoal10 extends Fragment {
                 // mencari radio button
                 rB = (RadioButton) rootView.findViewById(selectedId);
 
-                if(rB.getText().equals("Kapasitansi tidak berubah")){
+                if(rB.getText().equals("Berlawanan arah dengan E")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
-                    if(countHint <= 1) {
+                    if(countHint <= 3) {
                         hintButton.setVisibility(View.VISIBLE);
                     }
                 }
             }
         });
-
         hintButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -73,7 +73,11 @@ public class TabSoal10 extends Fragment {
                 alertDialog.setTitle("Hint");
 
                 if(countHint == 1) {
-                    alertDialog.setMessage("Maaf No Hints");
+                    alertDialog.setMessage("Gaya listrik F selalu sejajar dengan medan listrik E. .");
+                }else if(countHint == 2){
+                    alertDialog.setMessage("Arah E ke kanan, berarti E keluar dari muatan positif menuju muatan negatif");
+                }else{
+                    alertDialog.setMessage("Sedangkan arah gaya listrik yang dialami muatan negatif/elektron akan menjauhi muatan negatif dan mendekati muatan positif.");
                 }
 
                 alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
@@ -86,7 +90,6 @@ public class TabSoal10 extends Fragment {
                 alertDialog.show();
             }
         });
-
         return rootView;
     }
 }

@@ -24,7 +24,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 
-public class TabSoal10 extends Fragment {
+public class TabSoal11 extends Fragment {
 
     @BindView(R.id.hintButton)
     FloatingActionButton hintButton;
@@ -37,7 +37,7 @@ public class TabSoal10 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        final View rootView = inflater.inflate(R.layout.tab_soal10, container, false);
+        final View rootView = inflater.inflate(R.layout.tab_soal11, container, false);
 
         ButterKnife.bind(this,rootView);
 
@@ -54,12 +54,12 @@ public class TabSoal10 extends Fragment {
                 // mencari radio button
                 rB = (RadioButton) rootView.findViewById(selectedId);
 
-                if(rB.getText().equals("Kapasitansi tidak berubah")){
+                if(rB.getText().equals("Pada saat penggosokan, elektron pada batang kaca berpindah ke bulu.")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
-                    if(countHint <= 1) {
+                    if(countHint <= 3) {
                         hintButton.setVisibility(View.VISIBLE);
                     }
                 }
@@ -73,7 +73,11 @@ public class TabSoal10 extends Fragment {
                 alertDialog.setTitle("Hint");
 
                 if(countHint == 1) {
-                    alertDialog.setMessage("Maaf No Hints");
+                    alertDialog.setMessage("Lihat kembali video tribo electric effect pada bab 1, mengenai sifat kaca ketika digosokkan dengan bulu/sutera.");
+                }else if(countHint==2){
+                    alertDialog.setMessage("Elemen dalam atom benda yang mudah berpindah adalah elektron.");
+                }else{
+                    alertDialog.setMessage("Kaca ketika digososokkan dengan bulu, akan bermuatan positif. Sedangkan bulu akan bermuatan negatif.");
                 }
 
                 alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",

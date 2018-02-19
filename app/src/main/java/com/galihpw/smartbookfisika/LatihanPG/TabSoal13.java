@@ -1,9 +1,5 @@
 package com.galihpw.smartbookfisika.LatihanPG;
 
-/**
- * Created by Sutrisna Aji on 19/02/2018.
- */
-
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -14,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
@@ -23,9 +20,11 @@ import com.galihpw.smartbookfisika.R;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * Created by Sutrisna Aji on 19/02/2018.
+ */
 
-public class TabSoal10 extends Fragment {
-
+public class TabSoal13 extends Fragment {
     @BindView(R.id.hintButton)
     FloatingActionButton hintButton;
 
@@ -37,7 +36,7 @@ public class TabSoal10 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        final View rootView = inflater.inflate(R.layout.tab_soal10, container, false);
+        final View rootView = inflater.inflate(R.layout.tab_soal13, container, false);
 
         ButterKnife.bind(this,rootView);
 
@@ -54,12 +53,12 @@ public class TabSoal10 extends Fragment {
                 // mencari radio button
                 rB = (RadioButton) rootView.findViewById(selectedId);
 
-                if(rB.getText().equals("Kapasitansi tidak berubah")){
+                if(rB.getText().equals("Xdg/V")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
-                    if(countHint <= 1) {
+                    if(countHint <= 4) {
                         hintButton.setVisibility(View.VISIBLE);
                     }
                 }
@@ -69,21 +68,28 @@ public class TabSoal10 extends Fragment {
         hintButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AlertDialog alertDialog = new AlertDialog.Builder(getActivity()).create();
-                alertDialog.setTitle("Hint");
-
+                final AlertDialog.Builder alertadd = new AlertDialog.Builder(getActivity());
+                LayoutInflater factory = LayoutInflater.from(getActivity());
+                alertadd.setTitle("Hint");
+                view = factory.inflate(R.layout.hintgambar, null);
+                alertadd.setView(view);
+                ImageView image = (ImageView) view.findViewById(R.id.dialog_imageview);
                 if(countHint == 1) {
-                    alertDialog.setMessage("Maaf No Hints");
+                    image.setImageResource(R.drawable.soalhint41);
+                }else if(countHint == 2){
+                    image.setImageResource(R.drawable.soalhint42);
+                }else if(countHint==3){
+                    image.setImageResource(R.drawable.soalhint43);
+                }else{
+                    image.setImageResource(R.drawable.soalhint44);
                 }
-
-                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int which) {
-                                hintButton.setVisibility(View.INVISIBLE);
-                                dialog.dismiss();
-                            }
-                        });
-                alertDialog.show();
+                alertadd.setNeutralButton("Ok", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dlg, int sumthin) {
+                        hintButton.setVisibility(View.INVISIBLE);
+                        dlg.dismiss();
+                    }
+                });
+                alertadd.show();
             }
         });
 

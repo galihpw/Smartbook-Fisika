@@ -1,9 +1,5 @@
 package com.galihpw.smartbookfisika.LatihanPG;
 
-/**
- * Created by Sutrisna Aji on 19/02/2018.
- */
-
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -14,8 +10,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.galihpw.smartbookfisika.R;
@@ -23,8 +21,11 @@ import com.galihpw.smartbookfisika.R;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * Created by GalihPW on 24/04/2017.
+ */
 
-public class TabSoal10 extends Fragment {
+public class TabSoal22 extends Fragment {
 
     @BindView(R.id.hintButton)
     FloatingActionButton hintButton;
@@ -37,7 +38,7 @@ public class TabSoal10 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        final View rootView = inflater.inflate(R.layout.tab_soal10, container, false);
+        final View rootView = inflater.inflate(R.layout.tab_soal22, container, false);
 
         ButterKnife.bind(this,rootView);
 
@@ -54,7 +55,7 @@ public class TabSoal10 extends Fragment {
                 // mencari radio button
                 rB = (RadioButton) rootView.findViewById(selectedId);
 
-                if(rB.getText().equals("Kapasitansi tidak berubah")){
+                if(rB.getText().equals("Besar gaya interaksi antara 2 muatan listrik berbanding terbalik dengan kuadrat jarak antar 2 muatan listrik tersebut r.")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
                 }else{
                     countHint++;
@@ -73,7 +74,7 @@ public class TabSoal10 extends Fragment {
                 alertDialog.setTitle("Hint");
 
                 if(countHint == 1) {
-                    alertDialog.setMessage("Maaf No Hints");
+                    alertDialog.setMessage("Lihat kembali materi bab 2 Hukum Coulomb");
                 }
 
                 alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
@@ -86,7 +87,6 @@ public class TabSoal10 extends Fragment {
                 alertDialog.show();
             }
         });
-
         return rootView;
     }
 }

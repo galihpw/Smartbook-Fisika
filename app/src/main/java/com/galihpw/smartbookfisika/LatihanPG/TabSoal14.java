@@ -24,7 +24,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 
-public class TabSoal10 extends Fragment {
+public class TabSoal14 extends Fragment {
 
     @BindView(R.id.hintButton)
     FloatingActionButton hintButton;
@@ -37,7 +37,7 @@ public class TabSoal10 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        final View rootView = inflater.inflate(R.layout.tab_soal10, container, false);
+        final View rootView = inflater.inflate(R.layout.tab_soal14, container, false);
 
         ButterKnife.bind(this,rootView);
 
@@ -54,12 +54,12 @@ public class TabSoal10 extends Fragment {
                 // mencari radio button
                 rB = (RadioButton) rootView.findViewById(selectedId);
 
-                if(rB.getText().equals("Kapasitansi tidak berubah")){
+                if(rB.getText().equals("Berlawanan arah dengan kuat medan listrik E.")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
-                    if(countHint <= 1) {
+                    if(countHint <= 3) {
                         hintButton.setVisibility(View.VISIBLE);
                     }
                 }
@@ -73,7 +73,11 @@ public class TabSoal10 extends Fragment {
                 alertDialog.setTitle("Hint");
 
                 if(countHint == 1) {
-                    alertDialog.setMessage("Maaf No Hints");
+                    alertDialog.setMessage("Gaya listrik F selalu sejajar dengan medan listrik E. ");
+                }else if(countHint==2){
+                    alertDialog.setMessage("Jika muatannya negatif (elektron) maka, arah gaya F akan menjauhi pelat negatif, dan mendekati pelat yang positif");
+                }else{
+                    alertDialog.setMessage("Sebaliknya, jika muatannya positif, arah gaya F akan mendekati pelat negatif dan menjauhi pelat positif.");
                 }
 
                 alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",

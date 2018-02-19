@@ -24,7 +24,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 
-public class TabSoal10 extends Fragment {
+public class TabSoal12 extends Fragment {
 
     @BindView(R.id.hintButton)
     FloatingActionButton hintButton;
@@ -37,7 +37,7 @@ public class TabSoal10 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        final View rootView = inflater.inflate(R.layout.tab_soal10, container, false);
+        final View rootView = inflater.inflate(R.layout.tab_soal12, container, false);
 
         ButterKnife.bind(this,rootView);
 
@@ -54,7 +54,7 @@ public class TabSoal10 extends Fragment {
                 // mencari radio button
                 rB = (RadioButton) rootView.findViewById(selectedId);
 
-                if(rB.getText().equals("Kapasitansi tidak berubah")){
+                if(rB.getText().equals("(3)")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
                 }else{
                     countHint++;
@@ -73,9 +73,8 @@ public class TabSoal10 extends Fragment {
                 alertDialog.setTitle("Hint");
 
                 if(countHint == 1) {
-                    alertDialog.setMessage("Maaf No Hints");
+                    alertDialog.setMessage("Lihat kembali bab 2 Hukum Coulomb");
                 }
-
                 alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
