@@ -43,7 +43,7 @@
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
                     android:fontFamily="cursive"
-                    android:text="Soal 1"
+                    android:text="Soal 8"
                     android:textAlignment="center"
                     android:textColor="@android:color/background_dark"
                     android:textSize="24sp" />
@@ -51,23 +51,17 @@
                 <FrameLayout
                     android:id="@+id/frameLayout"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginBottom="16dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginTop="8dp">
 
-                    <TextView
-                        android:id="@+id/textView14"
+                    <ImageView
+                        android:id="@+id/imagesoal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:fontFamily="casual"
-                        android:text="Batang kaca menjadi bermuatan listrik positif ketika digosokkan dengan bulu. Apa yang terjadi pada batang kaca tersebut?"
-                        android:textAlignment="center"
-                        android:textColor="@android:color/background_dark"
-                        android:textSize="20sp"
-                        tools:layout_editor_absoluteX="1dp"
-                        tools:layout_editor_absoluteY="99dp" />
+                        android:background="@drawable/soal8" />
                 </FrameLayout>
 
                 <RadioGroup
@@ -85,7 +79,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="Batang kaca bertambah elektronnya, karena mendapat tambahan elektron dari bulu pada saat penggosokan."
+                        android:text="100 volt"
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
@@ -99,7 +93,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="Bulu mendapat tambahan elektron saat digosokkan dengan batang kaca."
+                        android:text="150 volt"
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
@@ -113,7 +107,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="Batang kaca berkurang elektronnya, karena pada saat penggosokan dengan bulu, elektron dari batang kaca berpindah ke bulu."
+                        android:text="200 volt"
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
@@ -127,7 +121,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="Bulu melepaskan muatan protonnya saat digosokkan dengan batang kaca, proton dari batang kaca berpindah ke bulu."
+                        android:text="300 volt"
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
@@ -141,7 +135,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="Bulu melepaskan muatan protonnya saat digosokkan dengan batang kaca, proton dari batang kaca berpindah ke bulu."
+                        android:text="350 volt"
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"

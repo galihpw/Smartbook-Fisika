@@ -43,7 +43,7 @@
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
                     android:fontFamily="cursive"
-                    android:text="Soal 1"
+                    android:text="Soal 6"
                     android:textAlignment="center"
                     android:textColor="@android:color/background_dark"
                     android:textSize="24sp" />
@@ -62,7 +62,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="casual"
-                        android:text="Batang kaca menjadi bermuatan listrik positif ketika digosokkan dengan bulu. Apa yang terjadi pada batang kaca tersebut?"
+                        android:text="Kuat medan listrik di suatu titik P yang ditimbulkan oleh sebuah muatan q di titik asal O bila...
+\n(1)	Arahnya menjauhi q ketika q positif dan menuju q ketika q negatif.
+\n(2)	Berbanding lurus dengan q.
+\n(3)	Berbanding terbalik dengan kuadrat jarak OP.
+\n(4)	Arahnya sama dengan gaya Coulomb pada muatan q’ di P bila q positif, dan berlawanan dengan gaya Coulomb bila q negatif.
+\nPernyataan yang benar adalah…
+"
                         android:textAlignment="center"
                         android:textColor="@android:color/background_dark"
                         android:textSize="20sp"
@@ -85,7 +91,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="Batang kaca bertambah elektronnya, karena mendapat tambahan elektron dari bulu pada saat penggosokan."
+                        android:text="(1), (2), dan (3)"
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
@@ -99,7 +105,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="Bulu mendapat tambahan elektron saat digosokkan dengan batang kaca."
+                        android:text="(1) dan (3)"
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
@@ -113,7 +119,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="Batang kaca berkurang elektronnya, karena pada saat penggosokan dengan bulu, elektron dari batang kaca berpindah ke bulu."
+                        android:text="(2) dan (4)"
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
@@ -127,7 +133,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="Bulu melepaskan muatan protonnya saat digosokkan dengan batang kaca, proton dari batang kaca berpindah ke bulu."
+                        android:text="(4) saja"
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
@@ -141,7 +147,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="Bulu melepaskan muatan protonnya saat digosokkan dengan batang kaca, proton dari batang kaca berpindah ke bulu."
+                        android:text="Semua benar"
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"

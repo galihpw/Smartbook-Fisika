@@ -12,6 +12,15 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.galihpw.smartbookfisika.LatihanPG.TabSoal1;
+import com.galihpw.smartbookfisika.LatihanPG.TabSoal10;
+import com.galihpw.smartbookfisika.LatihanPG.TabSoal2;
+import com.galihpw.smartbookfisika.LatihanPG.TabSoal3;
+import com.galihpw.smartbookfisika.LatihanPG.TabSoal4;
+import com.galihpw.smartbookfisika.LatihanPG.TabSoal5;
+import com.galihpw.smartbookfisika.LatihanPG.TabSoal6;
+import com.galihpw.smartbookfisika.LatihanPG.TabSoal7;
+import com.galihpw.smartbookfisika.LatihanPG.TabSoal8;
+import com.galihpw.smartbookfisika.LatihanPG.TabSoal9;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -106,6 +115,33 @@ public class LatihanPGActivity extends AppCompatActivity {
                 case 0:
                     TabSoal1 soal1 = new TabSoal1();
                     return soal1;
+                case 1:
+                    TabSoal2 soal2 = new TabSoal2();
+                    return soal2;
+                case 2:
+                    TabSoal3 soal3 = new TabSoal3();
+                    return soal3;
+                case 3:
+                    TabSoal4 soal4 = new TabSoal4();
+                    return soal4;
+                case 4:
+                    TabSoal5 soal5 = new TabSoal5();
+                    return soal5;
+                case 5:
+                    TabSoal6 soal6 = new TabSoal6();
+                    return soal6;
+                case 6:
+                    TabSoal7 soal7 = new TabSoal7();
+                    return soal7;
+                case 7:
+                    TabSoal8 soal8 = new TabSoal8();
+                    return soal8;
+                case 8:
+                    TabSoal9 soal9 = new TabSoal9();
+                    return soal9;
+                case 9:
+                    TabSoal10 soal10 = new TabSoal10();
+                    return soal10;
                 default:
                     return null;
             }
