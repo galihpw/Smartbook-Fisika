@@ -25,11 +25,6 @@
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".LatihanPGActivity"
@@ -69,7 +64,13 @@
             android:name=".MedanListrik.Ymedanlistrik"
             android:label=""
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Kapasitor.Kapasitor" />
+        <activity android:name=".Kapasitor.Kapasitor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".EnergiPotensial.EnergiPotensial">
         </activity>
         <activity android:name=".LatihanFotoActivity2" />

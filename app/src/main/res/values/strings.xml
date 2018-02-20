@@ -243,5 +243,92 @@ Sebuah sambaran petir rata-rata memiliki Arus sebesar <b>20.000 ampere</b>. Sela
 <b>Saat lautan tersambar petir, listrik atau muatannya hanya berada pada permukaan lautan saja karena medan listrik di dalam lautan yang berupa konduktor adalah nol.</b> Muatan listrik/petir akan bergerak karena adanya medan listrik atau perbedaan potensial listrik. Jika medan listrik di dalam lautan adalah nol maka muatan listrik tidak akan sampai kedalam. Muatan listrik ini akan menyebar di permukaan lautan saja. Sehingga ikan-ikan yang berenang di dalam lautan malah aman.
         ]]>
     </string>
+    <string name="tekska26">
+     <![CDATA[
+dengan ε<sub>0</sub> adalah permitivitas vakum.<br>
+Dengan demikian, beda potensial antara dua pelat kapasitor adalah
+     ]]>
+ </string>
+    <string name="tekska32">
+        <![CDATA[
+      Sebuah kapasitor pelat sejajar dengan udara diantara pelatnya mempunyai luas <i>A</i>=2,00×10<sup>-4</sup> m<sup>2</sup> dan jarak antar pelat <i>d</i> = 1,00 mm. Tentukanlah kapasitansinya!
+        ]]>
+    </string>
+    <string name="tekska53">
+        <![CDATA[
+Gambar 5.9. (a) Rangkaian paralel dari dua kapasitor pada rangkaian listrik dengan beda potensial <i><b>∆V</b></i> di ujung-ujung baterainya. (b) Diagram rangkaian kapasitor paralel. (c) Kapasitansi pengganti <b>C<sub>p</sub>=C<sub>1</sub>+C<sub>2</sub></b> (sumber gambar: Serway, 2004).
+        ]]>
+    </string>
+    <string name="tekska64">
+        <![CDATA[
+Jika terdapat N kapasitor yang disusun secara seri maka kapasitansi pengganti, C<sub>p</sub> , memenuhi
+        ]]>
+    </string>
+    <string name="tekska69">
+        <![CDATA[
+Diberikan C<sub>1</sub> = C<sub>2</sub>= C<sub>2</sub> = 1 mF<br><br>
+Susuan-susuan yang mungkin sebagai berikut
+        ]]>
+    </string>
+    <string name="tekska71">
+        <![CDATA[
+	(a) Ke tiga kapasitor disusun secara seri, sehingga kapasitor pengganti, C<sub>p</sub>, memenuhi
+        ]]>
+    </string>
+    <string name="tekska72">
+        <![CDATA[
+(b)	Kapasitor C<sub>2</sub> dan C<sub>3</sub> diparalel kemudian diseri dengan C<sub>1</sub><br><br>
+Susunan parallel C<sub>2</sub> dan C<sub>3</sub> menghasilkan kapasitansi total C yang memenuhi
 
-   </resources>
+        ]]>
+    </string>
+    <string name="tekska76">
+        <![CDATA[
+	Dua kapasitor disusun seri kemudian disusun paralel dengan kapasitor ketiga<br>
+Kapasitansi total C<sub>1</sub> dan C<sub>2</sub> yang disusun seri memenuhi
+        ]]>
+    </string>
+    <string name="tekska77">
+        <![CDATA[
+C\' dan C<sub>3</sub> disusun secara paralel sehingga menghasilkan kapasitansi total
+        ]]>
+    </string>
+    <string name="tekska93">
+        <![CDATA[
+<b>Dielektrik adalah isolator yang memisahkan kedua pelat/ lembar konduktor pada kapasitor.</b> Sedangkan isolator merupakan bahan yang tidak dapat menghantarkan arus listrik, misalnya plastik, kaca, kertas, atau kayu. Fungsi dielektrik adalah memperbesar kapasitansi sehingga kapasitor dapat menyimpan banyak muatan listrik dan energi potensial listrik.
+        ]]>
+    </string>
+    <string name="tekska94">
+        <![CDATA[
+Gambar 5.16. Kapasitor yang sudah termuati (a) sebelum, dan (b) sesudah disisipkan dielektrik diantara kedua pelat. Muatan pada kedua pelat tetap tidak dimuati, namun beda potensial menurun dari <i>∆V  = ∆V<sub>0</sub>/κ</i>. Sehingga kapasitansi naik dari <i>C<sub>0</sub></i> ke <i>κ C<sub>0</sub></i> (sumber gambar: Serway, 2004).
+        ]]>
+    </string>
+    <string name="tekska97">
+    <![CDATA[
+<i>Mengapa kapasitansi kapasitor bertambah setelah dielektrik ditempatkan diantara kedua pelat/lembar konduktor?</i> Untuk menjawab hal tersebut mari kita review kembali pelajaran tentang muatan listrik.<br><br>Muatan listrik sejenis tolak menolak sedangkan muatan listrik tak sejenis tarik menarik. Ambillah kasus ketika kita mendekatkan penggaris plastik yang sudah digosokkan terlebih dahulu dengan rambut kita, dapat menarik potongan kertas yang ada di dekatnya. <i>Mengapa penggaris plastik yang bermuatan listrik negatif dapat menarik potongan kecil kertas yang tak bermuatan listrik?</i> Hal ini terjadi karena potongan kertas mengalami pengutuban muatan. Elektron pada bahan isolator seperti kertas tidak dapat bergerak bebas sebagaimana elektron pada bahan konduktor. Jadi ketika plastik bermuatan negatif didekatkan dengan potongan kertas, elektron-elektron yang terikat pada atom ditolak menjauhi plastik yang bermuatan negatif sehingga terjadi pengutuban muatan megatif dan muatan positif pada kertas. Muatan negatif pada kertas berjarak lebih jauh dari plastik sedangkan muatan positif pada kertas mempunyai jarak lebih dekat dengan plastik. Selanjutnya muatan negatif pada plastik tarik menarik dengan muatan positif pada potongan kertas hingga kertas yang ringan bergerak mendekati plastik.<br><br>Proses <b>pengutuban (polarisasi)</b> muatan yang terjadi pada potongan kertas serupa dengan polarisasi muatan yang terjadi pada dielektrik. Sebagaimana tampak pada gambr 5.18. Misalnya mula-mula hanya ada dua keping kondukor bermuatan listrik. Keping kiri bermuatan positif sedangkan keping kanan bermuatan negatif, sehingga arah medan listrik dari kiri ke kanan.
+    ]]>
+    </string>
+    <string name="tekska102">
+        <![CDATA[
+Apabila sebelum ada dielektrik, potensial listrik adalah <i>V<sub>0</sub></i> maka setelah ada dielektrik potensial listrik berkurang menjadi <i>V</i> sebesar faktor <i>κ</i>. Secara matematis, <i>V<sub>0</sub>=κ V</i> atau <i>V=V<sub>0</sub>/κ</i> atau <i>κ=V<sub>0</sub>/V</i>, dimana <i>κ</i> = konstanta dielektrik, <i>V<sub>0</sub>V</i> sehingga <i>κ >1</i>.
+<br><br>Perlu diketahui bahwa jumlah muatan listrik pada kedua pelat konduktor tidak berubah sehingga jumlah muatan akhir sama dengan jumlah muatan awal (<i>Q = Q<sub>0</sub></i>). Perubahan kapasitansi kapasitor dihitung dengan rumus berikut
+        ]]>
+    </string>
+    <string name="tekska103">
+        <![CDATA[
+Sehingga, kapasitansi bertambah sebesar faktor κ ketika dielektrik mengisi area antara dua pelat. Untuk kapasitor pelat sejajar, dimana C<sub>0</sub>=ϵ<sub>0</sub>A/d (persamaan 5.2), kita dapat menyatakan kapasitansi ketika kapasitor diisi oleh dielektrik sebagai berikut
+        ]]>
+    </string>
+    <string name="tekska104">
+        <![CDATA[
+Berdasarkan persamaan diatas disimpulkan kapasitansi awal (C<sub>0</sub>) lebih kecil sedangkan kapasitansi akhir (C) lebih besar. Kapasitansi bertambah sebesar faktor K, dimana K adalah konstanta dielektrik. Nilai konstanta dielektrik setiap bahan isolator berbeda-beda. Konstanta dielektrik (κ) adalah hasil perbandingan kapasitansi kapasitor ketika menggunakan dielektrik, terhadap kapasitansi kapasitor tersebut ketika tidak menggunakan dielektrik.
+        ]]>
+    </string>
+    <string name="tekska130">
+        <![CDATA[
+Kematian jantung mendadak merupakan salah satu dari penyebab tersering kematian di negara maju di seluruh dunia. Diperkirakan terdapat lebih dari 3 juta orang meninggal per tahun akibat kematian jantung mendadak dengan angka kelangsungan hidup kurang dari 1%. Kematian jantung mendadak didefinisikan sebagai kematian wajar yang munculnya tidak diharapkan akibat penyebab yang berasal dari jantung dan terjadi dalam waktu singkat (≤ 1 jam dari munculnya gejala) pada orang yang tidak memiliki kondisi kesehatan yang terlihat fatal sebelumnya.
+<br><br>Saat ini pencegahan kematian jantung mendadak dapat dilakukan baik dengan obat-obatan, terapi pembedahan, maupun penggunaan alat defibrilator untuk membantu jantung berdetak sesuai dengan jalurnya. Obat-obatan yang digunakan biasanya obat-obatan yang digunakan untuk menjaga irama jantung, mengontrol tekanan darah, atau mengontrol kadar kolesterol dalam darah. Terapi pembedahan tidak terlalu populer di kalangan masyarakat karena terlalu invasif dan memiliki banyak risiko. Namun, saat ini telah dikembangkan terapi menggunakan alat defibrilator yang lebih tidak invasif dibandingkan tindakan pembedahan yang dinamakan implan defibrilator jantung atau <i>Implantable Cardioverter Defibrillator (ICD).</i>
+<br>Simak video di bawah ini, untuk mengetahui cara kerja ICD!
+        ]]>
+    </string>
+</resources>
