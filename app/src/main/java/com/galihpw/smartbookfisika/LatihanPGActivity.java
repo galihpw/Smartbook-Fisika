@@ -1,5 +1,6 @@
 package com.galihpw.smartbookfisika;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -10,7 +11,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
+import com.galihpw.smartbookfisika.LatihanPG.Hasil;
 import com.galihpw.smartbookfisika.LatihanPG.TabSoal1;
 import com.galihpw.smartbookfisika.LatihanPG.TabSoal10;
 import com.galihpw.smartbookfisika.LatihanPG.TabSoal11;
@@ -92,6 +95,22 @@ public class LatihanPGActivity extends AppCompatActivity {
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
+
+        Button bSelesai = (Button) findViewById(R.id.bSelesai);
+
+        bSelesai.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                for(int i = 0; i< Hasil.kunjaw.length; i++){
+                    if(Hasil.jwb[i] == Hasil.kunjaw[i]){
+                        Hasil.score += 10;
+                    }
+                }
+                Intent intent = new Intent(LatihanPGActivity.this,ScoreActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
 
     }
 
@@ -238,6 +257,34 @@ public class LatihanPGActivity extends AppCompatActivity {
             switch (position) {
                 case 0:
                     return "SECTION 1";
+                case 1:
+                    return "SECTION 2";
+                case 2:
+                    return "SECTION 3";
+                case 3:
+                    return "SECTION 4";
+                case 4:
+                    return "SECTION 5";
+                case 5:
+                    return "SECTION 6";
+                case 6:
+                    return "SECTION 7";
+                case 7:
+                    return "SECTION 8";
+                case 8:
+                    return "SECTION 9";
+                case 9:
+                    return "SECTION 10";
+                case 10:
+                    return "SECTION 11";
+                case 11:
+                    return "SECTION 12";
+                case 12:
+                    return "SECTION 13";
+                case 13:
+                    return "SECTION 14";
+                case 14:
+                    return "SECTION 15";
             }
             return null;
         }

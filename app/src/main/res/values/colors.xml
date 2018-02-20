@@ -10,4 +10,6 @@
     <color name="transparent">#00FFFFFF</color>
     <color name="bgFDK">#ffcccd</color>
     <color name="bgTK">#a2f7e9</color>
+    <color name="Correct_Background">#b4b0ff49</color>
+    <color name="Wrong_Background">#b4ff4444</color>
 </resources>

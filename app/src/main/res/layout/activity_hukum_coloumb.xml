@@ -764,10 +764,10 @@ q_B = benda bermuatan B"
                     android:id="@+id/tekshc30"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:layout_marginBottom="16dp"
                     android:lineSpacingExtra="6sp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
@@ -777,7 +777,7 @@ q_B = benda bermuatan B"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"/>
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
                     android:id="@+id/tekshc31"
@@ -794,7 +794,7 @@ q_B = benda bermuatan B"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="@+id/tekshc30"/>
+                    app:layout_constraintTop_toTopOf="@+id/tekshc30" />
 
                 <ImageView
                     android:id="@+id/imghc4"
@@ -812,10 +812,10 @@ q_B = benda bermuatan B"
                     android:id="@+id/tekshc32"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="8dp"
-                    android:layout_marginBottom="16dp"
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp"
                     android:text="Gambar 2.4. Gaya yang diberikan oleh q1 pada q3 adalah F13. Gaya yang diberikan oleh q2 pada q3 adalah F23. Resultan gaya F3 pada q3 merupakan jumlah vektor F13 + F23."
@@ -841,9 +841,679 @@ q_B = benda bermuatan B"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintBottom_toBottomOf="@+id/tekshc32"/>
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc32" />
 
+                <ImageView
+                    android:id="@+id/imgsoalhc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/bgmateri1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekshc33" />
 
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/clhc4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/backroundSoal">
+
+                <TextView
+                    android:id="@+id/tekshc34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Contoh Soal"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tekshc35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Tiga muatan berada di sepanjang sumbu x seperti pada gambar 2.5. Muatan positif q1 = 15 μC pada x = 2 m, muatan positif q2 = 6 μC pada x = 0 m, dan resultan gaya yang bekerja pada q3 adalah nol."
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/tekshc34" />
+
+                <TextView
+                    android:id="@+id/tekshc36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Jawab"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc35" />
+
+                <TextView
+                    android:id="@+id/tekshc37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Karena q3 negatif, q1 dan q2 positif, gaya F13 dan F23 saling tarik menarik seperti pada gambar 2.5. Menurut gaya Coulomb, F13 dan F23 besarnya adalah"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/tekshc36" />
+
+                <ImageView
+                    android:id="@+id/imgrmhc5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/bgmateri1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekshc37" />
+
+                <ImageView
+                    android:id="@+id/imghc5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/bgmateri1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgrmhc5" />
+
+                <TextView
+                    android:id="@+id/tekshc39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="Gambar 2.4. Gaya yang diberikan oleh q1 pada q3 adalah F13. Gaya yang diberikan oleh q2 pada q3 adalah F23. Resultan gaya F3 pada q3 merupakan jumlah vektor F13 + F23."
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imghc5" />
+
+                <TextView
+                    android:id="@+id/tekshc40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Agar resultan gaya yang bekerja pada q3 adalah nol, F23 besarnya harus sama dan berlawanan arah dengan F13. Maka,"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc39" />
+
+                <ImageView
+                    android:id="@+id/imgsoalhc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/bgmateri1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekshc40" />
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/clhc5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tekshc41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Prinsip Superposisi"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tekshc42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Jika terdapat sejumlah muatan, maka gaya total pada suatu muatan merupakan jumlah vektor gaya yang dilakukan oleh sejumlah muatan lainnya. Misalkan terdapat muatan q1, q2, q3, dan q4. Berapakah gaya pada muatan q4?"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/tekshc41" />
+
+                <ImageView
+                    android:id="@+id/imghc6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/bgmateri1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekshc42" />
+
+                <ImageView
+                    android:id="@+id/imghc7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/bgmateri1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imghc6" />
+
+                <TextView
+                    android:id="@+id/tekshc43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="Gambar 2.7. (atas dan bawah) Posisi koordinat sejumlah muatan dan gaya total yang bekerja pada satu muatan."
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imghc7" />
+
+                <TextView
+                    android:id="@+id/tekshc44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="•	Gaya yang dilakukan muatan q1 pada muatan q4 adalah "
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc43" />
+
+                <ImageView
+                    android:id="@+id/imgrmhc7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/bgmateri1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekshc44" />
+
+                <TextView
+                    android:id="@+id/tekshc45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="•	Gaya yang dilakukan muatan q2 pada muatan q4 adalah "
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgrmhc7" />
+
+                <ImageView
+                    android:id="@+id/imgrmhc8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/bgmateri1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekshc45" />
+
+                <TextView
+                    android:id="@+id/tekshc46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="•	Gaya yang dilakukan muatan q3 pada muatan q4 adalah "
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgrmhc8" />
+
+                <ImageView
+                    android:id="@+id/imgrmhc9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/bgmateri1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekshc46" />
+
+                <TextView
+                    android:id="@+id/tekshc47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Gaya total pada muatan q4 adalah"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgrmhc9" />
+
+                <ImageView
+                    android:id="@+id/imgrmhc10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/bgmateri1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekshc47" />
+
+                <TextView
+                    android:id="@+id/tekshc48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Namun, secara umum, gaya pada muatan q0 yang dilakukan sejumlah muatan q1, q2, q3, …, qN adalah"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgrmhc10" />
+
+                <RelativeLayout
+                    android:id="@+id/rlhc6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="24dp"
+                    android:paddingBottom="24dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc48">
+
+                    <ImageView
+                        android:id="@+id/imgrmhc11"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        app:srcCompat="@drawable/bgmateri1" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="19dp"
+                        android:paddingRight="16dp"
+                        android:text="(2.5)"
+                        tools:layout_editor_absoluteX="261dp"
+                        tools:layout_editor_absoluteY="0dp" />
+
+                </RelativeLayout>
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/clhc6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/bgFDK">
+
+                <TextView
+                    android:id="@+id/tekshc49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="Fisika Disekitar Kita"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tekshc50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Di awal bab, telah disajikan fenomena seorang wanita memegang benda bertegangan tinggi, dan seluruh rambutnya menjadi berdiri. Perhatikan video berikut ini!"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc49" />
+
+                <RelativeLayout
+                    android:id="@+id/rlhc7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc50">
+
+                    <ImageView
+                        android:id="@+id/videohc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/bgmateri1" />
+
+                    <ImageView
+                        android:id="@+id/play_videohc2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/icon_play" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tekshc51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="Sumber video:  https://www.youtube.com/watch?v=3Ptu07enIsY"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/rlhc7" />
+
+                <TextView
+                    android:id="@+id/tekshc52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Alat tersebut bernama Generator Van De Graff. Generator Van De Graff adalah suatu alat pembangkit listrik statis yang diciptakan oleh fisikawan Amerika bernama Robert J. Van De Graff pada tahun 1829. Generator Van De Graff menjadi sumber tegangan tinggi untuk mempercepat partikel subatomik dengan kecepatan tinggi, membuatnya menjadi alat yang berguna untuk penelitian fisika fundamental.
+Untuk memahami cara kerja Generator Van de Graff mari kita simak video di bawah ini!"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc51" />
+
+                <RelativeLayout
+                    android:id="@+id/rlhc8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc52">
+
+                    <ImageView
+                        android:id="@+id/videohc3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/bgmateri1" />
+
+                    <ImageView
+                        android:id="@+id/play_videohc3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/icon_play" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tekshc53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="Sumber video: //www.youtube.com/watch?v=JryhC73-MRA"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/rlhc8" />
+
+                <TextView
+                    android:id="@+id/tekshc54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Lantas mengapa ketika kita menyentuh kepala Generator Van De Graff maka rambut kita menjadi berdiri seperti pada video sebelumnya?
+
+Ketika seorang anak menyentuh alat dan rambutnya menjadi berdiri, hal ini disebabkan adanya muatan sejenis yang terinduksi pada helaian rambut."
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc53" />
+
+                <ImageView
+                    android:id="@+id/imghc9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/bgmateri1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekshc54" />
+
+                <TextView
+                    android:id="@+id/tekshc55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="Gambar 2.8. Skema cara kerja Generator Van De Graff. (Sumber Gambar:  http://edel.staff.unja.ac.id/blog/artikel/Generator-Van-de-Graff.html)"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imghc9" />
+
+                <TextView
+                    android:id="@+id/tekshc56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Perhatikanlah video penggunaan Generator Van de Graff berikut ini!"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc55" />
+
+                <RelativeLayout
+                    android:id="@+id/rlhc9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc56">
+
+                    <ImageView
+                        android:id="@+id/videohc4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/bgmateri1" />
+
+                    <ImageView
+                        android:id="@+id/play_videohc4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/icon_play" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tekshc57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="Sumber video: //www.youtube.com/watch?v=JryhC73-MRA"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/rlhc9" />
+
+                <TextView
+                    android:id="@+id/tekshc58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="24dp"
+                    android:text="Muatan yang dibangkitkan oleh generator diinduksikan pada seluruh tubuh anak, begitupun pada helaian rambutnya. Dengan begitu, interaksi antara muatan yang ada pada rambut anak dengan kepala pada generator Van de Graff memenuhi prinsip listrik statis."
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekshc57" />
 
             </android.support.constraint.ConstraintLayout>
 
