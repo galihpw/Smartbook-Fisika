@@ -486,6 +486,178 @@ Yuk simak penjelasannya dalam bab ini!"
                 android:text="Seperti yang ditunjukkan pada gambar di atas, didalam sebuah peti kaca terdapat dua daun logam yang dapat bergerak (kadangkala hanya satu daun saja yang bergerak), biasanya terbuat dari emas yang dihubungkan dengan bola logam yang terdapat diluar peti kaca melalui suatu konduktor yang terisolasi dari peti kaca."
                 android:textAlignment="textStart"
                 android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Elektroskop Dapat Mendeteksi Muatan Dengan Cara Konduksi Dan Induksi"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+             <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="1. Cara konduksi (kontak/disentuhkan)"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Simaklah video dibawah ini!"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+              <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Dari video diatas, kita mengetahui, ternyata elektroskop dapat mendeteksi muatan dengan cara menyentuhkan benda bermuatan pada kepala elektroskop dan responnya berupa daun yang terdapat dalam toples kaca akan mekar (baik satu daun atau kedua daun)"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="2. Cara Induksi (didekatkan)"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Simaklah video dibawah ini!"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Dari video diatas, kita juga mengetahui, ternyata selain disentuhkan benda bermuatan, elektroskop juga dapat mendeteksi muatan dengan cara hanya mendekatkan benda bermuatan pada kepala elektroskop dan responnya berupa daun yang terdapat dalam toples kaca akan mekar (baik satu daun atau kedua daun). Jumlah elektron dalam elektroskop tidak berkurang atau bertambah, namun hanya terpolarisasi akibat adanya benda bermuatan lain 
+yang mendekati elektroskop."
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="FISIKA DI SEKITAR KITA"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+               <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="MEKANISME PENGECATAN SECARA ELEKTROSTATIK"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+             <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Apakah kalian sudah tahu mengapa mobil-mobil yang baru keluar dari pabrik, cat nya sangatlah rapi. Bisa dibilang tidak ada bagian mobil yang “belang”. Ternyata mekanisme pengecatan mobil di pabrik mobil menggunakan aplikasi listrik statis lho! Simak video berikut untuk penjelasannya."
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Prinsip yang digunakan adalah gaya tarik antara muatan positif dan muatan negatif. Gambar di bawah ini adalah ilustrasi proses pengecatan secara elektrostatik."
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Material cat atau partikel pelapis disemprot dari nozzle menggunakan dorongan udara. Namun, di ujung penyemprot dihasilkan banyak muatan listrik dengan memberikan tegangan listrik yang sangat tinggi. Partikel yang keluar dari nozzle mengikat sebagian muatan tersebut sehingga keluar dari nozzle sebagai partikel bermuatan. Benda yang dicat atau dilapisi umumya berbentuk logam atau bahan konduktor lain diberi muatan listrik yang berlawanan. Karena bahan tersebut adalah logam maka muatan akan tersebar di permukaan logam. Muatan yang ada di permukaan bahan akan menarik partikel keluar dari nozzle yang memiliki muatan berlawanan tanda sehingga bergerak kearah benda yang  
+akan di cat. Karena muatan yang ada di permukaan bahan tersebar merata di seluruh permukaan maka partikel pelapis akan menuju bahan secara merata pula. Dengan demikian, hasil pelapisan atau pengecatan menjadi rata."
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Contoh Soal."
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+             <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Terdapat 4 buah pelat, yaitu: A, B, C, dan D.  Pelat A tolak menolak dengan pelat D, pelat A tarik menarik dengan pelat C, sedangkan pelat A tarik menarik dengan pelat B."
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="1. Sebutkanlah muatan dari masing-masing pelat!
+                              2. Gambarkanlah diagram gaya bebas dari pasangan pelat A-D, C-A, C-D, B-D, dan A-B"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Jawab"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+              <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text=" Muatan dari masing-masing pelat adalah
+
+Pelat A tolak-menolak dengan pelat D, maka pelat A sama jenis dengan pelat D. 
+
+Pelat A tarik-menarik dengan pelat C, maka pelat A berbeda jenis dengan pelat C.
+
+Pelat A tarik menarik dengan pelat B, maka pelat A berbeda jenis dengan pelat B.
+
+Dari data diatas maka dapat ditentukan bahwa:
+
+Pelat A: bermuatan positif (+)
+
+Pelat B: bermuatan negatif (-)
+
+Pelat C: bermuatan negatif (-)
+
+Pelat D: bermuatan positif (+)"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </android.support.constraint.ConstraintLayout>
