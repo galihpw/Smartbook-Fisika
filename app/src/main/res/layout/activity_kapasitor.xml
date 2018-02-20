@@ -14,7 +14,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <android.support.constraint.ConstraintLayout
                 android:id="@+id/clka1"
@@ -143,9 +143,9 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
+                    android:lineSpacingExtra="6sp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:lineSpacingExtra="6sp"
                     android:text="Energi listrik dapat disimpan dalam perangkat yang disebut kapasitor. Kapasitor dapat ditemui di hampir semua sirkuit elektronik. Sebuah kapasitor digunakan sebagai gudang penyimpanan energi."
                     android:textAlignment="center"
                     android:textSize="16sp"
@@ -161,9 +161,9 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
+                    android:lineSpacingExtra="6sp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:lineSpacingExtra="6sp"
                     android:text="DEFINISI KAPASITANSI"
                     android:textAlignment="center"
                     android:textSize="16sp"
@@ -179,15 +179,157 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
+                    android:lineSpacingExtra="6sp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:lineSpacingExtra="6sp"
                     android:text="Kombinasi dari dua konduktor yang membawa muatan dengan magnitudo sama besar namun berbeda tanda disebut kapasitor. Konduktor tersebut biasa disebut pelat. Dengan begitu terdapat beda potensial ∆V diantara kedua konduktor yang disebabkan oleh kehadiran muatan listrik."
                     android:textAlignment="viewStart"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/tekska7" />
+
+                <ImageView
+                    android:id="@+id/imgka3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/bgmateri1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska8" />
+
+                <TextView
+                    android:id="@+id/tekska9"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="Gambar 5.2. Kapasitor terdiri dari dua konduktor. Ketika kapasitor dimuati, konduktor membawa muatan dengan magnitudo yang sama besar namun dengan tanda yang berbeda (sumber gambar: Serway, 2004)."
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgka3" />
+
+                <TextView
+                    android:id="@+id/tekska10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Berdasarkan percobaan, ternyata jumlah muatan Q pada kapasitor berbanding lurus dengan proporsi beda potensial antar kedua konduktor. Kesebandingan ini secara konstan bergantung pada bentuk dan jarak antar kedua konduktor. Sementara itu kita dapat mendefinisikan kapasitansi sebuah kapasitor dengan"
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska9" />
+
+                <TextView
+                    android:id="@+id/tekska11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@color/colorAccent"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="kapasitansi (C) kapasitor didefinisikan sebagai rasio dari banyaknya muatan pada kedua konduktor terhadap besar beda potensial antara kedua konduktor."
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska10" />
+
+                <RelativeLayout
+                    android:id="@+id/rlka1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska11">
+
+                    <ImageView
+                        android:id="@+id/imgrmka1"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        app:srcCompat="@drawable/bgmateri1" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="19dp"
+                        android:paddingRight="16dp"
+                        android:text="(5.1)"
+                        tools:layout_editor_absoluteX="261dp"
+                        tools:layout_editor_absoluteY="0dp" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tekska12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Dari persamaan 5.1, dapat melihat bahwa unit dari kapasitansi adalah Coulomb per volt. Namun, satuan Internasional (SI) dari kapasitansi adalah farad (F), nama tersebut diberikan untuk menghormati Michael Faraday. "
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/rlka1" />
+
+                <ImageView
+                    android:id="@+id/imgrmka2"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/bgmateri1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska12" />
+
+                <TextView
+                    android:id="@+id/tekska13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:lineSpacingExtra="6sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Farad merupakan satuan yang sangat besar untuk kapasitansi. Sehingga dalam praktiknya, perangkat kapasitor, biasanya menggunakan kapasitansi dengan rentang dari mikrofarad / μF (10-6 F) sampai pikofarad / pF (10-12 F)."
+                    android:textAlignment="viewStart"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgrmka2" />
+
+
+
             </android.support.constraint.ConstraintLayout>
 
         </LinearLayout>

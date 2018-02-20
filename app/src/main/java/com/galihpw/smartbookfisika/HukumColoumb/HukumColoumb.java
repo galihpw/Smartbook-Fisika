@@ -29,6 +29,12 @@ public class HukumColoumb extends AppCompatActivity {
     @BindView(R.id.imghc12)
     ImageView imghc12;
 
+    @BindView(R.id.imgrmhc1)
+    ImageView imgrmhc1;
+
+    @BindView(R.id.imgrmhc2)
+    ImageView imgrmhc2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +46,9 @@ public class HukumColoumb extends AppCompatActivity {
         Glide.with(this).load(R.drawable.imghc10).into(imghc10);
         Glide.with(this).load(R.drawable.imghc11).into(imghc11);
         Glide.with(this).load(R.drawable.imghc12).into(imghc12);
+        Glide.with(this).load(R.drawable.imgrmhc1).into(imgrmhc1);
+        Glide.with(this).load(R.drawable.imgrmhc2).into(imgrmhc2);
+
 
         Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/Neat_Chalk.ttf");
         tekshc1.setTypeface(custom_font);
