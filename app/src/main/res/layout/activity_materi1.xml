@@ -414,7 +414,78 @@ Yuk simak penjelasannya dalam bab ini!"
                 android:text="Simak simulasi dibawah ini!"
                 android:textAlignment="textStart"
                 android:textSize="18sp" />
-
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="2.	INKONDUKSI"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Simak simulasi dibawah ini!"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Logam yang bermuatan negatif hanya didekatkan, tidak disentuhkan, pada batang logam yang netral, maka elektron-elektron batang logam tidak meninggalkan batang, namun elektron-elektron tersebut bergerak dalam logam menuju batang yang bermuatan, dan meninggalkan muatan positif pada ujung yang berlawanan."
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="3.INDUKSI DENGAN MENGHUBUNGKAN PADA GROUND /BUMI"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Cara lain untuk menginduksi muatan pada benda logam adalah dengan menghubungkan logam tersebut menuju ground (bumi) melalui kawat konduktor. Bumi sangat besar dan dapat menyalurkan elektron, maka bumi dengan mudah menerima ataupun memberi elektron, maka dari itu, bumi dapat bertindak sebagai penampung (reservoir) muatan. Simak simulasi dibawah ini!"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="4. ELEKTROSKOP"
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Suatu piranti yang dapat digunakan untuk mendeteksi adanya muatan adalah elektroskop."
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="8dp"
+                android:text="Seperti yang ditunjukkan pada gambar di atas, didalam sebuah peti kaca terdapat dua daun logam yang dapat bergerak (kadangkala hanya satu daun saja yang bergerak), biasanya terbuat dari emas yang dihubungkan dengan bola logam yang terdapat diluar peti kaca melalui suatu konduktor yang terisolasi dari peti kaca."
+                android:textAlignment="textStart"
+                android:textSize="18sp" />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </android.support.constraint.ConstraintLayout>
