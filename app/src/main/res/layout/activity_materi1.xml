@@ -420,7 +420,7 @@ Yuk simak penjelasannya dalam bab ini!"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="8sp"
                 android:padding="8dp"
-                android:text="2.	INKONDUKSI"
+                android:text="2.	INDUKSI"
                 android:textAlignment="textStart"
                 android:textSize="18sp" />
             <TextView
