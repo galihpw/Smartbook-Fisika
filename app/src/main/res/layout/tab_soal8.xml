@@ -32,6 +32,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:paddingBottom="100dp"
                 android:orientation="vertical">
 
                 <TextView
@@ -43,26 +44,55 @@
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
                     android:fontFamily="cursive"
-                    android:text="Soal 8"
+                    android:text="Soal 12"
                     android:textAlignment="center"
                     android:textColor="@android:color/background_dark"
                     android:textSize="24sp" />
 
-                <FrameLayout
+                <android.support.constraint.ConstraintLayout
                     android:id="@+id/frameLayout"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_marginBottom="16dp"
                     android:layout_marginLeft="16dp"
                     android:layout_marginRight="16dp"
                     android:layout_marginTop="8dp">
 
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:text="Perhatikanlah grafik dibawah ini!"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="20sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="@id/frameLayout"
+                        />
+
                     <ImageView
                         android:id="@+id/imagesoal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/soal8" />
-                </FrameLayout>
+                        android:background="@drawable/soal8"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/textView14" />
+                    <TextView
+                        android:id="@+id/tekssoal11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dari kelima grafik diatas, manakah grafik yang tepat menggambarkan hubungan gaya interaksi antara dua muatan listrik (F) yang dipisahkan jarak (r)?"
+                        android:fontFamily="casual"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="20sp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/imagesoal"/>
+                </android.support.constraint.ConstraintLayout>
 
                 <RadioGroup
                     android:id="@+id/rG"
@@ -79,7 +109,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="100 volt"
+                        android:text="(1)"
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
@@ -93,7 +123,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="150 volt"
+                        android:text="(2)"
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
@@ -107,7 +137,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="200 volt"
+                        android:text="(3)"
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
@@ -121,7 +151,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="300 volt"
+                        android:text="(4)"
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"
@@ -135,7 +165,7 @@
                         android:layout_weight="1"
                         android:buttonTint="@android:color/black"
                         android:fontFamily="casual"
-                        android:text="350 volt"
+                        android:text="(5)"
                         android:textColor="@android:color/background_dark"
                         android:textSize="16sp"
                         tools:layout_editor_absoluteX="8dp"

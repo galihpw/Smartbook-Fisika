@@ -8,6 +8,6 @@ public class Hasil {
 
     public static int isi = 0;
     public static int score = 0;
-    public static char[] kunjaw = {'a','b','a','c','a','b','c','b','c','a'};
-    public static char[] jwb = {'x','x','x','x','x','x','x','x','x','x'};
+    public static char[] kunjaw = {'c','c','d','b','d','c','c','c','c','a','b','c'};
+    public static char[] jwb = {'x','x','x','x','x','x','x','x','x','x','x','x'};
 }

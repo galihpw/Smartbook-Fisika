@@ -10,10 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.galihpw.smartbookfisika.R;
@@ -34,6 +32,7 @@ public class TabSoal5 extends Fragment {
     private RadioButton rB;
     private Button bSelesai;
     int countHint = 0;
+    int status = 0;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -55,12 +54,23 @@ public class TabSoal5 extends Fragment {
                 // mencari radio button
                 rB = (RadioButton) rootView.findViewById(selectedId);
 
-                if(rB.getText().equals("0,78r")){
+                status += 1;
+                if(status == 1){
+                    Hasil.isi += 1;
+                }
+
+                // mengaktifkan tombol selesai
+                if(Hasil.isi == 10){
+                    bSelesai.setEnabled(true);
+                }
+
+                if(rB.getText().equals("D")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
+                    Hasil.jwb[0] = 'd';
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
-                    if(countHint <= 6) {
+                    if(countHint <= 1) {
                         hintButton.setVisibility(View.VISIBLE);
                     }
                 }
@@ -70,34 +80,24 @@ public class TabSoal5 extends Fragment {
         hintButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final AlertDialog.Builder alertadd = new AlertDialog.Builder(getActivity());
-                LayoutInflater factory = LayoutInflater.from(getActivity());
-                alertadd.setTitle("Hint");
-                view = factory.inflate(R.layout.hintgambar, null);
-                alertadd.setView(view);
-                ImageView image = (ImageView) view.findViewById(R.id.dialog_imageview);
+                AlertDialog alertDialog = new AlertDialog.Builder(getActivity()).create();
+                alertDialog.setTitle("Hint");
+
                 if(countHint == 1) {
-                    image.setImageResource(R.drawable.soalhint51);
-                }else if(countHint == 2){
-                    image.setImageResource(R.drawable.soalhint52);
-                }else if(countHint==3){
-                    image.setImageResource(R.drawable.soalhint53);
-                }else if(countHint==4){
-                    image.setImageResource(R.drawable.soalhint54);
-                }else if(countHint==5){
-                    image.setImageResource(R.drawable.soalhint55);
-                }else{
-                    image.setImageResource(R.drawable.soalhint56);
+                    alertDialog.setMessage("Lihat kembali bab 3 medan listrik dan hukum gauss");
                 }
-                alertadd.setNeutralButton("Ok", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dlg, int sumthin) {
-                        hintButton.setVisibility(View.INVISIBLE);
-                        dlg.dismiss();
-                    }
-                });
-                alertadd.show();
+
+                alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                hintButton.setVisibility(View.INVISIBLE);
+                                dialog.dismiss();
+                            }
+                        });
+                alertDialog.show();
             }
         });
+
         return rootView;
     }
 }

@@ -38,8 +38,9 @@ public class ScoreActivity extends AppCompatActivity {
                         tScore.setText(""+i);
 
                         if(i == Hasil.score){
-                            tBenar.setText(tBenar.getText() + "\n" + (Hasil.score/10));
-                            tSalah.setText(tSalah.getText() + "\n" + (10 - (Hasil.score/10)));
+                            tBenar.setText(tBenar.getText() + "\n" + (Hasil.score/12));
+                            tSalah.setText(tSalah.getText() + "\n" + (12 - (Hasil.score/12)));
+                            tScore.setText(""+(i/12)*10);
                             T.cancel();
                         }
 

@@ -31,6 +31,7 @@ public class TabSoal2 extends Fragment {
     private RadioButton rB;
     private Button bSelesai;
     int countHint = 0;
+    int status = 0;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -49,8 +50,19 @@ public class TabSoal2 extends Fragment {
                 // mencari radio button
                 rB = (RadioButton) rootView.findViewById(selectedId);
 
+                status += 1;
+                if(status == 1){
+                    Hasil.isi += 1;
+                }
+
+                // mengaktifkan tombol selesai
+                if(Hasil.isi == 10){
+                    bSelesai.setEnabled(true);
+                }
+
                 if(rB.getText().equals("Gaya interaksi (F) berbanding terbalik dengan kuadrat jaraknya (r^2).")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
+                    Hasil.jwb[0] = 'c';
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();

@@ -16,7 +16,6 @@ import com.galihpw.smartbookfisika.LatihanFoto.FotoSoal2;
 import com.galihpw.smartbookfisika.LatihanFoto.FotoSoal3;
 import com.galihpw.smartbookfisika.LatihanFoto.FotoSoal4;
 import com.galihpw.smartbookfisika.LatihanFoto.FotoSoal5;
-import com.galihpw.smartbookfisika.LatihanPG.TabSoal1;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

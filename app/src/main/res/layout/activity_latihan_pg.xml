@@ -64,7 +64,6 @@
         android:enabled="false"
         android:paddingBottom="20dp"
         android:paddingTop="20dp"
-        android:text="Selesai"
-        android:visibility="invisible" />
+        android:text="Selesai"/>
 
 </android.support.design.widget.CoordinatorLayout>

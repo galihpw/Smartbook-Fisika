@@ -12,7 +12,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.galihpw.smartbookfisika.R;
@@ -33,6 +32,7 @@ public class TabSoal7 extends Fragment {
     private RadioButton rB;
     private Button bSelesai;
     int countHint = 0;
+    int status = 0;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -54,12 +54,24 @@ public class TabSoal7 extends Fragment {
                 // mencari radio button
                 rB = (RadioButton) rootView.findViewById(selectedId);
 
-                if(rB.getText().equals("D")){
+                // menandai bila telah diisi
+                status += 1;
+                if(status == 1){
+                    Hasil.isi += 1;
+                }
+
+                // mengaktifkan tombol selesai
+                if(Hasil.isi == 10){
+                    bSelesai.setEnabled(true);
+                }
+
+                if(rB.getText().equals("Batang kaca berkurang elektronnya, karena pada saat penggosokan dengan bulu, elektron dari batang kaca berpindah ke bulu.")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
+                    Hasil.jwb[0] = 'c';
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
-                    if(countHint <= 1) {
+                    if(countHint <= 3) {
                         hintButton.setVisibility(View.VISIBLE);
                     }
                 }
@@ -73,7 +85,11 @@ public class TabSoal7 extends Fragment {
                 alertDialog.setTitle("Hint");
 
                 if(countHint == 1) {
-                    alertDialog.setMessage("Lihat kembali bab 3 medan listrik dan hukum gauss");
+                    alertDialog.setMessage("Lihat kembali video tribo electric effect pada bab 1, mengenai sifat kaca ketika digosokkan dengan bulu/sutera");
+                }else if(countHint == 2){
+                    alertDialog.setMessage("Elemen dalam atom benda yang mudah berpindah adalah elektron");
+                }else{
+                    alertDialog.setMessage("Kaca ketika digososokkan dengan bulu, akan bermuatan positif. Sedangkan bulu akan bermuatan negatif");
                 }
 
                 alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",

@@ -12,7 +12,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.galihpw.smartbookfisika.R;
@@ -33,6 +32,7 @@ public class TabSoal4 extends Fragment {
     private RadioButton rB;
     private Button bSelesai;
     int countHint = 0;
+    int status = 0;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -54,8 +54,19 @@ public class TabSoal4 extends Fragment {
                 // mencari radio button
                 rB = (RadioButton) rootView.findViewById(selectedId);
 
-                if(rB.getText().equals("Berlawanan arah dengan kuat medan listrik E.")){
+                status += 1;
+                if(status == 1){
+                    Hasil.isi += 1;
+                }
+
+                // mengaktifkan tombol selesai
+                if(Hasil.isi == 10){
+                    bSelesai.setEnabled(true);
+                }
+
+                if(rB.getText().equals("Berlawanan arah dengan E")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
+                    Hasil.jwb[0] = 'b';
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
@@ -65,7 +76,6 @@ public class TabSoal4 extends Fragment {
                 }
             }
         });
-
         hintButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -73,11 +83,11 @@ public class TabSoal4 extends Fragment {
                 alertDialog.setTitle("Hint");
 
                 if(countHint == 1) {
-                    alertDialog.setMessage("Gaya listrik F selalu sejajar dengan medan listrik E.");
+                    alertDialog.setMessage("Gaya listrik F selalu sejajar dengan medan listrik E. .");
                 }else if(countHint == 2){
-                    alertDialog.setMessage("Jika muatannya negatif (elektron) maka, arah gaya F akan menjauhi pelat negatif, dan mendekati pelat yang positif");
+                    alertDialog.setMessage("Arah E ke kanan, berarti E keluar dari muatan positif menuju muatan negatif");
                 }else{
-                    alertDialog.setMessage("Sebaliknya, jika muatannya positif, arah gaya F akan mendekati pelat negatif dan menjauhi pelat positif.");
+                    alertDialog.setMessage("Sedangkan arah gaya listrik yang dialami muatan negatif/elektron akan menjauhi muatan negatif dan mendekati muatan positif.");
                 }
 
                 alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
@@ -90,7 +100,6 @@ public class TabSoal4 extends Fragment {
                 alertDialog.show();
             }
         });
-
         return rootView;
     }
 }
