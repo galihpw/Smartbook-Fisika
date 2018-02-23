@@ -76,6 +76,10 @@
             android:name=".HukumColoumb.Yhukumcoloumb"
             android:label=""
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ScoreActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
