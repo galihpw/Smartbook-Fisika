@@ -947,7 +947,7 @@ q_B = benda bermuatan B"
                     app:layout_constraintTop_toBottomOf="@id/tekshc37" />
 
                 <ImageView
-                    android:id="@+id/imghc5"
+                    android:id="@+id/imghc6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
@@ -973,7 +973,7 @@ q_B = benda bermuatan B"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imghc5" />
+                    app:layout_constraintTop_toBottomOf="@+id/imghc6" />
 
                 <TextView
                     android:id="@+id/tekshc40"
@@ -1043,7 +1043,7 @@ q_B = benda bermuatan B"
                     app:layout_constraintTop_toTopOf="@+id/tekshc41" />
 
                 <ImageView
-                    android:id="@+id/imghc6"
+                    android:id="@+id/imghc7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
@@ -1055,7 +1055,7 @@ q_B = benda bermuatan B"
                     app:layout_constraintTop_toBottomOf="@id/tekshc42" />
 
                 <ImageView
-                    android:id="@+id/imghc7"
+                    android:id="@+id/imghc8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
@@ -1064,7 +1064,7 @@ q_B = benda bermuatan B"
                     android:src="@drawable/bgmateri1"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/imghc6" />
+                    app:layout_constraintTop_toBottomOf="@id/imghc7" />
 
                 <TextView
                     android:id="@+id/tekshc43"
@@ -1081,7 +1081,7 @@ q_B = benda bermuatan B"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imghc7" />
+                    app:layout_constraintTop_toBottomOf="@+id/imghc8" />
 
                 <TextView
                     android:id="@+id/tekshc44"
@@ -1101,12 +1101,11 @@ q_B = benda bermuatan B"
                     app:layout_constraintTop_toBottomOf="@+id/tekshc43" />
 
                 <ImageView
-                    android:id="@+id/imgrmhc7"
+                    android:id="@+id/imgrmhc6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="8dp"
                     android:src="@drawable/bgmateri1"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -1127,10 +1126,10 @@ q_B = benda bermuatan B"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgrmhc7" />
+                    app:layout_constraintTop_toBottomOf="@+id/imgrmhc6" />
 
                 <ImageView
-                    android:id="@+id/imgrmhc8"
+                    android:id="@+id/imgrmhc7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
@@ -1156,10 +1155,10 @@ q_B = benda bermuatan B"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgrmhc8" />
+                    app:layout_constraintTop_toBottomOf="@+id/imgrmhc7" />
 
                 <ImageView
-                    android:id="@+id/imgrmhc9"
+                    android:id="@+id/imgrmhc8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
@@ -1185,10 +1184,10 @@ q_B = benda bermuatan B"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgrmhc9" />
+                    app:layout_constraintTop_toBottomOf="@+id/imgrmhc8" />
 
                 <ImageView
-                    android:id="@+id/imgrmhc10"
+                    android:id="@+id/imgrmhc9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
@@ -1214,7 +1213,7 @@ q_B = benda bermuatan B"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgrmhc10" />
+                    app:layout_constraintTop_toBottomOf="@+id/imgrmhc9" />
 
                 <RelativeLayout
                     android:id="@+id/rlhc6"
@@ -1228,7 +1227,7 @@ q_B = benda bermuatan B"
                     app:layout_constraintTop_toBottomOf="@+id/tekshc48">
 
                     <ImageView
-                        android:id="@+id/imgrmhc11"
+                        android:id="@+id/imgrmhc10"
                         android:layout_width="150dp"
                         android:layout_height="50dp"
                         android:layout_alignParentTop="true"

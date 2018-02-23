@@ -66,7 +66,7 @@ public class TabSoal6 extends Fragment {
                     bSelesai.setEnabled(true);
                 }
 
-                if(rB.getText().equals("(1), (2), dan (3)")){
+                if(rB.getText().equals("C0")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
                     Hasil.jwb[0] = 'c';
                 }else{

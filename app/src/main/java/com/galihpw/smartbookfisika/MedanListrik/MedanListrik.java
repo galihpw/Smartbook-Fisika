@@ -26,6 +26,7 @@ public class MedanListrik extends AppCompatActivity {
 
     @BindView(R.id.play_video1)
     ImageView play_videomd;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

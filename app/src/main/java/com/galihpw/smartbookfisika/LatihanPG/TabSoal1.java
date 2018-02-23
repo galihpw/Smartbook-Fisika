@@ -39,16 +39,17 @@ public class TabSoal1 extends Fragment {
     int countHint = 0;
     int status = 0;
     @BindView(R.id.playvideosoal)
-    ImageView playvideosoal21;
+    ImageView playvideosoal1;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         final View rootView = inflater.inflate(R.layout.tab_soal1, container, false);
 
         ButterKnife.bind(this,rootView);
-        Glide.with(this).load("http://img.youtube.com/vi/NsxhbgCrrSQ&t=21s/0.jpg").into(playvideosoal21);
+        Glide.with(this).load("http://img.youtube.com/vi/NsxhbgCrrSQ&t=21s/0.jpg").into(playvideosoal1);
         bSelesai = (Button) getActivity().findViewById(R.id.bSelesai);
-        playvideosoal21.setOnClickListener(new View.OnClickListener() {
+
+        playvideosoal1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), YoutubeActivity.class);
@@ -56,6 +57,7 @@ public class TabSoal1 extends Fragment {
                 startActivity(intent);
             }
         });
+
         rG = (RadioGroup) rootView.findViewById(R.id.rG);
 
         rG.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
@@ -77,7 +79,7 @@ public class TabSoal1 extends Fragment {
                     bSelesai.setEnabled(true);
                 }
 
-                if(rB.getText().equals("1600 N/C")){
+                if(rB.getText().equals("Batang kaca menolak kertas foil karena batang kaca melepaskan elektron pada kain bulu sehingga batang kaca bermuatan positif.")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
                     Hasil.jwb[0] = 'c';
                 }else{

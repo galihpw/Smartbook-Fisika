@@ -65,7 +65,7 @@ public class TabSoal12 extends Fragment {
                 // mencari radio button
                 rB = (RadioButton) rootView.findViewById(selectedId);
 
-                if(rB.getText().equals("1600 N/C")){
+                if(rB.getText().equals("C0")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
                     Hasil.jwb[0] = 'c';
                 }else{

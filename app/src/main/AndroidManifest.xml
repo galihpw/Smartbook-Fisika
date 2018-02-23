@@ -72,6 +72,10 @@
         <activity android:name=".EnergiPotensial.EnergiPotensial"/>
         <activity android:name=".LatihanFotoActivity2" />
         <activity android:name=".HukumColoumb.HukumColoumb"/>
+        <activity
+            android:name=".HukumColoumb.Yhukumcoloumb"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
