@@ -106,9 +106,21 @@ public class MedanListrik extends AppCompatActivity {
             teksmd142.setText(Html.fromHtml(getString(R.string.teks142md)));
         }
         final GifImageView gif = (GifImageView)findViewById(R.id.mdgif1);
-        gif.setImageResource(R.drawable.img1);
+        gif.setImageResource(R.drawable.gauss);
         final GifDrawable gifDrawable = (GifDrawable) gif.getDrawable();
         gifDrawable.start();
+        final GifImageView gif2 = (GifImageView)findViewById(R.id.mdgif2);
+        gif2.setImageResource(R.drawable.gauss2);
+        final GifDrawable gifDrawable2 = (GifDrawable) gif2.getDrawable();
+        gifDrawable2.start();
+        final GifImageView gif3 = (GifImageView)findViewById(R.id.mdgif3);
+        gif3.setImageResource(R.drawable.gauss3);
+        final GifDrawable gifDrawable3 = (GifDrawable) gif3.getDrawable();
+        gifDrawable3.start();
+        final GifImageView gif4 = (GifImageView)findViewById(R.id.mdgif4);
+        gif4.setImageResource(R.drawable.gauss4);
+        final GifDrawable gifDrawable4 = (GifDrawable) gif4.getDrawable();
+        gifDrawable4.start();
         /*ButterKnife.bind(this);
         Glide.with(this).load("http://img.youtube.com/vi/6BgcrRjqnKE/0.jpg").into(videomd);
         play_videomd.setOnClickListener(new View.OnClickListener() {

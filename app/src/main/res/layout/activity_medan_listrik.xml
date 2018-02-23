@@ -375,7 +375,10 @@ Mari kita temukan jawabannya pada bab ini!
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="8dp"
-                    android:text="Sementara itu untuk menggambarkan arah gaya listrik dan medan listrik yang dialami oleh muatan uji q0 akibat adanya muatan listrik q pada jarak r, digambarkan seperti gambar-gambar dibawah ini."
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:lineSpacingExtra="4sp"
+                    android:text="Sementara itu untuk menggambarkan arah gaya listrik dan medan listrik yang dialami oleh muatan uji q0 akibat adanya muatan listrik q pada jarak r, digambarkan seperti gambar-gambar dibawah ini.\n\nKetika muatan uji q0 di tempatkan sejauh r dari muatan positif q, maka,"
                     android:textColor="@android:color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -384,7 +387,7 @@ Mari kita temukan jawabannya pada bab ini!
                 <pl.droidsonroids.gif.GifImageView
                     android:id="@+id/mdgif1"
                     android:layout_width="350dp"
-                    android:layout_height="200dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
@@ -392,7 +395,113 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/teksmd17" />
-
+                <TextView
+                    android:id="@+id/teksmd161"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:textSize="12sp"
+                    android:text="Gambar 3.3(a). Gaya listrik (F) menjauhi muatan q. (Sumber gambar: Serway, 2004)"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/mdgif1" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/mdgif2"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:scaleType="fitXY"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd161" />
+                <TextView
+                    android:id="@+id/teksmd162"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:textSize="12sp"
+                    android:text="Gambar 3.3(b). Medan listrik (E) pun menjauhi muatan q. (Sumber gambar: Serway, 2004)"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/mdgif2" />
+                <TextView
+                    android:id="@+id/teksmd172"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:text="Ketika muatan uji q0 di tempatkan sejauh r dari muatan negatif q, maka"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd162" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/mdgif3"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:scaleType="fitXY"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd172" />
+                <TextView
+                    android:id="@+id/teksmd163"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:textSize="12sp"
+                    android:text="Gambar 3.3(c). Gaya listrik (F) menuju muatan q. (Sumber gambar: Serway, 2004)"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/mdgif3" />
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/mdgif4"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp"
+                    android:scaleType="fitXY"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd163" />
+                <TextView
+                    android:id="@+id/teksmd164"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingLeft="8dp"
+                    android:textSize="12sp"
+                    android:text="Gambar 3.3(c). Gaya listrik (F) menuju muatan q. (Sumber gambar: Serway, 2004)"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/mdgif4" />
             </android.support.constraint.ConstraintLayout>
             <android.support.constraint.ConstraintLayout
                 android:id="@+id/clmd5"
@@ -400,7 +509,6 @@ Mari kita temukan jawabannya pada bab ini!
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:background="#B0FFFF">
-
                 <TextView
                     android:id="@+id/teksmd18"
                     android:layout_width="wrap_content"
