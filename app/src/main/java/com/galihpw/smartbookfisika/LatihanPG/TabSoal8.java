@@ -61,7 +61,7 @@ public class TabSoal8 extends Fragment {
                 }
 
                 // mengaktifkan tombol selesai
-                if(Hasil.isi == 10){
+                if(Hasil.isi == 12){
                     bSelesai.setEnabled(true);
                 }
 
