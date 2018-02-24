@@ -44,7 +44,7 @@
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
                     android:fontFamily="cursive"
-                    android:text="Soal 24"
+                    android:text="Soal 4"
                     android:textAlignment="center"
                     android:textColor="@android:color/background_dark"
                     android:textSize="24sp" />

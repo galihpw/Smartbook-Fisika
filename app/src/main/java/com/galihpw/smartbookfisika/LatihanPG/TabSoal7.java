@@ -67,7 +67,7 @@ public class TabSoal7 extends Fragment {
 
                 if(rB.getText().equals("Batang kaca berkurang elektronnya, karena pada saat penggosokan dengan bulu, elektron dari batang kaca berpindah ke bulu.")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
-                    Hasil.jwb[0] = 'c';
+                    Hasil.jwb[6] = 'c';
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();

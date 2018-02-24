@@ -66,7 +66,7 @@ public class TabSoal5 extends Fragment {
 
                 if(rB.getText().equals("D")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
-                    Hasil.jwb[0] = 'd';
+                    Hasil.jwb[4] = 'd';
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();

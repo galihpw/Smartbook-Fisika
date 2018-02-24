@@ -66,7 +66,7 @@ public class TabSoal11 extends Fragment {
 
                 if(rB.getText().equals("Grafik medan listrik pada bola konduktor pejal")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
-                    Hasil.jwb[0] = 'b';
+                    Hasil.jwb[10] = 'b';
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
