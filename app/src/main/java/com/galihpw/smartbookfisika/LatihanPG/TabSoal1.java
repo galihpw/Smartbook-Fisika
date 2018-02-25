@@ -38,15 +38,20 @@ public class TabSoal1 extends Fragment {
     private Button bSelesai;
     int countHint = 0;
     int status = 0;
+
     @BindView(R.id.playvideosoal)
+    ImageView playvideosoal;
+
+    @BindView(R.id.playvideosoal_1)
     ImageView playvideosoal1;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         final View rootView = inflater.inflate(R.layout.tab_soal1, container, false);
 
         ButterKnife.bind(this,rootView);
-        Glide.with(this).load("http://img.youtube.com/vi/NsxhbgCrrSQ&t=21s/0.jpg").into(playvideosoal1);
+        Glide.with(this).load("http://img.youtube.com/vi/NsxhbgCrrSQ&t=21s/0.jpg").into(playvideosoal);
         bSelesai = (Button) getActivity().findViewById(R.id.bSelesai);
 
         playvideosoal1.setOnClickListener(new View.OnClickListener() {

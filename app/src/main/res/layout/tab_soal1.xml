@@ -88,10 +88,11 @@
                             android:layout_centerInParent="true"/>
 
                         <ImageView
-                            android:id="@+id/playvideosoal_21"
+                            android:id="@+id/playvideosoal_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_centerInParent="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
                             android:src="@drawable/icon_play" />
                     </RelativeLayout>
 
