@@ -73,6 +73,15 @@ public class Materi1 extends AppCompatActivity {
     @BindView(R.id.img5)
     ImageView img5;
 
+    @BindView(R.id.img6)
+    ImageView img6;
+
+    @BindView(R.id.img7)
+    ImageView img7;
+
+    @BindView(R.id.img8)
+    ImageView img8;
+
     @BindView(R.id.pembatas1)
     ImageView pembatas1;
 
@@ -92,9 +101,9 @@ public class Materi1 extends AppCompatActivity {
         Glide.with(this).load("http://img.youtube.com/vi/VZJblLwL1SI/0.jpg").into(video1);
         Glide.with(this).load("http://img.youtube.com/vi/ey88EdZo9hU/0.jpg").into(video2);
         Glide.with(this).load("http://img.youtube.com/vi/ViZNgU-Yt-Y/0.jpg").into(video3);
-        Glide.with(this).load("http://img.youtube.com/vi/VZJblLwL1SI/0.jpg").into(video4);
-        Glide.with(this).load("http://img.youtube.com/vi/ey88EdZo9hU/0.jpg").into(video5);
-        Glide.with(this).load("http://img.youtube.com/vi/ViZNgU-Yt-Y/0.jpg").into(video6);
+        Glide.with(this).load("http://img.youtube.com/vi/Qov5sMTshZs/0.jpg").into(video4);
+        Glide.with(this).load("http://img.youtube.com/vi/B3s23PBAUO8/0.jpg").into(video5);
+        Glide.with(this).load("http://img.youtube.com/vi/ELuYLs0BgJ8/0.jpg").into(video6);
         Glide.with(this).load(R.drawable.pembatas).into(pembatas1);
         Glide.with(this).load(R.drawable.pembatas).into(pembatas2);
         Glide.with(this).load(R.drawable.pembatas).into(pembatas3);
@@ -103,6 +112,9 @@ public class Materi1 extends AppCompatActivity {
         Glide.with(this).load(R.drawable.benfranklin).into(img3);
         Glide.with(this).load(R.drawable.operasi_endoskopi).into(img4);
         Glide.with(this).load(R.drawable.jaritangan).into(img5);
+        Glide.with(this).load(R.drawable.electroscope5).into(img6);
+        Glide.with(this).load(R.drawable.pengecatan_elektrostatik).into(img7);
+        Glide.with(this).load(R.drawable.imgcs1).into(img8);
 
         Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/Neat_Chalk.ttf");
         judul.setTypeface(custom_font);
@@ -153,7 +165,7 @@ public class Materi1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Materi1.this, YoutubeActivity.class);
-                Config.VIDEO_ID = "VZJblLwL1SI";
+                Config.VIDEO_ID = "Qov5sMTshZs";
                 startActivity(intent);
             }
         });
@@ -162,7 +174,7 @@ public class Materi1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Materi1.this, YoutubeActivity.class);
-                Config.VIDEO_ID = "ey88EdZo9hU";
+                Config.VIDEO_ID = "B3s23PBAUO8";
                 startActivity(intent);
             }
         });
@@ -171,7 +183,7 @@ public class Materi1 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Materi1.this, YoutubeActivity.class);
-                Config.VIDEO_ID = "ViZNgU-Yt-Y";
+                Config.VIDEO_ID = "ELuYLs0BgJ8";
                 startActivity(intent);
             }
         });

@@ -810,13 +810,13 @@ akan di cat. Karena muatan yang ada di permukaan bahan tersebar merata di seluru
                 android:lineSpacingExtra="8sp"
                 android:padding="8dp"
                 android:background="@color/backroundSoal"
-                android:text=" Muatan dari masing-masing pelat adalah
+                android:text="a) Muatan dari masing-masing pelat adalah
 
-Pelat A tolak-menolak dengan pelat D, maka pelat A sama jenis dengan pelat D. 
+- Pelat A tolak-menolak dengan pelat D, maka pelat A sama jenis dengan pelat D.
 
-Pelat A tarik-menarik dengan pelat C, maka pelat A berbeda jenis dengan pelat C.
+- Pelat A tarik-menarik dengan pelat C, maka pelat A berbeda jenis dengan pelat C.
 
-Pelat A tarik menarik dengan pelat B, maka pelat A berbeda jenis dengan pelat B.
+- Pelat A tarik menarik dengan pelat B, maka pelat A berbeda jenis dengan pelat B.
 
 Dari data diatas maka dapat ditentukan bahwa:
 
@@ -826,9 +826,18 @@ Pelat B: bermuatan negatif (-)
 
 Pelat C: bermuatan negatif (-)
 
-Pelat D: bermuatan positif (+)"
+Pelat D: bermuatan positif (+)
+
+b) Diagram gaya bebas dari pasangan pelat A-D, C-A, C-D, B-D dan A-B"
                 android:textAlignment="textStart"
                 android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/img8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bgmateri1" />
+
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </android.support.constraint.ConstraintLayout>

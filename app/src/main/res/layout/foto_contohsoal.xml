@@ -30,7 +30,7 @@
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
                     android:fontFamily="cursive"
-                    android:text="Soal 5"
+                    android:text="Contoh Soal"
                     android:textColor="@android:color/background_dark"
                     android:textSize="24sp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -60,7 +60,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="casual"
-                        android:text="Perhatikanlah diagram  dibawah ini!"
+                        android:text="Simaklah video dibawah ini mengenai peristiwa menempelnya balon pada tembok setelah balon digossokan pada rambut!"
                         android:textAlignment="center"
                         android:textColor="@android:color/background_dark"
                         android:textSize="14sp"
@@ -79,14 +79,14 @@
                     app:layout_constraintTop_toBottomOf="@+id/frameLayout">
 
                     <ImageView
-                        android:id="@+id/videosoal5"
+                        android:id="@+id/videocontohsoal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:src="@drawable/bgmateri1" />
 
                     <ImageView
-                        android:id="@+id/play_videosoal5"
+                        android:id="@+id/play_videocontohsoal"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
@@ -105,7 +105,7 @@
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:textColor="@android:color/background_dark"
-                    android:text="Terdapat dua buah muatan berbeda jenis A dan B  yang terpisahkan jarak sejauh r, Muatan A memiliki bersar +3C dan muatan B memiliki besar – 5C. Gambarkan lah garis gaya pada interaksi muatan tersebut"
+                    android:text="Setelah menyimak video diatas. Gambarkan dan jelaskanlah menggunakan bahasamu sendiri, apa yang terjadi pada balon dan tembok! (Disini kamu diminta menggambarkan peristiwa yang terjadi antara balondan tembok, berikut jawabannya)"
                     android:textAlignment="viewStart"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -126,17 +126,12 @@
                     app:layout_constraintTop_toBottomOf="@+id/teks2soal5">
 
                     <ImageView
-                        android:id="@+id/jawabsoal1"
+                        android:id="@+id/jawabcontohsoal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:src="@drawable/bgmateri1" />
 
-                    <Button
-                        android:id="@+id/button"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Upload Foto" />
                 </LinearLayout>
             </android.support.constraint.ConstraintLayout>
         </LinearLayout>

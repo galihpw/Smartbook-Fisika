@@ -51,14 +51,14 @@ public class TabSoal1 extends Fragment {
         final View rootView = inflater.inflate(R.layout.tab_soal1, container, false);
 
         ButterKnife.bind(this,rootView);
-        Glide.with(this).load("http://img.youtube.com/vi/NsxhbgCrrSQ&t=21s/0.jpg").into(playvideosoal);
+        Glide.with(this).load("http://img.youtube.com/vi/NsxhbgCrrSQ/0.jpg").into(playvideosoal);
         bSelesai = (Button) getActivity().findViewById(R.id.bSelesai);
 
         playvideosoal1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), YoutubeActivity.class);
-                Config.VIDEO_ID = "NsxhbgCrrSQ&t=21s";
+                Config.VIDEO_ID = "NsxhbgCrrSQ";
                 startActivity(intent);
             }
         });

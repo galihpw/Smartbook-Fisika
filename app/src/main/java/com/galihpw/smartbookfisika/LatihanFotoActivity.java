@@ -15,7 +15,7 @@ import com.galihpw.smartbookfisika.LatihanFoto.FotoSoal1;
 import com.galihpw.smartbookfisika.LatihanFoto.FotoSoal2;
 import com.galihpw.smartbookfisika.LatihanFoto.FotoSoal3;
 import com.galihpw.smartbookfisika.LatihanFoto.FotoSoal4;
-import com.galihpw.smartbookfisika.LatihanFoto.FotoSoal5;
+import com.galihpw.smartbookfisika.LatihanFoto.FotoContohSoal;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -108,20 +108,20 @@ public class LatihanFotoActivity extends AppCompatActivity {
             //Returning the current tabs
             switch (position){
                 case 0:
+                    FotoContohSoal contohsoal = new FotoContohSoal();
+                    return contohsoal;
+                case 1:
                     FotoSoal1 soal1 = new FotoSoal1();
                     return soal1;
-                case 1:
+                case 2:
                     FotoSoal2 soal2 = new FotoSoal2();
                     return soal2;
-                case 2:
+                case 3:
                     FotoSoal3 soal3 = new FotoSoal3();
                     return soal3;
-                case 3:
+                case 4:
                     FotoSoal4 soal4 = new FotoSoal4();
                     return soal4;
-                case 4:
-                    FotoSoal5 soal5 = new FotoSoal5();
-                    return soal5;
                 default:
                     return null;
             }

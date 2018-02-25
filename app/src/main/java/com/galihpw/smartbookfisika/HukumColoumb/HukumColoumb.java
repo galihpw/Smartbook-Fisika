@@ -149,6 +149,7 @@ public class HukumColoumb extends AppCompatActivity {
         Glide.with(this).load(R.drawable.imgrmhc7).into(imgrmhc7);
         Glide.with(this).load(R.drawable.imgrmhc8).into(imgrmhc8);
         Glide.with(this).load(R.drawable.imgrmhc9).into(imgrmhc9);
+        Glide.with(this).load(R.drawable.imgrmhc10).into(imgrmhc10);
         Glide.with(this).load(R.drawable.imgsoalhc1).into(imgsoalhc1);
         Glide.with(this).load(R.drawable.imgsoalhc2).into(imgsoalhc2);
 
