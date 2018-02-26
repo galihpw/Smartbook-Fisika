@@ -30,7 +30,7 @@
                     android:layout_marginRight="8dp"
                     android:layout_marginTop="8dp"
                     android:fontFamily="cursive"
-                    android:text="Soal 1"
+                    android:text="Soal 2"
                     android:textColor="@android:color/background_dark"
                     android:textSize="24sp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -53,15 +53,14 @@
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView13"
-                    app:layout_constraintVertical_bias="0.060000002">
+                    app:layout_constraintVertical_bias="0.01999998">
 
                     <TextView
                         android:id="@+id/textView14"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="casual"
-                        android:text="(Soal mengenai peristiwa sisir menarik kertas atau anak menarik baju)
-Simaklah video mengenai peristiwa sisir menarik kertas dibawah ini!"
+                        android:text="Sebuah bola kecil bermuatan positif diletakkan dalam keadaan diam dengan jarak d dibawah bola besar bermuatan negatif yang menggantung."
                         android:textAlignment="center"
                         android:textColor="@android:color/background_dark"
                         android:textSize="14sp"
@@ -69,78 +68,105 @@ Simaklah video mengenai peristiwa sisir menarik kertas dibawah ini!"
                         tools:layout_editor_absoluteY="99dp" />
                 </FrameLayout>
 
-                <RelativeLayout
-                    android:id="@+id/fotosoal1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:padding="8dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/frameLayout">
-
-                    <ImageView
-                        android:id="@+id/videosoal1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:src="@drawable/bgmateri1" />
-
-                    <ImageView
-                        android:id="@+id/play_videosoal1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:src="@drawable/icon_play" />
-                </RelativeLayout>
-
-                <TextView
-                    android:id="@+id/teks2soal1"
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="8dp"
-                    android:layout_marginStart="8dp"
                     android:layout_marginTop="24dp"
-                    android:lineSpacingExtra="6sp"
-                    android:paddingBottom="24dp"
+                    android:orientation="vertical"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:textColor="@android:color/background_dark"
-                    android:text="Gambarkanlah oleh Anda, apa yang terjadi pada sisir yang setelah digosok rambut kering sehingga dapat menarik potongan kertas.Gambarkanlah hasil pekerjaanmu!"
-                    android:textAlignment="viewStart"
-                    android:textSize="16sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/fotosoal1" />
-
-                <LinearLayout
-                    android:id="@+id/linearLayout2"
-                    android:layout_width="0dp"
-                    android:layout_height="0dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_marginTop="8dp"
-                    android:orientation="vertical"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/teks2soal1">
+                    app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <TextView
+                        android:id="@+id/teksf1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Representasi matematis"
+                        android:textAlignment="viewStart"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/jawabsoal1"
+                        android:id="@+id/jawab2soal21"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
                         android:src="@drawable/bgmateri1" />
 
-                    <Button
-                        android:id="@+id/uploadsoal1"
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout1"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <TextView
+                        android:id="@+id/teksf12"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Upload Foto" />
+                        android:text="Representasi diagram badan bebas"
+                        android:textAlignment="viewStart"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/jawab2soal22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/bgmateri1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                    app:layout_constraintVertical_bias="0.0">
+
+                    <TextView
+                        android:id="@+id/teksf13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Representasi gambar (gambar situasi pada soal)"
+                        android:textAlignment="viewStart"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/jawab2soal23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/bgmateri1" />
+
                 </LinearLayout>
             </android.support.constraint.ConstraintLayout>
         </LinearLayout>
-    </android.support.v4.widget.NestedScrollView>
-
+    </android.support.v4.widget.NestedScrollView>foto2_soal1.xml
 </android.support.constraint.ConstraintLayout>
