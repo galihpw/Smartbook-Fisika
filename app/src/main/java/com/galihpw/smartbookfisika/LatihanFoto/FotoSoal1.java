@@ -91,25 +91,6 @@ public class FotoSoal1 extends Fragment {
             }
         });
 
-        //rG = (RadioGroup) rootView.findViewById(R.id.rG);
-
-        /*rG.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup radioGroup, @IdRes int i) {
-                //pilih radio button yang ada di radio button group
-                int selectedId = rG.getCheckedRadioButtonId();
-
-                // mencari radio button
-                rB = (RadioButton) rootView.findViewById(selectedId);
-
-                if(rB.getText().equals("a. ya")){
-                    Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
-                }else{
-                    Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
-                }
-            }
-        });*/
-
         return rootView;
     }
 

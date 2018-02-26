@@ -133,11 +133,6 @@ Simaklah video mengenai peristiwa sisir menarik kertas dibawah ini!"
                         android:layout_centerInParent="true"
                         android:src="@drawable/bgmateri1" />
 
-                    <Button
-                        android:id="@+id/uploadsoal1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Upload Foto" />
                 </LinearLayout>
             </android.support.constraint.ConstraintLayout>
         </LinearLayout>
