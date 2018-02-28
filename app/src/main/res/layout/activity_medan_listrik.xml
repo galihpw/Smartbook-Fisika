@@ -3546,7 +3546,7 @@ Mari kita temukan jawabannya pada bab ini!
                     android:id="@+id/image98md"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/image96md"
+                    android:background="@drawable/image98md"
                     android:layout_margin="4dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
