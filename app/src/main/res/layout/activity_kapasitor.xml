@@ -76,6 +76,7 @@
                     android:text="Gambar 5.1. Keyboard laptop.
 Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapasitor-dan-keyboard.html"
                     android:textAlignment="center"
+                    android:textSize="12sp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -118,6 +119,7 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     app:layout_constraintTop_toBottomOf="@+id/tekska4" />
 
             </android.support.constraint.ConstraintLayout>
+
             <android.support.constraint.ConstraintLayout
                 android:id="@+id/clka2"
                 android:layout_width="match_parent"
@@ -209,6 +211,7 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginTop="8dp"
                     android:text="Gambar 5.2. Kapasitor terdiri dari dua konduktor. Ketika kapasitor dimuati, konduktor membawa muatan dengan magnitudo yang sama besar namun dengan tanda yang berbeda (sumber gambar: Serway, 2004)."
                     android:textAlignment="center"
+                    android:textSize="12sp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -232,13 +235,12 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     app:layout_constraintTop_toBottomOf="@+id/tekska9" />
 
 
-
                 <android.support.constraint.ConstraintLayout
                     android:id="@+id/rlka1"
-                    android:background="#B0FFFF"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
+                    android:background="#B0FFFF"
                     app:layout_constraintTop_toBottomOf="@id/tekska10">
 
                     <TextView
@@ -257,19 +259,21 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                         android:textStyle="bold"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="@id/rlka1"
-                         />
+                        app:layout_constraintTop_toTopOf="@id/rlka1" />
+
                     <ImageView
                         android:id="@+id/imgrmka1"
-                        android:layout_width="150dp"
-                        android:layout_height="50dp"
-                        android:layout_marginTop="16dp"
+                        android:layout_width="175dp"
+                        android:layout_height="95dp"
                         android:layout_alignParentTop="true"
                         android:layout_centerHorizontal="true"
-                        app:srcCompat="@drawable/imgkarumus1"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="16dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/tekska11"/>
+                        app:layout_constraintTop_toBottomOf="@id/tekska11"
+                        app:srcCompat="@drawable/imgkarumus1" />
                 </android.support.constraint.ConstraintLayout>
 
                 <TextView
@@ -318,12 +322,13 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imgrmka2" />
             </android.support.constraint.ConstraintLayout>
+
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/clka3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/clka3"
-                android:background="#EBEBEB"
-                android:layout_marginTop="100dp">
+                android:layout_marginTop="100dp"
+                android:background="#EBEBEB">
 
                 <TextView
                     android:id="@+id/tekska14"
@@ -332,14 +337,15 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
                     android:text="SEJARAH KAPASITOR"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
+
                 <TextView
                     android:id="@+id/tekska15"
                     android:layout_width="wrap_content"
@@ -353,16 +359,18 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:text="Teknologi kapasitor tesebut berawal dari Leyden Jar. Leyden Jar merupakan kapasitor pertama untuk menyimpan muatan yang besar. Leyden Jar ditemukan oleh ilmuwan Belanda bernama Pieter Van Musschenbroek pada tahun 1745 di Leiden. Penemuan tersebut diberi nama sesuai dengan tempat ditemukannya."
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska14"/>
+                    app:layout_constraintTop_toBottomOf="@+id/tekska14" />
+
                 <ImageView
+                    android:id="@+id/imgka4"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka4"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka4"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska14"
-                    android:background="@drawable/imgka4"/>
+                    app:layout_constraintTop_toBottomOf="@+id/tekska14" />
+
                 <TextView
                     android:id="@+id/tekska16"
                     android:layout_width="wrap_content"
@@ -371,13 +379,14 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/black"
                     android:text="Gambar 5.3. (a) Leyden Jar   (b) kapasitor masa kini"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka4"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka4" />
+
                 <TextView
                     android:id="@+id/tekska17"
                     android:layout_width="wrap_content"
@@ -386,18 +395,19 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
+                    android:paddingBottom="20dp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Leyden Jar terdiri dari tabung kaca yang setengahnya diisikan air dan dibungkus oleh logam tipis di bagian dalam dan luarnya. Tabung kaca tersebut berfungsi sebagai dielektrik. Biasanya terdapat kawat logam yang menembus gabus di atas tabung. Kemudian, rantai disambungkan pada sesuatu yang dapat mengalirkan listrik. Setelah disambungkan, tabung tersebut akan menyimpan dua muatan yang berlawanan dengan keseimbangan, hingga tabung dihubungkan dengan kawat lain yang menghasilkan sedikit kejutan atau percikan. Oleh karena itu, kita harus berterimakasih pada Pieter Van Musschenbroek, karena tanpa konsep Leyden Jar, kapasitor dan teknologi listrik modern belum tentu bisa seperti sekarang."
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska16"
-                    android:paddingBottom="20dp"/>
+                    app:layout_constraintTop_toBottomOf="@+id/tekska16" />
             </android.support.constraint.ConstraintLayout>
+
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/clka4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/clka4"
                 android:layout_marginTop="50dp">
 
                 <TextView
@@ -407,14 +417,15 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
                     android:text="KAPASITOR PELAT SEJAJAR"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@id/clka4" />
+
                 <TextView
                     android:id="@+id/tekska19"
                     android:layout_width="wrap_content"
@@ -426,19 +437,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Bentuk kapasitor yang paling sederhana adalah kapasitor pelat sejajar. Kapasitor ini terdiri dari dua pelat konduktor yang sejajar dan dipisahkan oleh sebuah lapisan isolator."
+                    android:textColor="@android:color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska18"/>
+                    app:layout_constraintTop_toBottomOf="@+id/tekska18" />
+
                 <ImageView
+                    android:id="@+id/imgka5"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka5"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska19"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska19" />
+
                 <TextView
                     android:id="@+id/tekska20"
                     android:layout_width="wrap_content"
@@ -447,13 +459,14 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/black"
                     android:text="Gambar 5.4. Kapasitor pelat sejajar yang terdiri dari 2 pelat konduktor, luas masing masing pelat adalah A, dan kedua pelat dipisahkan oleh jarak sebesar d. Ketika kapasitor dimuati dengan menghubungkan kedua pelat pada baterai/ sumber listrik, kedua pelat membawa sejumlah muatan yang sama besar. Satu pelat membawa muatan positif dan pelat yang lainnya membawa muatan negatif. (sumber gambar: Serway, 2004)."
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka5"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka5" />
+
                 <TextView
                     android:id="@+id/tekska21"
                     android:layout_width="wrap_content"
@@ -461,14 +474,15 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textColor="@android:color/black"
                     android:lineSpacingExtra="4sp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Kerapatan muatan listrik yang diberikan pada masing-masing pelat adalah +σ dan –σ. Maka, muatan yang dikandung masing-masing pelat adalah"
+                    android:textColor="@android:color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska20"/>
+                    app:layout_constraintTop_toBottomOf="@+id/tekska20" />
+
                 <TextView
                     android:id="@+id/tekska22"
                     android:layout_width="wrap_content"
@@ -480,12 +494,13 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="+Q= +σA"
-                    android:textSize="16sp"
                     android:textColor="@android:color/black"
+                    android:textSize="16sp"
                     android:textStyle="bold|italic"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska21"/>
+                    app:layout_constraintTop_toBottomOf="@+id/tekska21" />
+
                 <TextView
                     android:id="@+id/tekska23"
                     android:layout_width="wrap_content"
@@ -499,7 +514,8 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:text="dan"
                     android:textColor="@android:color/black"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska22"/>
+                    app:layout_constraintTop_toBottomOf="@+id/tekska22" />
+
                 <TextView
                     android:id="@+id/tekska24"
                     android:layout_width="wrap_content"
@@ -516,7 +532,8 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:textStyle="bold|italic"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska23"/>
+                    app:layout_constraintTop_toBottomOf="@+id/tekska23" />
+
                 <TextView
                     android:id="@+id/tekska25"
                     android:layout_width="wrap_content"
@@ -528,20 +545,21 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Jadi kapasitor menyimpan muatan Q jika salah satu pelat memiliki muatan –Q dan pelat lainnya memiliki muatan +Q.\nAdanya perbedaan jenis muatan listrik pada kedua pelat konduktor menimbulkan medan listrik dan beda potensial diantara kedua pelat tersebut. Pelat bermuatan positif mempunyai potensial listrik lebih tinggi sedangkan pelat bermuatan negatif mempunyai potensial listrik lebih rendah. Sebagaimana telah dijelaskan pada bab mengenai potensial listrik, jika ada beda potensial listrik antara kedua pelat kapasitor maka ada energi potensial listrik pada kapasitor tersebut. Energi potensial listrik yang tersimpan pada kapasitor mempunyai banyak kegunaan. Kita sudah membahas sebelumnya bahwa kuat medan listrik antar dua pelat sejajar yang dipisahkan oleh udara atau vakum adalah"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska24"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska24" />
+
                 <ImageView
+                    android:id="@+id/imgka6"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka6"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka6"
-                    android:background="@drawable/imgka6"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska25"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska25" />
+
                 <TextView
                     android:id="@+id/tekska26"
                     android:layout_width="wrap_content"
@@ -553,20 +571,21 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text=""
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka6"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgka6" />
+
                 <ImageView
+                    android:id="@+id/imgka7"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka7"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka7"
-                    android:background="@drawable/imgka7"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska26"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska26" />
+
                 <TextView
                     android:id="@+id/tekska27"
                     android:layout_width="wrap_content"
@@ -578,20 +597,21 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Dengan mensubstitusi dengan persamaan 5.1 maka didapatkan nilai kapasitansi adalah"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka7"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgka7" />
+
                 <ImageView
+                    android:id="@+id/imgka8"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka8"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka8"
-                    android:background="@drawable/imgka8"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska27"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska27" />
+
                 <TextView
                     android:id="@+id/tekska28"
                     android:layout_width="wrap_content"
@@ -599,26 +619,27 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
+                    android:background="#B0FFFF"
                     android:lineSpacingExtra="4sp"
+                    android:paddingBottom="10dp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:background="#B0FFFF"
-                    android:textStyle="bold"
-                    android:paddingBottom="10dp"
                     android:text="Kapasitansi dari kapasitor pelat sejajar sebanding dengan area dari pelat itu sendiri dan berbanding terbalik dengan jarak antar pelatnya"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka8"/>
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgka8" />
+
                 <ImageView
+                    android:id="@+id/imgka9"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka9"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska28"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska28" />
+
                 <TextView
                     android:id="@+id/tekska29"
                     android:layout_width="wrap_content"
@@ -627,22 +648,23 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/black"
                     android:text="Gambar 5.5. (a) Medan listrik diantara pelat pada kapasitor pelat sejajar adalah seragam pada bagian tengah nya dan tidak seragam di ujung-ujungnya. (b) Pola medan listrik pada dua pelat konduktor sejajar yang berlawanan jenis. Benang kecil diletakkan pada permukaan minyak sejajar dengan medan listrik (sumber gambar: Serway, 2004)."
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka9"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka9" />
+
                 <ImageView
+                    android:id="@+id/imgka10"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka10"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska29"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska29" />
+
                 <TextView
                     android:id="@+id/tekska30"
                     android:layout_width="wrap_content"
@@ -651,20 +673,21 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
+                    android:text="Gambar 5.6. (a) Sebuah rangkaian yang terdiri atas kapasitor, baterai, dan saklar. (b) Ketika saklar ditutup, baterai menghasilkan medan listrik pada kawat yang menyebabkan elektron berpindah dari pelat kiri ke kawat dan menuju pelat kanan dari kawat. Hasilnya terdapat pemisahan muatan pada kedua pelat, yang mana merepresentasikan kenaikan energi potensial listrik pada sistem dalam rangkaian. Energi ini berasal dari energi kimia pada baterai (sumber gambar: Serway, 2004)."
                     android:textAlignment="center"
-                    android:textSize="12sp"
                     android:textColor="@android:color/black"
-                    android:text="Gambar 5.6. (a) Sebuah rangkaian yang terdiri atas kapasitor, baterai, dan saklar. (b) Ketika saklar ditutup, baterai menghasilkan medan listrik pada kawat yang menyebabkan elektron berpindah dari pelat kiri ke kawat dan pada pelat kanan ke kawat. Hasilnya terdapat pemisahan muatan pada kedua pelat, yang mana merepresentasikan kenaikan energi potensial listrik pada sistem dalam rangkaian. Energi ini berasal dari energi kimia pada baterai (sumber gambar: Serway, 2004)."
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka10"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka10" />
             </android.support.constraint.ConstraintLayout>
+
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/clka5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/clka5"
-                android:background="#FFFFB0"
                 android:layout_marginTop="100dp"
+                android:background="#FFFFB0"
                 android:paddingBottom="20dp">
 
                 <TextView
@@ -674,13 +697,14 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:text="CONTOH SOAL"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@id/clka5" />
+
                 <TextView
                     android:id="@+id/tekska32"
                     android:layout_width="wrap_content"
@@ -692,10 +716,11 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text=""
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska31"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska31" />
+
                 <TextView
                     android:id="@+id/tekska33"
                     android:layout_width="wrap_content"
@@ -703,13 +728,14 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:text="JAWAB"
                     android:textAlignment="center"
                     android:textColor="@android:color/holo_red_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/tekska32" />
+
                 <TextView
                     android:id="@+id/tekska34"
                     android:layout_width="wrap_content"
@@ -721,25 +747,27 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Dari persamaan 5.2, kita menemukan"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska33"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska33" />
+
                 <ImageView
+                    android:id="@+id/imgka11"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka11"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka11"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska34"
-                    android:background="@drawable/imgka11"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska34" />
             </android.support.constraint.ConstraintLayout>
+
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/clka6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/clka6"
                 android:layout_marginTop="60dp">
+
                 <TextView
                     android:id="@+id/tekska35"
                     android:layout_width="wrap_content"
@@ -747,14 +775,15 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
                     android:text="KAPASITOR SILINDER"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@id/clka6" />
+
                 <TextView
                     android:id="@+id/tekska36"
                     android:layout_width="wrap_content"
@@ -765,19 +794,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:lineSpacingExtra="4sp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:text="Kapasitor tabung atau silinder terdiri dari dua siliner konduktor berbeda jari-jari yang mengapit bahan dielektrik diantaranya. Dengan menggunakan Hukum Gauss dimana rapat muatan untuk distribusi muatan berbentuk silinder sehingga λ adalah λE=2kλ/r, maka nilai kapasitansi untuk kapasitor silinder adalah"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:text="Kapasitor tabung atau silinder terdiri dari dua siliner konduktor berbeda jari-jari yang mengapit bahan dielektrik diantaranya. Dengan menggunakan Hukum Gauss dimana rapat muatan untuk distribusi muatan berbentuk silinder adalah λ sehingga E=2kλ/r, maka nilai kapasitansi untuk kapasitor silinder adalah"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska35"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska35" />
+
                 <ImageView
+                    android:id="@+id/imgka12"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka12"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska36"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska36" />
+
                 <TextView
                     android:id="@+id/tekska37"
                     android:layout_width="wrap_content"
@@ -786,29 +816,31 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/black"
                     android:text="Gambar 5.7. (a) Kapasitor silinder terdiri dari konduktor pejar berbentuk silinder dengan radius a dan panjang l yang dikelilingi oleh kulit silinder koaksial dengan radius b. (b) Tampilan dari atas kapasitor silinder. Garis medan listrik berupa radial. Garis putus-putus merepresentasikan permukaan silinder gaussian dengan radius r dan panjangnya l (sumber gambar: Serway, 2004)."
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka12"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka12" />
+
                 <ImageView
+                    android:id="@+id/imgka13"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka13"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka13"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska37"
-                    android:background="@drawable/imgka13"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska37" />
             </android.support.constraint.ConstraintLayout>
+
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/clka7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/clka7"
                 android:layout_marginTop="60dp">
+
                 <TextView
                     android:id="@+id/tekska38"
                     android:layout_width="wrap_content"
@@ -816,14 +848,15 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
                     android:text="KAPASITOR BOLA"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@id/clka7" />
+
                 <TextView
                     android:id="@+id/tekska39"
                     android:layout_width="wrap_content"
@@ -835,18 +868,19 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Kapasitor bola terdiri dari dua kulit bola bermuatan sepusat, seperti gambar dibawah ini"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska38"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska38" />
+
                 <ImageView
+                    android:id="@+id/imgka14"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka14"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska39"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska39" />
+
                 <TextView
                     android:id="@+id/tekska40"
                     android:layout_width="wrap_content"
@@ -855,23 +889,24 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/black"
                     android:text="Gambar 5.8. Kapasitor bola terdiri dari bola dalam dengan radius a yang dikelulungi kulit bola sferis dengan radius b. Medan listrik diantara kedua bola sferis mengarah keluar secara radial dan bermuatan positif (sumber gambar: Serway, 2004)."
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka14"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka14" />
+
                 <ImageView
+                    android:id="@+id/imgka15"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka15"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka15"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska40"
-                    android:background="@drawable/imgka15"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska40" />
+
                 <TextView
                     android:id="@+id/tekska41"
                     android:layout_width="wrap_content"
@@ -883,19 +918,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Besar beda potensialnya adalah"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka15"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgka15" />
+
                 <ImageView
+                    android:id="@+id/imgka16"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka16"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka16"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska41"
-                    android:background="@drawable/imgka16"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska41" />
+
                 <TextView
                     android:id="@+id/tekska42"
                     android:layout_width="wrap_content"
@@ -907,26 +943,28 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Substitusi nilai ∆V pada persamaan 5.1, kita mendapatkan"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka16"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgka16" />
+
                 <ImageView
+                    android:id="@+id/imgka17"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka17"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka17"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska42"
-                    android:background="@drawable/imgka17"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska42" />
             </android.support.constraint.ConstraintLayout>
+
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/clka8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/clka8"
                 android:background="#EBEBEB"
                 android:paddingBottom="20dp">
+
                 <TextView
                     android:id="@+id/tekska43"
                     android:layout_width="wrap_content"
@@ -938,25 +976,27 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Beberapa tipe kapasitor, diantaranya"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toTopOf="@id/clka8"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/clka8" />
+
                 <ImageView
+                    android:id="@+id/imgka18"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka18"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka18"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska43"
-                    android:background="@drawable/imgka18"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska43" />
             </android.support.constraint.ConstraintLayout>
+
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/clka9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
-                android:id="@+id/clka9">
+                android:layout_marginTop="50dp">
+
                 <TextView
                     android:id="@+id/tekska44"
                     android:layout_width="wrap_content"
@@ -964,14 +1004,15 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
                     android:text="RANGKAIAN KAPASITOR"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@id/clka9" />
+
                 <TextView
                     android:id="@+id/tekska45"
                     android:layout_width="wrap_content"
@@ -983,10 +1024,11 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Bagaimanakah mendapatkan kapasitansi yang diinginkan, sementara kapasitor yang dijual dipasaran tidak selalu sama dengan apa yang kita inginkan?\n\nSolusinya adalah dengan merangkai sejumlah kapasitor. Rangkaian sejumlah kapasitor menghasilkan kapasitansi total yang berbeda dengan kapasitansi kapasitor awal.\n\nRangkaian kapasitor dapat dikelompokkan menjadi dua bagian besar, yaitu rangkain seri dan parallel. Rangkaian-rangkain kapasitor yang lain dapat dipandang sebagai kombinasi rangkaian parallel dan seri."
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska44"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska44" />
+
                 <TextView
                     android:id="@+id/tekska46"
                     android:layout_width="wrap_content"
@@ -994,12 +1036,13 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:text="A. Rangkaian Paralel"
                     android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/tekska45" />
+
                 <TextView
                     android:id="@+id/tekska47"
                     android:layout_width="wrap_content"
@@ -1007,25 +1050,26 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
+                    android:background="#B0FFFF"
                     android:lineSpacingExtra="4sp"
                     android:padding="8sp"
-                    android:textStyle="bold"
-                    android:background="#B0FFFF"
                     android:text="Besar beda potensial di antara dua ujung kapasitor individual sama besarnya dengan beda potensial pada rangkaian paralel. Sedangkan muatan total pada rangkaian paralel merupakan jumlah dari muatan dari masing-masing kapasitor individual."
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska46"/>
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska46" />
+
                 <ImageView
+                    android:id="@+id/imgka19"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka19"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka19"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska47"
-                    android:background="@drawable/imgka19"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska47" />
+
                 <TextView
                     android:id="@+id/tekska48"
                     android:layout_width="wrap_content"
@@ -1037,19 +1081,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="dan"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka19"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka19" />
+
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/imgka20"
+                    android:layout_width="183dp"
+                    android:layout_height="53dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka20"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka20"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska48"
-                    android:background="@drawable/imgka20"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska48" />
+
                 <TextView
                     android:id="@+id/tekska49"
                     android:layout_width="wrap_content"
@@ -1061,19 +1106,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Tetapi hubungan muatan, beda potensial, dan kapasitansi memenuhi"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka20"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka20" />
+
                 <ImageView
+                    android:id="@+id/imgka21"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka21"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka21"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska49"
-                    android:background="@drawable/imgka21"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska49" />
+
                 <TextView
                     android:id="@+id/tekska50"
                     android:layout_width="wrap_content"
@@ -1085,19 +1131,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Sehingga kapasitansi totalnya adalah"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka21"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka21" />
+
                 <ImageView
+                    android:id="@+id/imgka22"
                     android:layout_width="120dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka22"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka22"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska50"
-                    android:background="@drawable/imgka22"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska50" />
+
                 <TextView
                     android:id="@+id/tekska51"
                     android:layout_width="wrap_content"
@@ -1109,19 +1156,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Substitusi ketiga hubungan diatas dengan persamaan 5.6 maka diperoleh"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka22"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka22" />
+
                 <ImageView
+                    android:id="@+id/imgka23"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka23"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka23"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska51"
-                    android:background="@drawable/imgka23"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska51" />
+
                 <TextView
                     android:id="@+id/tekska52"
                     android:layout_width="wrap_content"
@@ -1132,28 +1180,29 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="atau"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka23"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka23" />
+
                 <ImageView
+                    android:id="@+id/imgka24"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka24"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka24"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska52"
-                    android:background="@drawable/imgka24"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska52" />
+
                 <ImageView
+                    android:id="@+id/imgka25"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka25"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka24"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/imgka24" />
+
                 <TextView
                     android:id="@+id/tekska53"
                     android:layout_width="wrap_content"
@@ -1162,63 +1211,66 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
                     android:paddingLeft="8sp"
                     android:paddingRight="8sp"
-                    android:textColor="@android:color/black"
                     android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka25"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka25" />
+
                 <TextView
                     android:id="@+id/tekska54"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:layout_marginTop="16dp"
                     android:text="Jika kita terus menambahkan kapasitor individual dan disusun paralel dengan rangkaian, maka kita mendapatkan"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@android:color/black"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/tekska53"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska53" />
+
                 <ImageView
+                    android:id="@+id/imgka26"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka26"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka26"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska54"
-                    android:background="@drawable/imgka26"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska54" />
+
                 <TextView
                     android:id="@+id/tekska55"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
-                    android:layout_marginTop="16dp"
                     android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
                     android:paddingRight="8dp"
                     android:text="Penjumlahan di atas dapat disingkat menjadi"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka26"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka26" />
+
                 <ImageView
+                    android:id="@+id/imgka27"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka27"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka27"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska55"
-                    android:background="@drawable/imgka27"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska55" />
+
                 <TextView
                     android:id="@+id/tekska56"
                     android:layout_width="wrap_content"
@@ -1226,12 +1278,13 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:text="B. Rangkaian Seri"
                     android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/imgka27" />
+
                 <TextView
                     android:id="@+id/tekska57"
                     android:layout_width="wrap_content"
@@ -1239,15 +1292,16 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
+                    android:background="#B0FFFF"
                     android:lineSpacingExtra="4sp"
                     android:padding="8sp"
-                    android:textStyle="bold"
-                    android:background="#B0FFFF"
                     android:text="Besar muatan pada kapasitor individual sama besar dengan besar muatan total pada rangkaian seri. Sedangkan besar beda potensial total pada rangkaian seri merupakan jumlah dari beda potensial masing-masing kapasitor individual. "
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska56"/>
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska56" />
+
                 <TextView
                     android:id="@+id/tekska58"
                     android:layout_width="wrap_content"
@@ -1258,20 +1312,21 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:lineSpacingExtra="4sp"
                     android:padding="8sp"
                     android:text="Pada rangkaian yang disusun seri, muatan yang terkandung pada masing-masing kapasitor sama besarnya. Jadi,"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska57"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska57" />
+
                 <ImageView
+                    android:id="@+id/imgka28"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka28"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka28"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska58"
-                    android:background="@drawable/imgka28"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska58" />
+
                 <TextView
                     android:id="@+id/tekska59"
                     android:layout_width="wrap_content"
@@ -1282,39 +1337,40 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:lineSpacingExtra="4sp"
                     android:padding="8sp"
                     android:text="Besar beda potensial pada kedua kapasitor individual sama dengan besar beda potensial total. Jadi,"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka28"/>
-                <ImageView
-                    android:layout_width="130dp"
-                    android:layout_height="wrap_content"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@id/imgka28" />
+
+                <ImageView
                     android:id="@+id/imgka29"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska59"
-                    android:background="@drawable/imgka29"
-                    />
-                <ImageView
                     android:layout_width="130dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka29"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka30"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka29"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska59" />
+
                 <ImageView
+                    android:id="@+id/imgka30"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgka29" />
+
+                <ImageView
+                    android:id="@+id/imgka31"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka31"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka31"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka30"
-                    android:background="@drawable/imgka31"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/imgka30" />
+
                 <TextView
                     android:id="@+id/tekska60"
                     android:layout_width="wrap_content"
@@ -1324,20 +1380,21 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
                     android:text="Tetapi, hubungan antara beda potensial, kapasitansi, dan muatan memenuhi"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka31"/>
-                <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@id/imgka31" />
+
+                <ImageView
                     android:id="@+id/imgka32"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska60"
+                    android:layout_width="127dp"
+                    android:layout_height="101dp"
+                    android:layout_marginTop="16dp"
                     android:background="@drawable/imgka32"
-                    />
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska60" />
+
                 <TextView
                     android:id="@+id/tekska61"
                     android:layout_width="wrap_content"
@@ -1347,20 +1404,21 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
                     android:text="Untuk kapasitor pengganti dipenuhi"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka32"/>
-                <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@id/imgka32" />
+
+                <ImageView
                     android:id="@+id/imgka33"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska61"
+                    android:layout_width="101dp"
+                    android:layout_height="56dp"
+                    android:layout_marginTop="16dp"
                     android:background="@drawable/imgka33"
-                    />
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska61" />
+
                 <TextView
                     android:id="@+id/tekska62"
                     android:layout_width="wrap_content"
@@ -1370,20 +1428,21 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
                     android:text="Substitusi ketiga hubungan diatas dengan persamaan 5.8, maka diperoleh"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka33"/>
-                <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@id/imgka33" />
+
+                <ImageView
                     android:id="@+id/imgka34"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska62"
+                    android:layout_width="128dp"
+                    android:layout_height="104dp"
+                    android:layout_marginTop="16dp"
                     android:background="@drawable/imgka34"
-                    />
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska62" />
+
                 <TextView
                     android:id="@+id/tekska63"
                     android:layout_width="wrap_content"
@@ -1393,19 +1452,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
                     android:text="diperoleh"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka34"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka34" />
+
                 <ImageView
+                    android:id="@+id/imgka35"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka35"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka35"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska63"
-                    android:background="@drawable/imgka35"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska63" />
+
                 <TextView
                     android:id="@+id/tekska64"
                     android:layout_width="wrap_content"
@@ -1415,20 +1475,21 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
                     android:text="diperoleh"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@android:color/black"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/imgka35"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka35" />
+
                 <ImageView
+                    android:id="@+id/imgka36"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka36"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka36"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska64"
-                    android:background="@drawable/imgka36"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska64" />
+
                 <TextView
                     android:id="@+id/tekska65"
                     android:layout_width="wrap_content"
@@ -1438,28 +1499,30 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
                     android:text="Penjumlahan di atas dapat disingkat menjadi"
-                    app:layout_constraintStart_toStartOf="parent"
                     android:textColor="@android:color/black"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/imgka36"/>
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka36" />
+
                 <ImageView
+                    android:id="@+id/imgka37"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka37"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka37"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska65"
-                    android:background="@drawable/imgka37"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska65" />
             </android.support.constraint.ConstraintLayout>
+
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/clka10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#FFFFB0"
-                android:id="@+id/clka10"
                 android:layout_marginTop="50dp"
+                android:background="#FFFFB0"
                 android:paddingBottom="20dp">
+
                 <TextView
                     android:id="@+id/tekska66"
                     android:layout_width="wrap_content"
@@ -1467,13 +1530,14 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:text="CONTOH SOAL"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@id/clka10" />
+
                 <TextView
                     android:id="@+id/tekska67"
                     android:layout_width="wrap_content"
@@ -1485,10 +1549,11 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Tiga buah kapasitor dengan kapasitansi sama, masing-masing 1 mF. Tulislah semua susunan yang mungkin bagi tiga kapasitor tersebut dan hitung kapasitansi pengganti masing-masing susunan tersebut."
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska66"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska66" />
+
                 <TextView
                     android:id="@+id/tekska68"
                     android:layout_width="wrap_content"
@@ -1496,13 +1561,14 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:text="JAWAB"
                     android:textAlignment="center"
                     android:textColor="@android:color/holo_red_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/tekska67" />
+
                 <TextView
                     android:id="@+id/tekska69"
                     android:layout_width="wrap_content"
@@ -1514,20 +1580,21 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text=""
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska68"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska68" />
+
                 <ImageView
+                    android:id="@+id/imgka38"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka38"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka38"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska69"
-                    android:background="@drawable/imgka38"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska69" />
+
                 <TextView
                     android:id="@+id/tekska70"
                     android:layout_width="wrap_content"
@@ -1538,12 +1605,13 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:lineSpacingExtra="4sp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:textSize="12sp"
                     android:text="Gambar 5.11. Susunan kapasitor seri"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka38"/>
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgka38" />
+
                 <TextView
                     android:id="@+id/tekska71"
                     android:layout_width="wrap_content"
@@ -1555,20 +1623,21 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text=""
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska70"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska70" />
+
                 <ImageView
+                    android:id="@+id/imgka39"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka39"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka39"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska71"
-                    android:background="@drawable/imgka39"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska71" />
+
                 <TextView
                     android:id="@+id/tekska72"
                     android:layout_width="wrap_content"
@@ -1580,29 +1649,30 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text=""
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka39"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgka39" />
+
                 <ImageView
+                    android:id="@+id/imgka40"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka40"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka40"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska72"
-                    android:background="@drawable/imgka40"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska72" />
+
                 <ImageView
+                    android:id="@+id/imgka41"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka41"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka40"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/imgka40" />
+
                 <TextView
                     android:id="@+id/tekska73"
                     android:layout_width="wrap_content"
@@ -1613,12 +1683,13 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:lineSpacingExtra="4sp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:textSize="12sp"
                     android:text="Gambar 5.12. Susunan kapasitor kombinasi seri dan paralel"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka41"/>
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgka41" />
+
                 <TextView
                     android:id="@+id/tekska74"
                     android:layout_width="wrap_content"
@@ -1630,19 +1701,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="(c) Ke tiga kapasitor disusun secara paralel, sehingga kapasitansi total memenuhi"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska73"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska73" />
+
                 <ImageView
+                    android:id="@+id/imgka42"
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka42"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska74"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska74" />
+
                 <TextView
                     android:id="@+id/tekska75"
                     android:layout_width="wrap_content"
@@ -1653,22 +1725,23 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:lineSpacingExtra="4sp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:textSize="12sp"
                     android:text="Gambar 5.13. Susunan kapasitor paralel"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka42"/>
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgka42" />
+
                 <ImageView
+                    android:id="@+id/imgka43"
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka43"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka43"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska75"
-                    android:background="@drawable/imgka43"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska75" />
+
                 <TextView
                     android:id="@+id/tekska76"
                     android:layout_width="wrap_content"
@@ -1680,20 +1753,21 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="(c) Ke tiga kapasitor disusun secara paralel, sehingga kapasitansi total memenuhi"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka43"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgka43" />
+
                 <ImageView
+                    android:id="@+id/imgka44"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka44"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka44"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska76"
-                    android:background="@drawable/imgka44"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska76" />
+
                 <TextView
                     android:id="@+id/tekska77"
                     android:layout_width="wrap_content"
@@ -1705,20 +1779,21 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text=""
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka44"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgka44" />
+
                 <ImageView
+                    android:id="@+id/imgka45"
                     android:layout_width="250dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka45"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka45"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska77"
-                    android:background="@drawable/imgka45"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska77" />
+
                 <TextView
                     android:id="@+id/tekska78"
                     android:layout_width="wrap_content"
@@ -1729,18 +1804,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:lineSpacingExtra="4sp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:textSize="12sp"
                     android:text="Gambar 5.14. Rangkaian kapasitor kombinasi seri dan paralel"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka45"/>
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgka45" />
             </android.support.constraint.ConstraintLayout>
+
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/clka11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/clka11"
                 android:layout_marginTop="80dp">
+
                 <TextView
                     android:id="@+id/tekska79"
                     android:layout_width="wrap_content"
@@ -1748,14 +1825,15 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
                     android:text="ENERGI YANG DISIMPAN PADA KAPASITOR BERMUATAN"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@id/clka11" />
+
                 <TextView
                     android:id="@+id/tekska80"
                     android:layout_width="wrap_content"
@@ -1767,38 +1845,39 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Kapasitor yang bermuatan dapat memberikan arus listrik pada komponen-komponen lain dalam rangkaian. Pemberian arus listrik bermakna pemberian energi, serupa dengan baterai dan aki yang dapat memberikan arus listrik dalam rangkaian. Dengan demikian, kapasitor yang bermuatan menyimpan sejumlah energi. Pada bagian berikut ini kita akan menghitung energi yang disimpan sebuah kapasitor. Untuk mudahnya kita mengambil contoh kapasitor pelat sejajar.\n\mMisalkan suatu saat kapasitor mengandung muatan q (belum penuh), sedangkan beda potensial antara dua pelat kapasitor adalah ∆V. Maka terpenuhi hubungan"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska79"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska79" />
+
                 <ImageView
+                    android:id="@+id/imgka47"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka47"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka47"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska80"
-                    android:background="@drawable/imgka47"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska80" />
+
                 <ImageView
+                    android:id="@+id/imgka48"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka48"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka47"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/imgka47" />
+
                 <ImageView
+                    android:id="@+id/imgka49"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/imgka49"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka49"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka48"
-                    android:background="@drawable/imgka49"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/imgka48" />
+
                 <TextView
                     android:id="@+id/tekska81"
                     android:layout_width="wrap_content"
@@ -1810,19 +1889,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Jika muatan listrik sebesar dq ditambahkan lagi pada kapasitor maka kerja yang diberikan pada kapasitor adalah"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka49"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka49" />
+
                 <ImageView
+                    android:id="@+id/imgka50"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/imgka50"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka50"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska81"
-                    android:background="@drawable/imgka50"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska81" />
+
                 <TextView
                     android:id="@+id/tekska82"
                     android:layout_width="wrap_content"
@@ -1834,19 +1914,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Dengan demikian, kerja total yang diberikan pada kapsitor untuk mengisi muatan kapasitor dari keadaan kosong (q=0) sampai bermuatan q=Q adalah"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka50"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka50" />
+
                 <ImageView
+                    android:id="@+id/imgka51"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/imgka51"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka51"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska82"
-                    android:background="@drawable/imgka51"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska82" />
+
                 <TextView
                     android:id="@+id/tekska83"
                     android:layout_width="wrap_content"
@@ -1858,26 +1939,28 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Kerja total yang diperlukan untuk mengisi kapasitor dengan muatan Q yang sama akan berubah menjadi energi yang tersimpan dalam kapasitor. Jadi, kapsitor yang memiliki muatan Q menyimpan energi sebesar"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka51"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka51" />
+
                 <ImageView
+                    android:id="@+id/imgka52"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/imgka52"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka52"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska83"
-                    android:background="@drawable/imgka52"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska83" />
             </android.support.constraint.ConstraintLayout>
+
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/clka12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/clka12"
                 android:background="#FFFFB0"
                 android:paddingBottom="40dp">
+
                 <TextView
                     android:id="@+id/tekska84"
                     android:layout_width="wrap_content"
@@ -1885,13 +1968,14 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:text="CONTOH SOAL"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@id/clka12" />
+
                 <TextView
                     android:id="@+id/tekska85"
                     android:layout_width="wrap_content"
@@ -1903,10 +1987,11 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Dua buah kapasitor identik yang mula-mula belum bermuatan akan dihubungkan dengan baterai 10 V. Bila hanya salah satu kapasitor yang dihubungkan dengan baterai 10 V, energi yang tersimpan dalam kapasitor adalah U. Berapa energi yang akan tersimpan jika dua kapasitor tersebut dihubungkan secara seri dengan baterai."
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska84"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska84" />
+
                 <TextView
                     android:id="@+id/tekska86"
                     android:layout_width="wrap_content"
@@ -1914,13 +1999,14 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:text="JAWAB"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/tekska85" />
+
                 <TextView
                     android:id="@+id/tekska87"
                     android:layout_width="wrap_content"
@@ -1932,20 +2018,21 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Jika hanya satu kapasitor yang digunakan maka energi yang tersimpan dalam kapasitor adalah"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska86"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska86" />
+
                 <ImageView
+                    android:id="@+id/imgka53"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka53"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka53"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska87"
-                    android:background="@drawable/imgka53"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska87" />
+
                 <TextView
                     android:id="@+id/tekska88"
                     android:layout_width="wrap_content"
@@ -1957,20 +2044,21 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Jika dua kapasitor disusun secara seri maka kapasitansi total memenuhi"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka53"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgka53" />
+
                 <ImageView
+                    android:id="@+id/imgka54"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka54"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka54"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska88"
-                    android:background="@drawable/imgka54"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska88" />
+
                 <TextView
                     android:id="@+id/tekska89"
                     android:layout_width="wrap_content"
@@ -1982,26 +2070,28 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Jika dua kapasitor disusun secara seri maka kapasitansi total memenuhi"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka54"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imgka54" />
+
                 <ImageView
+                    android:id="@+id/imgka55"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/imgka55"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:layout_marginTop="16dp"
-                    android:id="@+id/imgka55"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska89"
-                    android:background="@drawable/imgka55"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska89" />
             </android.support.constraint.ConstraintLayout>
+
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/clka13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/clka13"
                 android:layout_marginTop="100dp">
+
                 <TextView
                     android:id="@+id/tekska90"
                     android:layout_width="wrap_content"
@@ -2009,14 +2099,15 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
                     android:text="DIELEKTRIK PADA KAPASITOR"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@id/clka13" />
+
                 <TextView
                     android:id="@+id/tekska91"
                     android:layout_width="wrap_content"
@@ -2028,10 +2119,11 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Suatu kapasitor dapat berfungsi jika kedua pelat/lembar konduktor tidak saling bersentuhan sehingga muatan listrik tidak dapat berpindah dari satu konduktor ke konduktor lainnya. Demikian juga agar muatan listrik tidak berpindah dari konduktor ke udara maka ruang di antara kedua konduktor harus hampa udara. Sebelumnya telah dibahas mengenai kapasitansi kapasitor keping sejajar yang kedua pelatnya dipisahkan oleh ruang hampa udara. Kapasitansi kapasitor dalam ruang hampa udara mempunyai keterbatasan sehingga untuk memperbesar kapasitansi maka diantara kedua pelat konduktor tersebut perlu ditempatkan dielektrik."
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska90"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska90" />
+
                 <TextView
                     android:id="@+id/tekska92"
                     android:layout_width="wrap_content"
@@ -2042,10 +2134,11 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:lineSpacingExtra="4sp"
                     android:paddingLeft="8dp"
                     android:text="Lantas apakah dielektrik itu?"
+                    android:textColor="@android:color/black"
                     android:textStyle="italic"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska91"/>
+                    app:layout_constraintTop_toBottomOf="@id/tekska91" />
+
                 <TextView
                     android:id="@+id/tekska93"
                     android:layout_width="wrap_content"
@@ -2057,18 +2150,19 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text=""
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska92"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska92" />
+
                 <ImageView
+                    android:id="@+id/imgka56"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka56"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska93"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska93" />
+
                 <TextView
                     android:id="@+id/tekska94"
                     android:layout_width="wrap_content"
@@ -2077,13 +2171,14 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/black"
                     android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka56"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka56" />
+
                 <TextView
                     android:id="@+id/tekska95"
                     android:layout_width="wrap_content"
@@ -2091,23 +2186,24 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
+                    android:background="#B0FFFF"
                     android:lineSpacingExtra="4sp"
                     android:padding="8dp"
                     android:text="Dielektrik meningkatkan kapasitansi karena potensial listrik antara kedua pelat konduktor berkurang."
-                    android:textStyle="bold"
-                    android:background="#B0FFFF"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska94"/>
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska94" />
+
                 <ImageView
+                    android:id="@+id/imgka57"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka57"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska95"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska95" />
+
                 <TextView
                     android:id="@+id/tekska96"
                     android:layout_width="wrap_content"
@@ -2116,13 +2212,14 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/black"
                     android:text="Gambar 5.17. Arah medan listrik dari pelat konduktor positif menuju pelat konduktor negatif (sumber gambar : https://gurumuda.net/dielektrik.htm)."
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka57"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka57" />
+
                 <TextView
                     android:id="@+id/tekska97"
                     android:layout_width="wrap_content"
@@ -2134,18 +2231,19 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text=""
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska96"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska96" />
+
                 <ImageView
+                    android:id="@+id/imgka58"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka58"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska97"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska97" />
+
                 <TextView
                     android:id="@+id/tekska98"
                     android:layout_width="wrap_content"
@@ -2154,15 +2252,16 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
-                    android:paddingRight="8dp"
                     android:paddingLeft="8dp"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/black"
+                    android:paddingRight="8dp"
                     android:text="Gambar 5.18.  Dua keping bermuatan listrik belum disisipkan dielektrik di tengahnya. Keping kiri bermuatan listrik positif dan keping kanan bermuatan listrik negatif (sumber gambar : https://gurumuda.net/dielektrik.htm)."
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka58"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka58" />
+
                 <TextView
                     android:id="@+id/tekska99"
                     android:layout_width="wrap_content"
@@ -2174,18 +2273,19 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Setelah dielektrik diletakkan di antara kedua pelat konduktor maka muatan positif pada pelat kiri menarik elektron-elektron pada permukaan dielektrik di dekatnya, elektron-elektron pada dielektrik yang merupakan isolator, tidak bebas bergerak seperti elektron-elektron pada konduktor. Karenanya elektron tetap terikat pada atom tetapi terjadi polarisasi elektron-elektron yang bermuatan negatif dan proton-proton yang bermuatan positif, seperti tampak pada gambar 5.19.\n\nAdanya muatan positif di sisi kanan atom-atom dielektrik dan muatan negatif di sisi kiri atom-atom dielektrik menimbulkan medan listrik yang arahnya dri kanan ke kiri sehingga memperlemah medan lisrik yang ditimbulkan oleh muatan listrik pada pelat konduktor yang arahnya dari kiri ke kanan. Jadi medan listrik berkurang bukan karena muatan listrik pada kedua pelat konduktor berkurang namun karena muncul medan listrik dalam dielektrik yang arahnya berlawanan. Apabila dielektrik dilepas maka kuat medan listrik yang ditimbulkan oleh muatan listrik pada kedua pelat konduktor kembali seperti semula."
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska98"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska98" />
+
                 <ImageView
+                    android:id="@+id/imgka59"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka59"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska99"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska99" />
+
                 <TextView
                     android:id="@+id/tekska100"
                     android:layout_width="wrap_content"
@@ -2194,15 +2294,16 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
-                    android:paddingRight="8dp"
                     android:paddingLeft="8dp"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/black"
+                    android:paddingRight="8dp"
                     android:text="Gambar 5.19. Polasrisasi muatan ketika dielektrik ditempatkan diantara kedua pelat konduktor sehingga timbul medan listrik yang diakibatkan oleh dielektrik, memperlemah medan listrik yang ditimbulkan oleh dua pelat konduktor (sumber gambar : https://gurumuda.net/dielektrik.htm)."
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka59"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka59" />
+
                 <TextView
                     android:id="@+id/tekska101"
                     android:layout_width="wrap_content"
@@ -2214,19 +2315,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Jika kuat medan listrik yang ditimbulkan oleh muatan listrik pada kedua pelat konduktor berkurang maka potensial listrik antara kedua pelat konduktor juga berkurang karena medan listrik berbanding lurus dengan potensial listrik sebagaimana dinyatakan dalam persamaan"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska100"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska100" />
+
                 <ImageView
+                    android:id="@+id/imgka60"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/imgka60"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka60"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska101"
-                    android:background="@drawable/imgka60"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska101" />
+
                 <TextView
                     android:id="@+id/tekska102"
                     android:layout_width="wrap_content"
@@ -2238,19 +2340,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text=""
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka60"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka60" />
+
                 <ImageView
+                    android:id="@+id/imgka61"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/imgka61"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka61"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska102"
-                    android:background="@drawable/imgka61"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska102" />
+
                 <TextView
                     android:id="@+id/tekska103"
                     android:layout_width="wrap_content"
@@ -2262,19 +2365,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text=""
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka61"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka61" />
+
                 <ImageView
+                    android:id="@+id/imgka62"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/imgka62"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka62"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska103"
-                    android:background="@drawable/imgka62"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska103" />
+
                 <TextView
                     android:id="@+id/tekska104"
                     android:layout_width="wrap_content"
@@ -2286,18 +2390,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text=""
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka62"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka62" />
             </android.support.constraint.ConstraintLayout>
+
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/clka14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/clka14"
-                android:background="#FFFFB0"
                 android:layout_marginTop="60dp"
+                android:background="#FFFFB0"
                 android:paddingBottom="40dp">
+
                 <TextView
                     android:id="@+id/tekska105"
                     android:layout_width="wrap_content"
@@ -2305,13 +2411,14 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:text="CONTOH SOAL"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@id/clka14" />
+
                 <TextView
                     android:id="@+id/tekska106"
                     android:layout_width="wrap_content"
@@ -2323,10 +2430,11 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Bahan dengan konstanta dielektrik κ=50 ditempatkan diantara dua pelat logam sejajar yang terpisah sejauh 0,1 mm. Luas masing-masing pelat adalah 5 cm^2. Tentukan kapasitansi kapasitor yang dihasilkan dan berapa kapasitansi jika bahan dielektrik dikeluarkan dari posisi dua pelat?"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska105"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tekska105" />
+
                 <TextView
                     android:id="@+id/tekska107"
                     android:layout_width="wrap_content"
@@ -2334,21 +2442,22 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
                     android:text="JAWAB"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/tekska106" />
+
                 <ImageView
+                    android:id="@+id/imgka63"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka63"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska107"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska107" />
+
                 <TextView
                     android:id="@+id/tekska108"
                     android:layout_width="wrap_content"
@@ -2357,28 +2466,30 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/black"
                     android:text="Gambar 5.20. Kapasitor dengan dielektrik."
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka63"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka63" />
+
                 <ImageView
+                    android:id="@+id/imgka64"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/imgka64"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka64"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska108"
-                    android:background="@drawable/imgka64"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska108" />
             </android.support.constraint.ConstraintLayout>
+
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/clka15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/clka15"
                 android:layout_marginTop="60dp">
+
                 <TextView
                     android:id="@+id/tekska109"
                     android:layout_width="wrap_content"
@@ -2386,14 +2497,15 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
-                    android:textSize="24sp"
-                    android:textStyle="bold"
                     android:text="MEMPERBESAR KAPASITANSI KAPASITOR"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    app:layout_constraintStart_toStartOf="parent"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@id/clka15" />
+
                 <TextView
                     android:id="@+id/tekska110"
                     android:layout_width="wrap_content"
@@ -2405,10 +2517,11 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Berdasarkan persamaan 5.11, ada sejumlah cara untuk memperbesar kapasitansi sebuah kapasitor. Beberapa di antaranya sebagai berikut"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska109"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska109" />
+
                 <TextView
                     android:id="@+id/tekska111"
                     android:layout_width="wrap_content"
@@ -2419,10 +2532,11 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:lineSpacingExtra="4sp"
                     android:paddingLeft="8dp"
                     android:text="a)	Memberbesar luas pelat"
+                    android:textColor="@android:color/black"
                     android:textStyle="italic"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska110"/>
+                    app:layout_constraintTop_toBottomOf="@id/tekska110" />
+
                 <TextView
                     android:id="@+id/tekska112"
                     android:layout_width="wrap_content"
@@ -2434,18 +2548,19 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Agar ukuran kapasitor tidak terlalu besar, maka kedua pelat dibatasi dengan lapisan tipis isolator seperti kertas, kemudian keduanya digulung secara bersama. Akhirnya kita mendapatkan body kapasitor berbentuk silinder yang mengandung pelat yang cukup luas"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska111"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska111" />
+
                 <ImageView
+                    android:id="@+id/imgka65"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka65"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska112"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska112" />
+
                 <TextView
                     android:id="@+id/tekska113"
                     android:layout_width="wrap_content"
@@ -2454,15 +2569,16 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
-                    android:paddingRight="8dp"
                     android:paddingLeft="8dp"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/black"
+                    android:paddingRight="8dp"
                     android:text="Gambar 5.21. Kapasitor pelat sejajar luasnya digulung untuk memperbesar luas pelat"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka65"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka65" />
+
                 <TextView
                     android:id="@+id/tekska114"
                     android:layout_width="wrap_content"
@@ -2473,10 +2589,11 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:lineSpacingExtra="4sp"
                     android:paddingLeft="8dp"
                     android:text="b)	Memperkecil jarak antar pelat"
+                    android:textColor="@android:color/black"
                     android:textStyle="italic"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska113"/>
+                    app:layout_constraintTop_toBottomOf="@id/tekska113" />
+
                 <TextView
                     android:id="@+id/tekska115"
                     android:layout_width="wrap_content"
@@ -2488,10 +2605,11 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Kapasitansi kapasitor dapat diperbesar dengan memperkecil jarak antar pelat. Tetapi pendekatan ini memiliki batas. Jika jarak antar dua pelat sangat kecil maka kuat medan listrik antar dua pelat menjadi sangat besar (ingat hubungan E = V/d). Medan yang sangat besar dapat mengionisasi atom/ molekul antar dua pelat sehingga bahan pembatas yang semula isolator dapat berubah menjadi konduktor. Ini berakibat mengalirnya muatan dari satu pelat ke pelat lain melalui lapisan pembatas tersebut. Dalam keadaan kita katakanlah kapasitor bocor."
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska114"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska114" />
+
                 <TextView
                     android:id="@+id/tekska116"
                     android:layout_width="wrap_content"
@@ -2502,10 +2620,11 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:lineSpacingExtra="4sp"
                     android:paddingLeft="8dp"
                     android:text="c)	Menggunakan bahan dielektrik"
+                    android:textColor="@android:color/black"
                     android:textStyle="italic"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska115"/>
+                    app:layout_constraintTop_toBottomOf="@id/tekska115" />
+
                 <TextView
                     android:id="@+id/tekska117"
                     android:layout_width="wrap_content"
@@ -2517,29 +2636,30 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Pendekatan yang lebih umum dipakai dalam meningkatkan kapasitansi kapasitor adalah menggunakan bahan dielektrik dengan konstanta dielektrik tinggi sebagai lapisan pemisah dua pelat.\n\nSekarang telah ditemukan sejumlah bahan dengan konstanta dielektrik yang tinggi. Beberapa di antaranya tampak pada Tabel"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska116"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska116" />
+
                 <ImageView
+                    android:id="@+id/imgka66"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/imgka66"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka66"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska117"
-                    android:background="@drawable/imgka66"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska117" />
 
             </android.support.constraint.ConstraintLayout>
+
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/clka17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/clka17"
                 android:layout_marginTop="60dp"
-                android:paddingBottom="30dp"
                 android:background="#FFE3CC"
-                >
+                android:paddingBottom="30dp">
+
                 <TextView
                     android:id="@+id/tekska118"
                     android:layout_width="wrap_content"
@@ -2549,12 +2669,13 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginTop="16dp"
                     android:text="Fisika Disekitar Kita"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24dp"
                     android:textStyle="bold"
-                    android:textColor="@android:color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@id/clka17" />
+
                 <TextView
                     android:id="@+id/tekska119"
                     android:layout_width="wrap_content"
@@ -2564,12 +2685,13 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginTop="16dp"
                     android:text="TOMBOL PADA KEYBOARD PC ATAU LAPTOP"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="18dp"
                     android:textStyle="bold"
-                    android:textColor="@android:color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/tekska118"/>
+                    app:layout_constraintTop_toBottomOf="@id/tekska118" />
+
                 <TextView
                     android:id="@+id/tekska120"
                     android:layout_width="wrap_content"
@@ -2581,18 +2703,19 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Selama ini kita melalukan kegiatan mengetik di laptop atau PC, ketika kita mengetikkan huruf A pada keyboard, maka akan muncul huruf A pada layar laptop atau PC kita.  Mengapa hal tersebut dapat terjadi?\n\nKomputer juga menggunakan kapasitor. Misalnya, jenis keyboard komputer memiliki kapasitor di bagian bawah kuncinya, seperti yang ditunjukkan pada gambar di bawah ini."
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska119"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska119" />
+
                 <ImageView
+                    android:id="@+id/imgka67"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka67"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska120"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska120" />
+
                 <TextView
                     android:id="@+id/tekska121"
                     android:layout_width="wrap_content"
@@ -2601,15 +2724,16 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
-                    android:paddingRight="8dp"
                     android:paddingLeft="8dp"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/black"
+                    android:paddingRight="8dp"
                     android:text="Gambar 5.22. Skema komponen dibawah tombol keyboard komputer (sumber gambar: http://riskaherdianaa.blogspot.co.id/2016/12/aplikasi-kapasitor-keping-sejajar-pada.html)"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka67"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka67" />
+
                 <TextView
                     android:id="@+id/tekska122"
                     android:layout_width="wrap_content"
@@ -2621,18 +2745,19 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Setiap kunci terhubung ke piring bergerak yang bertindak sebagai pelat pertama dari sebuah kapasitor; pelat tetap di bagian bawah keyboard berfungsi sebagai pelat kedua dari kapasitor. Bila tombol ditekan, jarak antara pelat atas (pelat bergerak) dan pelat bawah (pelat tetap) berubah dari sekitar 5 mm menjadi sekitar 0,3 mm. Pengurangan jarak pemisah antara pelat menyebabkan peningkatan kapasitas. Sirkuit elektronik eksternal mengenali setiap tombol berdasarkan kapasitasnya saat tombol ditekan. Karena itu, informasi yang dibawa oleh kuncinya akan masuk ke komputer."
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska121"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska121" />
+
                 <ImageView
+                    android:id="@+id/imgka68"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka68"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska122"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska122" />
+
                 <TextView
                     android:id="@+id/tekska123"
                     android:layout_width="wrap_content"
@@ -2641,23 +2766,24 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
-                    android:paddingRight="8dp"
                     android:paddingLeft="8dp"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/black"
+                    android:paddingRight="8dp"
                     android:text="Gambar 5.23. Skema secara mikroskopis yang terjadi ketika memencet tombol keyboard komputer. "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka68"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka68" />
+
                 <ImageView
+                    android:id="@+id/imgka69"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka69"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska123"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska123" />
+
                 <TextView
                     android:id="@+id/tekska124"
                     android:layout_width="wrap_content"
@@ -2666,15 +2792,16 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
-                    android:paddingRight="8dp"
                     android:paddingLeft="8dp"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/black"
+                    android:paddingRight="8dp"
                     android:text="Gambar 5.23. Skema secara mikroskopis yang terjadi ketika memencet tombol keyboard komputer. "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka69"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka69" />
+
                 <TextView
                     android:id="@+id/tekska125"
                     android:layout_width="wrap_content"
@@ -2686,19 +2813,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Ketika tombol tidak ditekan jarak antar dua pelat adalah d0, sehingga kapasitansi kapasitor adalah "
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska124"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska124" />
+
                 <ImageView
+                    android:id="@+id/imgka70"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/imgka70"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka70"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska125"
-                    android:background="@drawable/imgka70"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska125" />
+
                 <TextView
                     android:id="@+id/tekska126"
                     android:layout_width="wrap_content"
@@ -2710,19 +2838,20 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Tetapi, ketika tombol ditekan, jarak antar du apelat menjadi lebih kecil, yaitu d= d0-∆d, dengan ∆d adalah pergeseran pelat. Dengan demikian kapasitansi kapasitor menjadi "
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka70"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka70" />
+
                 <ImageView
+                    android:id="@+id/imgka71"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/imgka71"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka71"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska126"
-                    android:background="@drawable/imgka71"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska126" />
+
                 <TextView
                     android:id="@+id/tekska127"
                     android:layout_width="wrap_content"
@@ -2734,26 +2863,28 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Maka perubahan nilai kapasitansi akibat pemencetan tombol adalah"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/imgka71"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imgka71" />
+
                 <ImageView
+                    android:id="@+id/imgka72"
                     android:layout_width="350dp"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/imgka72"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka72"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska127"
-                    android:background="@drawable/imgka72"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska127" />
 
             </android.support.constraint.ConstraintLayout>
+
             <android.support.constraint.ConstraintLayout
+                android:id="@+id/clka18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/clka18"
                 android:layout_marginTop="60dp">
+
                 <TextView
                     android:id="@+id/tekska128"
                     android:layout_width="wrap_content"
@@ -2763,12 +2894,13 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginTop="16dp"
                     android:text="PENERAPAN KAPASITOR PADA TEKNOLOGI KESEHATAN"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="24dp"
                     android:textStyle="bold"
-                    android:textColor="@android:color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@id/clka18" />
+
                 <TextView
                     android:id="@+id/tekska129"
                     android:layout_width="wrap_content"
@@ -2778,12 +2910,13 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginTop="16dp"
                     android:text="IMPLANTABLE CARDIOVERTER DEFIBRILATOR (ICD)"
                     android:textAlignment="center"
+                    android:textColor="@android:color/black"
                     android:textSize="18dp"
                     android:textStyle="bold"
-                    android:textColor="@android:color/black"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/tekska128"/>
+                    app:layout_constraintTop_toBottomOf="@id/tekska128" />
+
                 <TextView
                     android:id="@+id/tekska130"
                     android:layout_width="wrap_content"
@@ -2795,25 +2928,26 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Maka perubahan nilai kapasitansi akibat pemencetan tombol adalah"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska129"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska129" />
+
                 <RelativeLayout
+                    android:id="@+id/rlka2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/tekska130"
                     android:padding="8dp"
-                    android:id="@+id/rlka2">
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska130">
 
                     <ImageView
                         android:id="@+id/playvideobab5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/bgmateri1"
-                        android:layout_centerInParent="true"/>
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/bgmateri1" />
 
                     <ImageView
                         android:id="@+id/playvideobab_5"
@@ -2822,6 +2956,7 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                         android:layout_centerInParent="true"
                         android:src="@drawable/icon_play" />
                 </RelativeLayout>
+
                 <TextView
                     android:id="@+id/tekska131"
                     android:layout_width="wrap_content"
@@ -2833,18 +2968,19 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="ICD merupakan alat bantu yang menggunakan tenaga baterai yang diletakkan di bawah kulit yang dapat membantu menjaga denyut jantung kita agar tetap sesuai jalur. Teknologi ICD mulai dikembangkan pada awal tahun 1990-an, hingga akhirnya di tahun 1997 sampai 2000 dilakukan beberapa penelitian mengenai ICD yang hasilnya menunjukan superioritas ICD dibandingkan obat-obatan dan akhirnya membuat ICD diterima dengan luas.\n\nPerkembangan teknologi ICD dari tahun ke tahun juga mengalami kemajuan. Awalnya ICD memiliki ukuran yang besar sehingga untuk memasukannya ke dalam tubuh dibutuhkan operasi dada. Bahkan ICD generasi awal juga tidak bisa diprogram meskipun dapat mengubah irama yang tidak normal kembali menjadi normal. Saat ini ukuran ICD sudah mengalami penyusutan hingga sebesar arloji saku dan dapat ditanamkan di dalam dada tanpa pembedahan masif. Kemajuan teknologi ICD lainnya antara lain penggunaan bentuk gelombang yang lebih baru dan efektif, dapat dilakukan multiprogram, dapat digunakan untuk terapi bertingkat, dan bahkan pada teknologi ICD terbaru, selain berperan untuk medefibrilasi jantung yang iramanya tidak teratur, ICD juga bisa berperan untuk memacu jantung jika denyutnya terdeteksi berjalan lambat."
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/rlka2"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/rlka2" />
+
                 <ImageView
+                    android:id="@+id/imgka73"
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    android:id="@+id/imgka73"
-                    app:layout_constraintTop_toBottomOf="@+id/tekska131"
-                    />
+                    app:layout_constraintTop_toBottomOf="@+id/tekska131" />
+
                 <TextView
                     android:id="@+id/tekska132"
                     android:layout_width="wrap_content"
@@ -2853,15 +2989,16 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
                     android:lineSpacingExtra="4sp"
-                    android:paddingRight="8dp"
                     android:paddingLeft="8dp"
-                    android:textAlignment="center"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/black"
+                    android:paddingRight="8dp"
                     android:text="Gambar 5.25. Contoh alat Implantable Cardioverter-Defibrillator (ICD)\nSumber gambar: http://cdn.medgadget.com/wp-content/uploads//2013/02/Medtronic-Evera.jpg"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/imgka73"/>
+                    app:layout_constraintTop_toBottomOf="@+id/imgka73" />
+
                 <TextView
                     android:id="@+id/tekska133"
                     android:layout_width="wrap_content"
@@ -2873,11 +3010,18 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="ICD akan sangat bermanfaat dalam mencegah kematian jantung mendadak jika digunakan pada pasien yang memang diketahui memiliki riwayat atau risiko terjadinya gangguan listrik jantung yang membahayakan, seperti ventricular tachycardiaatau ventricular fibrillation. Oleh karena itu, seseorang yang akan dipasang ICD sebaiknya sudah disingkirkan penyebab lain yang kira-kira bisa diperbaiki, seperti serangan jantung, tidak cukupnya aliran darah ke otot jantung, atau bahkan ketidakseimbangan elektrolit dan keracunan obat. Pasien akan direkomendasikan untuk dipasang ICD jika ia memiliki risiko untuk terkena gangguan listrik jantung yang mengancam kehidupan, seperti pernah mengalami gangguan irama jantung, mendapatkan serangan jantung, selamat dari kejadian henti jantung, memiliki penyakit jantung bawaan, atau kondisi lainnya yang dapat menyebabkan henti jantung."
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
                     android:textColor="@android:color/black"
-                    app:layout_constraintTop_toBottomOf="@id/tekska132"/>
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tekska132" />
             </android.support.constraint.ConstraintLayout>
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
 </android.support.constraint.ConstraintLayout>
