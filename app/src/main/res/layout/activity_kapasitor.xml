@@ -2670,8 +2670,6 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:text="Fisika Disekitar Kita"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
-                    android:textSize="24dp"
-                    android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@id/clka17" />

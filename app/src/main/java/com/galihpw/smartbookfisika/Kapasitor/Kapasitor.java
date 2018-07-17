@@ -23,6 +23,8 @@ public class Kapasitor extends AppCompatActivity {
 
     @BindView(R.id.tekska1)
     TextView tekska1;
+    @BindView(R.id.tekska118)
+    TextView tekska118;
 
     @BindView(R.id.imgka1)
     ImageView imgka1;
@@ -168,5 +170,9 @@ public class Kapasitor extends AppCompatActivity {
 
         Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/Neat_Chalk.ttf");
         tekska1.setTypeface(custom_font);
+        Typeface custom_font2 = Typeface.createFromAsset(getAssets(),  "fonts/Neat_Chalk.ttf");
+        tekska118.setTypeface(custom_font2);
+
+
     }
 }
