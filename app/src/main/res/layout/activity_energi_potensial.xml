@@ -467,7 +467,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
                         android:lineSpacingExtra="4sp"
-                        android:text="Sehari-hari kita lebih sering mendengar potensial listrik atau tegangan listrik daripada potensial listrik. Contohnya kita menyebut tegangan listrik PLN 220 Volt, tegangan baterai 1,5 Volt, tegangan aki 12 Volt, dan seterusnya. Lalu apa tegangan atau potensial listrik?"
+                        android:text="Sehari-hari kita lebih sering mendengar tegangan listrik daripada potensial listrik. Contohnya kita menyebut tegangan listrik PLN 220 Volt, tegangan baterai 1,5 Volt, tegangan aki 12 Volt, dan seterusnya. Lalu apa tegangan atau potensial listrik?"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/teksep11"
@@ -2190,7 +2190,9 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/teksep95"/>
+
                     <RelativeLayout
+                        android:id="@+id/rlep"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:layout_constraintStart_toStartOf="parent"
@@ -2211,7 +2213,25 @@
                             android:layout_height="wrap_content"
                             android:layout_centerInParent="true"
                             android:src="@drawable/icon_play" />
+
                     </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/teksep96b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:textColor="@android:color/black"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:lineSpacingExtra="4sp"
+                        android:textSize="12sp"
+                        android:textAlignment="center"
+                        android:text="Sumber video\n https://www.youtube.com/watch?v=cjpnAERAB0o"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/rlep"/>
+
                 </android.support.constraint.ConstraintLayout>
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>

@@ -1,6 +1,7 @@
 package com.galihpw.smartbookfisika.MedanListrik;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -21,6 +22,12 @@ import pl.droidsonroids.gif.GifDrawable;
 import pl.droidsonroids.gif.GifImageView;
 
 public class MedanListrik extends AppCompatActivity {
+
+    @BindView(R.id.teksmd1)
+    TextView teksmd1;
+    @BindView(R.id.teksmd91)
+    TextView teksmd91;
+
     @BindView(R.id.video1)
     ImageView videomd;
 
@@ -134,6 +141,9 @@ public class MedanListrik extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/Neat_Chalk.ttf");
+        teksmd1.setTypeface(custom_font);
+        Typeface custom_font2 = Typeface.createFromAsset(getAssets(),  "fonts/Neat_Chalk.ttf");
+        teksmd91.setTypeface(custom_font2);
     }
 }
