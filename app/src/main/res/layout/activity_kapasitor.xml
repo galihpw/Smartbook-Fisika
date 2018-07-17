@@ -2794,7 +2794,7 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                     android:lineSpacingExtra="4sp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:text="Gambar 5.23. Skema secara mikroskopis yang terjadi ketika memencet tombol keyboard komputer. "
+                    android:text="Gambar 5.24. Skema secara mikroskopis yang terjadi ketika memencet tombol keyboard komputer. "
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="12sp"
@@ -2958,12 +2958,30 @@ Sumber gambar:  http://penjagahati-zone.blogspot.co.id/2011/04/kapasitansi-kapas
                 </RelativeLayout>
 
                 <TextView
-                    android:id="@+id/tekska131"
+                    android:id="@+id/tekska130b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
+                    android:lineSpacingExtra="4sp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="Sumber video: https://www.youtube.com/watch?v=vsSfUisVD9k."
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/rlka2" />
+
+                <TextView
+                    android:id="@+id/tekska131"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="64dp"
                     android:lineSpacingExtra="4sp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
