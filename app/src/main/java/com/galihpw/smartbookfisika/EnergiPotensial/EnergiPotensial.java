@@ -1,6 +1,7 @@
 package com.galihpw.smartbookfisika.EnergiPotensial;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,6 +20,12 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class EnergiPotensial extends AppCompatActivity {
+
+    @BindView(R.id.teksep1)
+    TextView teksep1;
+    @BindView(R.id.teksep79)
+    TextView teksep79;
+
     @BindView(R.id.image1ep)
     ImageView image1ep;
     @BindView(R.id.image2ep)
@@ -72,6 +79,7 @@ public class EnergiPotensial extends AppCompatActivity {
 
     @BindView(R.id.playvideobab4)
     ImageView playvideobab4;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -102,7 +110,6 @@ public class EnergiPotensial extends AppCompatActivity {
         TextView teksep81 = (TextView)findViewById(R.id.teksep81);
         TextView teksep90 = (TextView)findViewById(R.id.teksep90);
         TextView teksep100 = (TextView)findViewById(R.id.teksep100);
-
 
         ButterKnife.bind(this);
         Glide.with(this).load(R.drawable.image1ep).into(image1ep);
@@ -194,7 +201,10 @@ public class EnergiPotensial extends AppCompatActivity {
             teksep81.setText(Html.fromHtml(getString(R.string.teksep81)));
             teksep90.setText(Html.fromHtml(getString(R.string.teksep90)));
             teksep100.setText(Html.fromHtml(getString(R.string.teksep100)));
-
         }
+        Typeface custom_font = Typeface.createFromAsset(getAssets(),  "fonts/Neat_Chalk.ttf");
+        teksep1.setTypeface(custom_font);
+        Typeface custom_font2 = Typeface.createFromAsset(getAssets(),  "fonts/Neat_Chalk.ttf");
+        teksep79.setTypeface(custom_font2);
     }
 }

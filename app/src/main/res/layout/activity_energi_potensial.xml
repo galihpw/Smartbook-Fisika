@@ -22,8 +22,6 @@
                     android:background="#FFDFC4">
                     <TextView
                         android:id="@+id/teksep1"
-                        android:textSize="24sp"
-                        android:textStyle="bold"
                         android:textColor="@android:color/black"
                         android:textAlignment="center"
                         android:layout_marginTop="16dp"
@@ -34,7 +32,7 @@
                         app:layout_constraintTop_toTopOf="@id/clep1"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        android:text="Fisika Disekitar Kita"
+                        android:text="FISIKA DI SEKITAR KITA"
                         />
                     <ImageView
                         android:id="@+id/image1ep"
@@ -1938,8 +1936,6 @@
                     android:layout_marginTop="100dp">
                     <TextView
                         android:id="@+id/teksep79"
-                        android:textSize="24sp"
-                        android:textStyle="bold"
                         android:textColor="@android:color/black"
                         android:textAlignment="center"
                         android:layout_marginTop="16dp"
@@ -1950,7 +1946,7 @@
                         app:layout_constraintTop_toTopOf="@id/clep17"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        android:text="Fisika Disekitar Kita"
+                        android:text="FISIKA DI SEKITAR KITA"
                         />
                     <TextView
                         android:id="@+id/teksep80"
