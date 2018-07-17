@@ -62,10 +62,12 @@ public class TabSoal2 extends Fragment {
 
                 if(rB.getText().equals("Gaya interaksi (F) berbanding terbalik dengan kuadrat jaraknya (r^2).")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Swipe untuk pertanyaan selanjutnya", Toast.LENGTH_SHORT).show();
                     Hasil.jwb[1] = 'c';
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Swipe untuk pertanyaan selanjutnya", Toast.LENGTH_SHORT).show();
                     if(countHint <= 1) {
                         hintButton.setVisibility(View.VISIBLE);
                     }

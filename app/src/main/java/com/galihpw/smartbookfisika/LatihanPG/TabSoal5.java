@@ -66,10 +66,12 @@ public class TabSoal5 extends Fragment {
 
                 if(rB.getText().equals("D")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Swipe untuk pertanyaan selanjutnya", Toast.LENGTH_SHORT).show();
                     Hasil.jwb[4] = 'd';
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Swipe untuk pertanyaan selanjutnya", Toast.LENGTH_SHORT).show();
                     if(countHint <= 1) {
                         hintButton.setVisibility(View.VISIBLE);
                     }

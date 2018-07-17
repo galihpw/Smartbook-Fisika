@@ -66,10 +66,12 @@ public class TabSoal4 extends Fragment {
 
                 if(rB.getText().equals("Berlawanan arah dengan E")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Swipe untuk pertanyaan selanjutnya", Toast.LENGTH_SHORT).show();
                     Hasil.jwb[3] = 'b';
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Swipe untuk pertanyaan selanjutnya", Toast.LENGTH_SHORT).show();
                     if(countHint <= 3) {
                         hintButton.setVisibility(View.VISIBLE);
                     }

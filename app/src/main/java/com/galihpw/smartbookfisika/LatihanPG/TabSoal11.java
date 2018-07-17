@@ -66,10 +66,12 @@ public class TabSoal11 extends Fragment {
 
                 if(rB.getText().equals("Grafik medan listrik pada bola konduktor pejal")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Swipe untuk pertanyaan selanjutnya", Toast.LENGTH_SHORT).show();
                     Hasil.jwb[10] = 'b';
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Swipe untuk pertanyaan selanjutnya", Toast.LENGTH_SHORT).show();
                     if(countHint <= 1) {
                         hintButton.setVisibility(View.VISIBLE);
                     }

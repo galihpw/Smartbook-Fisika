@@ -86,10 +86,12 @@ public class TabSoal1 extends Fragment {
 
                 if(rB.getText().equals("Batang kaca menolak kertas foil karena batang kaca melepaskan elektron pada kain bulu sehingga batang kaca bermuatan positif.")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Swipe untuk pertanyaan selanjutnya", Toast.LENGTH_SHORT).show();
                     Hasil.jwb[0] = 'c';
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Swipe untuk pertanyaan selanjutnya", Toast.LENGTH_SHORT).show();
                     if(countHint <= 3) {
                         hintButton.setVisibility(View.VISIBLE);
                     }

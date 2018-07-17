@@ -95,9 +95,9 @@
                     <ImageView
                         android:id="@+id/jawab2soal21"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="100dp"
                         android:layout_centerInParent="true"
-                        android:src="@drawable/bgmateri1" />
+                        android:src="@color/backgroundSplash" />
 
                 </LinearLayout>
 
@@ -128,9 +128,9 @@
                     <ImageView
                         android:id="@+id/jawab2soal22"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="100dp"
                         android:layout_centerInParent="true"
-                        android:src="@drawable/bgmateri1" />
+                        android:src="@color/backgroundSplash" />
 
                 </LinearLayout>
 
@@ -161,9 +161,9 @@
                     <ImageView
                         android:id="@+id/jawab2soal23"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="100dp"
                         android:layout_centerInParent="true"
-                        android:src="@drawable/bgmateri1" />
+                        android:src="@color/backgroundSplash" />
 
                 </LinearLayout>
             </android.support.constraint.ConstraintLayout>

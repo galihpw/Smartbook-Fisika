@@ -66,10 +66,12 @@ public class TabSoal10 extends Fragment {
 
                 if(rB.getText().equals("Berlawanan arah dengan kuat medan listrik E.")){
                     Toast.makeText(getActivity(), "Benar", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Swipe untuk pertanyaan selanjutnya", Toast.LENGTH_SHORT).show();
                     Hasil.jwb[9] = 'a';
                 }else{
                     countHint++;
                     Toast.makeText(getActivity(), "Salah", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getActivity(), "Swipe untuk pertanyaan selanjutnya", Toast.LENGTH_SHORT).show();
                     if(countHint <= 3) {
                         hintButton.setVisibility(View.VISIBLE);
                     }

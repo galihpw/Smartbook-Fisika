@@ -306,6 +306,17 @@ Lalu, mengapa ketika wanita tersebut menyentuhkan tangannya pada benda tersebut,
                 </RelativeLayout>
 
                 <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sumber video:  https://www.youtube.com/watch?v=FYSTGX-F1GM"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/rlhc1" />
+
+                <TextView
                     android:id="@+id/tekshc13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -321,7 +332,7 @@ Berikut ini adalah data eksperimen Coulomb yang dapat dilihat pada Tabel 1"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/rlhc1" />
+                    app:layout_constraintTop_toBottomOf="@+id/textView56" />
 
                 <TextView
                     android:id="@+id/tekshc14"
@@ -471,7 +482,7 @@ Berikut ini adalah data eksperimen Coulomb yang dapat dilihat pada Tabel 1"
                     android:lineSpacingExtra="6sp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:text="Sedangkan, untuk menyelidiki bagaimana gaya bergantung pada besar muatannya, Coulomb menambahkan muatan kepada bola lain yang tidak bermuatan dengan ukuran yang sama dengan bola B. Ketika bola tersebut disentuhkan ke bola B, kedua bola membagi muatan yang telah ada dengan bola B. Sekarang bola B hanya memiliki separuh muatan semula. Maka, Coulomb menyimpulkan bahwa gaya antara A dan B menjadi separuh dari gaya antara A dan B semula dan besar gaya F_x berbanding langsung dengan muatan-muatannya."
+                    android:text="Sedangkan, untuk menyelidiki bagaimana gaya bergantung pada besar muatannya, Coulomb menambahkan muatan kepada bola lain yang tidak bermuatan dengan ukuran yang sama dengan bola B. Ketika bola tersebut disentuhkan ke bola B, kedua bola membagi muatan yang telah ada dengan bola B. Sekarang bola B hanya memiliki separuh muatan semula. Maka, Coulomb menyimpulkan bahwa gaya antara A dan B menjadi separuh dari gaya antara A dan B semula dan besar gaya Fx berbanding langsung dengan muatan-muatannya."
                     android:textAlignment="viewStart"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -520,7 +531,7 @@ Berikut ini adalah data eksperimen Coulomb yang dapat dilihat pada Tabel 1"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:text="Keterangan:
-F_x = gaya interaksi 2 benda bermuatan
+Fx = gaya interaksi 2 benda bermuatan
 d = jarak antara 2 benda bermuatan
 q = simbol untuk benda bermuatan"
                     android:textAlignment="viewStart"
@@ -557,7 +568,7 @@ q = simbol untuk benda bermuatan"
                     android:lineSpacingExtra="6sp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:text="“besarnya gaya antara muatan q_A dan q_B yang dipisahkan oleh jarak d, berbanding lurus dengan besarnya kedua muatan dan berbanding terbalik dengan kuadrat jarak yang memisahkan kedua muatan tersebut”, dapat ditulis sebagai berikut:"
+                    android:text="“besarnya gaya antara muatan qA dan qB yang dipisahkan oleh jarak d, berbanding lurus dengan besarnya kedua muatan dan berbanding terbalik dengan kuadrat jarak yang memisahkan kedua muatan tersebut”, dapat ditulis sebagai berikut:"
                     android:textAlignment="viewStart"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -609,8 +620,8 @@ q = simbol untuk benda bermuatan"
 F = gaya Coulomb
 k = permitivitas listrik
 d = jarak antara 2 benda bermuatan
-q_A = benda bermuatan A
-q_B = benda bermuatan B"
+qA = benda bermuatan A
+qB = benda bermuatan B"
                     android:textAlignment="viewStart"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -1102,7 +1113,7 @@ q_B = benda bermuatan B"
 
                 <ImageView
                     android:id="@+id/imgrmhc6"
-                    android:layout_width="wrap_content"
+                    android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
@@ -1130,7 +1141,7 @@ q_B = benda bermuatan B"
 
                 <ImageView
                     android:id="@+id/imgrmhc7"
-                    android:layout_width="wrap_content"
+                    android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
@@ -1159,7 +1170,7 @@ q_B = benda bermuatan B"
 
                 <ImageView
                     android:id="@+id/imgrmhc8"
-                    android:layout_width="wrap_content"
+                    android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
@@ -1188,7 +1199,7 @@ q_B = benda bermuatan B"
 
                 <ImageView
                     android:id="@+id/imgrmhc9"
-                    android:layout_width="wrap_content"
+                    android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
@@ -1228,8 +1239,8 @@ q_B = benda bermuatan B"
 
                     <ImageView
                         android:id="@+id/imgrmhc10"
-                        android:layout_width="150dp"
-                        android:layout_height="50dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
                         android:layout_centerHorizontal="true"
                         app:srcCompat="@drawable/bgmateri1" />

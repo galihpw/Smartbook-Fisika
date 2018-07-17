@@ -95,6 +95,21 @@ Simaklah video mengenai peristiwa sisir menarik kertas dibawah ini!"
                 </RelativeLayout>
 
                 <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:text="sumber: https://www.youtube.com/watch?v=vyp8YAyawmI"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    app:layout_constraintBottom_toTopOf="@+id/teks2soal1"
+                    app:layout_constraintEnd_toEndOf="@+id/fotosoal1"
+                    app:layout_constraintStart_toStartOf="@+id/fotosoal1"
+                    app:layout_constraintTop_toBottomOf="@+id/fotosoal1" />
+
+                <TextView
                     android:id="@+id/teks2soal1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -105,9 +120,9 @@ Simaklah video mengenai peristiwa sisir menarik kertas dibawah ini!"
                     android:paddingBottom="24dp"
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
-                    android:textColor="@android:color/background_dark"
                     android:text="Gambarkanlah oleh Anda, apa yang terjadi pada sisir yang setelah digosok rambut kering sehingga dapat menarik potongan kertas.Gambarkanlah hasil pekerjaanmu!"
                     android:textAlignment="viewStart"
+                    android:textColor="@android:color/background_dark"
                     android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -129,9 +144,18 @@ Simaklah video mengenai peristiwa sisir menarik kertas dibawah ini!"
                     <ImageView
                         android:id="@+id/jawabsoal1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="100dp"
                         android:layout_centerInParent="true"
-                        android:src="@drawable/bgmateri1" />
+                        android:src="@color/backgroundSplash" />
+
+                    <TextView
+                        android:id="@+id/textView49"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Klik kotak putih untuk menjawab"
+                        android:textAlignment="center"
+                        android:textSize="18sp" />
 
                 </LinearLayout>
             </android.support.constraint.ConstraintLayout>

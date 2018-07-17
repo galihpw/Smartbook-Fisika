@@ -120,6 +120,14 @@ Yuk simak penjelasannya dalam bab ini!"
             </RelativeLayout>
 
             <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sumber Video: https://www.youtube.com/watch?v=Uog8votPpe0&amp;t=2s"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -161,6 +169,14 @@ Yuk simak penjelasannya dalam bab ini!"
             </RelativeLayout>
 
             <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sumber video: https://www.youtube.com/watch?v=ey88EdZo9hU"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -190,6 +206,14 @@ Yuk simak penjelasannya dalam bab ini!"
                     android:layout_centerInParent="true"
                     android:src="@drawable/icon_play" />
             </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sumber video: https://www.youtube.com/watch?v=ViZNgU-Yt-Y"
+                android:textAlignment="center"
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -604,15 +628,24 @@ Yuk simak penjelasannya dalam bab ini!"
                     android:src="@drawable/icon_play" />
             </RelativeLayout>
 
-              <TextView
-                android:id="@+id/textView35"
+            <TextView
+                android:id="@+id/textView54"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:lineSpacingExtra="8sp"
-                android:padding="8dp"
-                android:text="Dari video diatas, kita mengetahui, ternyata elektroskop dapat mendeteksi muatan dengan cara menyentuhkan benda bermuatan pada kepala elektroskop dan responnya berupa daun yang terdapat dalam toples kaca akan mekar (baik satu daun atau kedua daun)"
-                android:textAlignment="textStart"
-                android:textSize="18sp" />
+                android:text="Sumber video: https://www.youtube.com/watch?v=eBlt6EHm29U"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <TextView
+              android:id="@+id/textView35"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:lineSpacingExtra="8sp"
+              android:padding="8dp"
+              android:text="Dari video diatas, kita mengetahui, ternyata elektroskop dapat mendeteksi muatan dengan cara menyentuhkan benda bermuatan pada kepala elektroskop dan responnya berupa daun yang terdapat dalam toples kaca akan mekar (baik satu daun atau kedua daun)"
+              android:textAlignment="textStart"
+              android:textSize="18sp" />
+
             <TextView
                 android:id="@+id/textView36"
                 android:layout_width="match_parent"
@@ -654,15 +687,24 @@ Yuk simak penjelasannya dalam bab ini!"
             </RelativeLayout>
 
             <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sumber video: https://www.youtube.com/watch?v=okgDaEmp_ms"
+                android:textAlignment="center"
+                android:textSize="12sp" />
+
+            <TextView
                 android:id="@+id/textView38"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="8sp"
                 android:padding="8dp"
-                android:text="Dari video diatas, kita juga mengetahui, ternyata selain disentuhkan benda bermuatan, elektroskop juga dapat mendeteksi muatan dengan cara hanya mendekatkan benda bermuatan pada kepala elektroskop dan responnya berupa daun yang terdapat dalam toples kaca akan mekar (baik satu daun atau kedua daun). Jumlah elektron dalam elektroskop tidak berkurang atau bertambah, namun hanya terpolarisasi akibat adanya benda bermuatan lain 
+                android:text="Dari video diatas, kita juga mengetahui, ternyata selain disentuhkan benda bermuatan, elektroskop juga dapat mendeteksi muatan dengan cara hanya mendekatkan benda bermuatan pada kepala elektroskop dan responnya berupa daun yang terdapat dalam toples kaca akan mekar (baik satu daun atau kedua daun). Jumlah elektron dalam elektroskop tidak berkurang atau bertambah, namun hanya terpolarisasi akibat adanya benda bermuatan lain
 yang mendekati elektroskop."
                 android:textAlignment="textStart"
                 android:textSize="18sp" />
+
             <TextView
                 android:id="@+id/textView39"
                 android:layout_width="match_parent"

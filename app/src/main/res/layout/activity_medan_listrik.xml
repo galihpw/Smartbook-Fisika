@@ -32,10 +32,12 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
                     android:layout_marginStart="8dp"
-                    android:layout_marginTop="16dp"
-                    android:text="FISIKA DI SEKITAR KITA"
+                    android:layout_marginTop="8dp"
+                    android:text="Fisika Disekitar Kita"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
@@ -78,7 +80,6 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="24dp"
                     android:lineSpacingExtra="6sp"
-                    android:textStyle="italic"
                     android:text="Terdapat gambar gelombang pada layar alat tersebut. Sebenarnya bagaimana gelombang tersebut terbentuk? Dan bagaimanakah cara kerja alat tersebut sehingga dapat menghasilkan gelombang tersebut?
 Lantas apa hubungannya dengan materi yang kita bahas ini?
 Mari kita temukan jawabannya pada bab ini!
@@ -133,7 +134,6 @@ Mari kita temukan jawabannya pada bab ini!
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="16sp"
-                    android:textStyle="italic"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/image2md" />
@@ -1726,7 +1726,7 @@ Mari kita temukan jawabannya pada bab ini!
                     android:textStyle="bold"
                     android:layout_margin="8dp"
                     android:textAlignment="center"
-                    android:text="\n\nGerak Partikel Bermuatan pada Medan Listrik Seragam"
+                    android:text="Gerak Partikel Bermuatan pada Medan Listrik Seragam"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="@id/clmd15"/>
@@ -1741,7 +1741,6 @@ Mari kita temukan jawabannya pada bab ini!
                     android:paddingLeft="8dp"
                     android:paddingRight="8dp"
                     android:lineSpacingExtra="4sp"
-                    android:textSize="12sp"
                     android:text="Jika sebuah muatan q berada dalam pengaruh medan magnet E seperti yang telah kita ketahui, muatan akan mengalami gaya elektrostatik atau gaya Coulomb F yang besarnya sesuai dengan persamaan : "
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -1754,7 +1753,7 @@ Mari kita temukan jawabannya pada bab ini!
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="16dp"
 
-                    android:textSize="30sp"
+                    android:textSize="20sp"
                     android:text="F=qE"
                     android:textColor="@android:color/black"
                     android:textStyle="bold|italic"
@@ -1769,8 +1768,6 @@ Mari kita temukan jawabannya pada bab ini!
                     android:layout_marginTop="16dp"
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="8dp"
-                    android:textSize="12sp"
-                    android:lineSpacingExtra="4sp"
                     android:text="Jika hanya satu gaya yang diberikan pada partikel yang merupakan gaya total dan menyebabkan partikel mengalami percepatan, maka sesuai dengan Hukum II Newton, bahwa"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -2120,14 +2117,13 @@ Mari kita temukan jawabannya pada bab ini!
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
                     android:text="FISIKA DI SEKITAR KITA"
-                    android:layout_marginEnd="8dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginTop="16dp"
+                    android:layout_margin="16dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="@id/clmd19"/>
-
                 <TextView
                     android:id="@+id/teksmd92"
                     android:layout_width="wrap_content"
@@ -2146,14 +2142,12 @@ Mari kita temukan jawabannya pada bab ini!
                     android:layout_height="wrap_content"
                     android:textColor="@android:color/black"
                     android:text="TABUNG SINAR KATODA"
-                    android:lineSpacingExtra="4sp"
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginTop="16dp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/teksmd92"/>
-
                 <ImageView
                     android:id="@+id/image53md"
                     android:layout_width="350dp"
@@ -2198,7 +2192,6 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/teksmd94"/>
-
                 <TextView
                     android:id="@+id/teksmd96"
                     android:layout_width="wrap_content"
@@ -2211,7 +2204,6 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/teksmd95"/>
-
                     <RelativeLayout
                         android:id="@+id/rlmdvideo"
                         android:layout_width="match_parent"
@@ -2234,20 +2226,6 @@ Mari kita temukan jawabannya pada bab ini!
                             android:layout_centerInParent="true"
                             android:src="@drawable/icon_play" />
                     </RelativeLayout>
-
-                <TextView
-                    android:id="@+id/teksmd96b"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="8dp"
-                    android:textColor="@android:color/black"
-                    android:textSize="12sp"
-                    android:textAlignment="center"
-                    android:text="Sumber video: \n https://www.youtube.com/watch?v=6BgcrRjqnKE"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/rlmdvideo"/>
-
                 <TextView
                     android:id="@+id/teksmd97"
                     android:layout_width="wrap_content"
@@ -2262,7 +2240,7 @@ Mari kita temukan jawabannya pada bab ini!
                     android:lineSpacingExtra="4sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/teksmd96b"/>
+                    app:layout_constraintTop_toBottomOf="@id/rlmdvideo"/>
                 <TextView
                     android:id="@+id/teksmd98"
                     android:layout_width="wrap_content"
@@ -2277,7 +2255,7 @@ Mari kita temukan jawabannya pada bab ini!
                     android:lineSpacingExtra="4sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/teksmd97"
+                    app:layout_constraintTop_toBottomOf="@id/teksmd97"
                     android:paddingBottom="16dp"/>
             </android.support.constraint.ConstraintLayout>
             <android.support.constraint.ConstraintLayout
@@ -2540,7 +2518,7 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintTop_toBottomOf="@id/teksmd108"/>
                 <ImageView
                     android:id="@+id/image62md"
-                    android:layout_width="200dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/image62md"
                     android:layout_margin="8dp"
@@ -2731,7 +2709,7 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintTop_toBottomOf="@id/teksmd117"/>
                 <ImageView
                     android:id="@+id/image69md"
-                    android:layout_width="250dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/image69md"
                     android:layout_margin="4dp"
@@ -3002,8 +2980,8 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintTop_toBottomOf="@id/teksmd129"/>
                 <ImageView
                     android:id="@+id/image71md"
-                    android:layout_width="350dp"
-                    android:layout_height="200dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:background="@drawable/image80md"
                     android:layout_margin="4dp"
                     app:layout_constraintStart_toStartOf="parent"
@@ -3261,7 +3239,7 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintTop_toBottomOf="@id/teksmd143"/>
                 <ImageView
                     android:id="@+id/image86md"
-                    android:layout_width="200dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/image86md"
                     android:layout_margin="4dp"
@@ -3329,7 +3307,7 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintTop_toBottomOf="@id/image89md"/>
                 <ImageView
                     android:id="@+id/image90md"
-                    android:layout_width="200dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/image90md"
                     android:layout_margin="4dp"
@@ -3410,7 +3388,7 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintTop_toBottomOf="@id/image91md"/>
                 <ImageView
                     android:id="@+id/image92md"
-                    android:layout_width="300dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/image92md"
                     android:layout_margin="4dp"
@@ -3419,7 +3397,7 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintTop_toBottomOf="@id/teksmd152"/>
                 <ImageView
                     android:id="@+id/image93md"
-                    android:layout_width="300dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/image93md"
                     android:layout_margin="4dp"
@@ -3519,7 +3497,7 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintTop_toBottomOf="@id/teksmd156"/>
                 <ImageView
                     android:id="@+id/image96md"
-                    android:layout_width="200dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/image96md"
                     android:layout_margin="4dp"
@@ -3542,7 +3520,7 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintTop_toBottomOf="@id/image96md"/>
                 <ImageView
                     android:id="@+id/image97md"
-                    android:layout_width="350dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/image97md"
                     android:layout_margin="4dp"
@@ -3566,7 +3544,7 @@ Mari kita temukan jawabannya pada bab ini!
                     app:layout_constraintTop_toBottomOf="@id/image97md"/>
                 <ImageView
                     android:id="@+id/image98md"
-                    android:layout_width="200dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/image98md"
                     android:layout_margin="4dp"
